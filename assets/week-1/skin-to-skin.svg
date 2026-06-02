@@ -1,0 +1,86 @@
+<svg width="680" height="380" viewBox="0 0 680 380" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, Arial, sans-serif">
+  <!-- Background -->
+  <rect width="680" height="380" fill="#FAFAF7" rx="14"/>
+
+  <!-- Title -->
+  <text x="340" y="36" text-anchor="middle" font-size="17" font-weight="700" fill="#1A1A1A">Skin-to-Skin After C-Section</text>
+  <text x="340" y="56" text-anchor="middle" font-size="12.5" fill="#555">Baby on bare chest — can happen in the OR, even while stitching is underway</text>
+
+  <!-- === LEFT: Parent holding baby illustration === -->
+
+  <!-- Parent torso (chest area, bare) -->
+  <path d="M 120 130 Q 100 160 100 240 Q 100 290 140 300 Q 175 310 210 300 Q 250 290 250 240 Q 250 160 230 130 Q 210 110 175 108 Q 145 106 120 130 Z" fill="#F5D9C8" stroke="#C8956C" stroke-width="2"/>
+
+  <!-- Parent head -->
+  <ellipse cx="175" cy="90" rx="32" ry="34" fill="#F5D9C8" stroke="#C8956C" stroke-width="2"/>
+  <!-- Eyes -->
+  <ellipse cx="163" cy="85" rx="3" ry="3.5" fill="#5D4037"/>
+  <ellipse cx="187" cy="85" rx="3" ry="3.5" fill="#5D4037"/>
+  <!-- Smile -->
+  <path d="M 165 98 Q 175 106 185 98" stroke="#5D4037" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Arms wrapping -->
+  <path d="M 108 180 Q 80 220 90 270 Q 95 290 115 295" stroke="#C8956C" stroke-width="18" fill="none" stroke-linecap="round"/>
+  <path d="M 242 180 Q 268 220 258 270 Q 253 290 235 295" stroke="#C8956C" stroke-width="18" fill="none" stroke-linecap="round"/>
+
+  <!-- Baby on chest -->
+  <!-- Baby body -->
+  <ellipse cx="175" cy="215" rx="38" ry="48" fill="#FFF3E0" stroke="#FFB74D" stroke-width="2"/>
+  <!-- Baby head -->
+  <ellipse cx="175" cy="158" rx="25" ry="24" fill="#FFF3E0" stroke="#FFB74D" stroke-width="2"/>
+  <!-- Baby eyes (closed, sleeping) -->
+  <path d="M 166 156 Q 169 153 172 156" stroke="#8D6E63" stroke-width="1.5" fill="none"/>
+  <path d="M 178 156 Q 181 153 184 156" stroke="#8D6E63" stroke-width="1.5" fill="none"/>
+  <!-- Baby tiny fist -->
+  <ellipse cx="148" cy="210" rx="8" ry="7" fill="#FFE0B2" stroke="#FFB74D" stroke-width="1.5"/>
+  <ellipse cx="202" cy="210" rx="8" ry="7" fill="#FFE0B2" stroke="#FFB74D" stroke-width="1.5"/>
+
+  <!-- Warmth waves from chest -->
+  <path d="M 155 180 Q 145 170 155 162" stroke="#FF8A65" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <path d="M 175 174 Q 165 160 175 148" stroke="#FF8A65" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <path d="M 195 180 Q 205 170 195 162" stroke="#FF8A65" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Heart -->
+  <path d="M 172 240 Q 168 235 163 238 Q 158 241 162 248 L 172 258 L 182 248 Q 186 241 181 238 Q 176 235 172 240 Z" fill="#EF9A9A" stroke="#E57373" stroke-width="1"/>
+
+  <!-- "Dad" label if dad does it first -->
+  <rect x="55" y="318" width="240" height="42" rx="9" fill="#E8F5E9" stroke="#A5D6A7" stroke-width="1.5"/>
+  <text x="175" y="335" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1B5E20">If mom is being stitched up:</text>
+  <text x="175" y="352" text-anchor="middle" font-size="11" fill="#2E7D32">Dad does skin-to-skin first.</text>
+
+  <!-- Divider -->
+  <line x1="315" y1="70" x2="315" y2="310" stroke="#DDD" stroke-width="1.5" stroke-dasharray="5,4"/>
+
+  <!-- === RIGHT: Benefits panel === -->
+  <text x="490" y="90" text-anchor="middle" font-size="13" font-weight="700" fill="#333">Why it matters — what's happening</text>
+
+  <!-- Benefit 1: Temperature -->
+  <rect x="340" y="108" width="295" height="48" rx="8" fill="#FFF3E0" stroke="#FFCC80" stroke-width="1.5"/>
+  <text x="360" y="128" font-size="28" fill="#FF8A65">🌡</text>
+  <text x="396" y="125" font-size="12" font-weight="600" fill="#E65100">Body temperature</text>
+  <text x="396" y="142" font-size="11" fill="#BF360C">Your chest regulates baby's warmth</text>
+  <text x="396" y="155" font-size="11" fill="#BF360C">as well as an incubator does.</text>
+
+  <!-- Benefit 2: Heartbeat -->
+  <rect x="340" y="165" width="295" height="48" rx="8" fill="#FCE4EC" stroke="#F48FB1" stroke-width="1.5"/>
+  <text x="358" y="187" font-size="26" fill="#E91E63">♡</text>
+  <text x="396" y="183" font-size="12" font-weight="600" fill="#880E4F">Your heartbeat</text>
+  <text x="396" y="200" font-size="11" fill="#AD1457">Baby has been hearing your heartbeat</text>
+  <text x="396" y="213" font-size="11" fill="#AD1457">muffled through the womb for months.</text>
+
+  <!-- Benefit 3: Voice -->
+  <rect x="340" y="222" width="295" height="48" rx="8" fill="#E8EAF6" stroke="#9FA8DA" stroke-width="1.5"/>
+  <text x="358" y="248" font-size="24" fill="#5C6BC0">🗣</text>
+  <text x="396" y="240" font-size="12" font-weight="600" fill="#283593">Your voice</text>
+  <text x="396" y="257" font-size="11" fill="#303F9F">Baby recognises your voice from in utero.</text>
+  <text x="396" y="270" font-size="11" fill="#303F9F">Talking now may calm them immediately.</text>
+
+  <!-- Benefit 4: Bonding -->
+  <rect x="340" y="279" width="295" height="30" rx="8" fill="#F3E5F5" stroke="#CE93D8" stroke-width="1.5"/>
+  <text x="490" y="299" text-anchor="middle" font-size="11.5" font-weight="600" fill="#4A148C">Triggers bonding hormones in both of you.</text>
+
+  <!-- Bottom callout -->
+  <rect x="50" y="328" width="580" height="36" rx="9" fill="#E3F2FD" stroke="#90CAF9" stroke-width="1.5"/>
+  <text x="340" y="344" text-anchor="middle" font-size="12" font-weight="600" fill="#0D47A1">Ask your hospital in advance: "Can we do skin-to-skin in the OR?"</text>
+  <text x="340" y="358" text-anchor="middle" font-size="11" fill="#1565C0">Most will say yes — it just needs to be arranged ahead of time.</text>
+</svg>

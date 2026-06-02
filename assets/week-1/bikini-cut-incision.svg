@@ -1,0 +1,82 @@
+<svg width="680" height="380" viewBox="0 0 680 380" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, Arial, sans-serif">
+  <!-- Background -->
+  <rect width="680" height="380" fill="#FAFAF7" rx="14"/>
+
+  <!-- Title -->
+  <text x="340" y="36" text-anchor="middle" font-size="17" font-weight="700" fill="#1A1A1A">Pfannenstiel Incision ("Bikini Cut")</text>
+  <text x="340" y="56" text-anchor="middle" font-size="12.5" fill="#555">A horizontal cut low on the abdomen — sits below most waistbands after healing</text>
+
+  <!-- === LEFT: Front-view body === -->
+  <!-- Torso outline -->
+  <ellipse cx="175" cy="195" rx="75" ry="110" fill="#F5D9C8" stroke="#C8956C" stroke-width="2"/>
+
+  <!-- Belly button -->
+  <ellipse cx="175" cy="165" rx="5" ry="4" fill="none" stroke="#C8956C" stroke-width="2"/>
+
+  <!-- Waistband line (dashed) -->
+  <line x1="95" y1="130" x2="255" y2="130" stroke="#999" stroke-width="1.5" stroke-dasharray="8,5"/>
+  <text x="262" y="134" font-size="10.5" fill="#888">waistband</text>
+
+  <!-- Incision line (the actual cut) -->
+  <line x1="118" y1="255" x2="232" y2="255" stroke="#E57373" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Incision label -->
+  <text x="175" y="272" text-anchor="middle" font-size="11.5" font-weight="600" fill="#C62828">incision here</text>
+  <text x="175" y="287" text-anchor="middle" font-size="10.5" fill="#C62828">below waistband</text>
+
+  <!-- Measurement annotation -->
+  <line x1="118" y1="300" x2="232" y2="300" stroke="#555" stroke-width="1.2"/>
+  <line x1="118" y1="295" x2="118" y2="305" stroke="#555" stroke-width="1.2"/>
+  <line x1="232" y1="295" x2="232" y2="305" stroke="#555" stroke-width="1.2"/>
+  <text x="175" y="314" text-anchor="middle" font-size="10.5" fill="#555">~10–15 cm</text>
+
+  <!-- Waistband to incision gap arrow -->
+  <line x1="88" y1="132" x2="88" y2="253" stroke="#4A90D9" stroke-width="1.5"/>
+  <polygon points="88,253 84,243 92,243" fill="#4A90D9"/>
+  <polygon points="88,132 84,142 92,142" fill="#4A90D9"/>
+  <text x="82" y="200" text-anchor="middle" font-size="10" fill="#1565C0" transform="rotate(-90, 82, 200)">gap from waistband</text>
+
+  <!-- Divider -->
+  <line x1="310" y1="70" x2="310" y2="350" stroke="#DDD" stroke-width="1.5" stroke-dasharray="5,4"/>
+
+  <!-- === RIGHT: Cross-section layers === -->
+  <text x="495" y="85" text-anchor="middle" font-size="13" font-weight="600" fill="#333">Cross-section: what's cut</text>
+  <text x="495" y="101" text-anchor="middle" font-size="11" fill="#777">(two incisions in sequence)</text>
+
+  <!-- Layer 1: Skin -->
+  <rect x="340" y="115" width="310" height="30" rx="0" fill="#F5D9C8" stroke="#C8956C" stroke-width="1.5"/>
+  <text x="500" y="134" text-anchor="middle" font-size="12" fill="#8D5524" font-weight="600">Skin &amp; fat</text>
+
+  <!-- Cut 1 marker -->
+  <line x1="630" y1="120" x2="660" y2="112" stroke="#E57373" stroke-width="2"/>
+  <text x="662" y="110" font-size="10.5" fill="#C62828">cut 1</text>
+
+  <!-- Layer 2: Fascia -->
+  <rect x="340" y="145" width="310" height="22" rx="0" fill="#DDD0C0" stroke="#A89080" stroke-width="1.5"/>
+  <text x="500" y="160" text-anchor="middle" font-size="12" fill="#5D4037" font-weight="600">Fascia (connective tissue)</text>
+
+  <!-- Layer 3: Muscle (not cut — separated) -->
+  <rect x="340" y="167" width="310" height="28" rx="0" fill="#FFCCBC" stroke="#FF8A65" stroke-width="1.5"/>
+  <text x="500" y="185" text-anchor="middle" font-size="12" fill="#BF360C" font-weight="600">Abdominal muscle (separated, not cut)</text>
+
+  <!-- Layer 4: Uterus -->
+  <rect x="340" y="195" width="310" height="40" rx="0" fill="#FCE4EC" stroke="#F48FB1" stroke-width="1.5"/>
+  <text x="500" y="218" text-anchor="middle" font-size="12" fill="#880E4F" font-weight="600">Uterus wall</text>
+
+  <!-- Cut 2 marker -->
+  <line x1="630" y1="200" x2="660" y2="192" stroke="#E57373" stroke-width="2"/>
+  <text x="662" y="190" font-size="10.5" fill="#C62828">cut 2</text>
+
+  <!-- Baby area -->
+  <rect x="340" y="235" width="310" height="45" rx="0" fill="#E8F5E9" stroke="#A5D6A7" stroke-width="1.5"/>
+  <text x="500" y="256" text-anchor="middle" font-size="12" fill="#1B5E20" font-weight="700">👶 Baby</text>
+  <text x="500" y="272" text-anchor="middle" font-size="11" fill="#2E7D32">lifted out through both openings</text>
+
+  <!-- Stitch marker -->
+  <text x="340" y="298" font-size="11" fill="#555">↑ Both layers closed with sutures after birth</text>
+
+  <!-- Bottom callout -->
+  <rect x="50" y="316" width="580" height="48" rx="9" fill="#FFF8E1" stroke="#FFD54F" stroke-width="1.5"/>
+  <text x="340" y="336" text-anchor="middle" font-size="12" font-weight="600" fill="#E65100">The abdominal muscle is separated — not cut.</text>
+  <text x="340" y="354" text-anchor="middle" font-size="11.5" fill="#BF360C">The scar fades over 12–18 months and sits below most waistbands.</text>
+</svg>
