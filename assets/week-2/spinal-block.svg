@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 520" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="480" height="520" fill="#f8f9fa" rx="14"/>
+
+  <!-- Title -->
+  <text x="240" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a2e">Spinal Block</text>
+  <text x="240" y="56" text-anchor="middle" font-size="12" fill="#555">Anaesthesia for a planned C-section</text>
+
+  <!-- ── Vertebrae (3 stacked, side view) ── -->
+  <!-- V1 -->
+  <rect x="160" y="80" width="110" height="55" rx="10" fill="#d4a96a" stroke="#b8895a" stroke-width="2"/>
+  <!-- V2 -->
+  <rect x="160" y="185" width="110" height="55" rx="10" fill="#d4a96a" stroke="#b8895a" stroke-width="2"/>
+  <!-- V3 -->
+  <rect x="160" y="290" width="110" height="55" rx="10" fill="#d4a96a" stroke="#b8895a" stroke-width="2"/>
+  <!-- Vertebra label -->
+  <text x="108" y="108" text-anchor="end" font-size="11" fill="#7a4f20">Vertebra</text>
+  <line x1="110" y1="106" x2="160" y2="106" stroke="#7a4f20" stroke-width="1.2"/>
+
+  <!-- ── Spinal cord (runs through centre of vertebrae) ── -->
+  <rect x="195" y="70" width="30" height="290" rx="14" fill="#fcd9d9" stroke="#d44" stroke-width="1.8"/>
+  <text x="240" y="440" text-anchor="middle" font-size="11" fill="#c33">Spinal cord</text>
+  <line x1="215" y1="432" x2="215" y2="362" stroke="#c33" stroke-width="1.2" stroke-dasharray="4,3"/>
+
+  <!-- ── Subarachnoid space highlight (between cord and bone, at L3 level) ── -->
+  <ellipse cx="215" cy="237" rx="28" ry="10" fill="rgba(58,123,213,0.18)" stroke="#3a7bd5" stroke-width="2" stroke-dasharray="5,3"/>
+
+  <!-- ── Skin / back surface ── -->
+  <rect x="310" y="68" width="28" height="302" rx="6" fill="#f5c5a3" stroke="#e0a882" stroke-width="1.5"/>
+  <text x="338" y="62" text-anchor="start" font-size="11" fill="#8a5030">Skin</text>
+
+  <!-- ── Needle ── -->
+  <!-- Shaft -->
+  <line x1="360" y1="237" x2="248" y2="237" stroke="#444" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Tip (triangle) -->
+  <polygon points="248,237 262,231 262,243" fill="#444"/>
+  <!-- Needle label -->
+  <text x="365" y="233" font-size="11" fill="#333" font-weight="bold">Needle</text>
+  <text x="365" y="247" font-size="10" fill="#555">(from patient's back)</text>
+
+  <!-- ── Arrow + label: subarachnoid space ── -->
+  <line x1="155" y1="237" x2="184" y2="237" stroke="#3a7bd5" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="150" y="225" text-anchor="end" font-size="11" fill="#3a7bd5" font-weight="bold">Subarachnoid</text>
+  <text x="150" y="239" text-anchor="end" font-size="11" fill="#3a7bd5" font-weight="bold">space</text>
+  <text x="150" y="253" text-anchor="end" font-size="10" fill="#3a7bd5">(medicine deposited here)</text>
+
+  <!-- ── Key insight box ── -->
+  <rect x="28" y="390" width="424" height="108" rx="10" fill="#eaf4fd" stroke="#3a7bd5" stroke-width="1.5"/>
+  <text x="240" y="412" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a4a7a">What this means for you</text>
+  <text x="240" y="432" text-anchor="middle" font-size="11" fill="#333">The needle reaches the fluid-filled space around the spinal cord —</text>
+  <text x="240" y="449" text-anchor="middle" font-size="11" fill="#333">not the cord itself. Medicine pauses sensation from the chest down.</text>
+  <text x="240" y="469" text-anchor="middle" font-size="11" fill="#333">Your wife stays fully awake and alert. Effect kicks in ~5 min,</text>
+  <text x="240" y="486" text-anchor="middle" font-size="11" fill="#333">lasts long enough for the whole procedure.</text>
+</svg>

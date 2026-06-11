@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 480" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="500" height="480" fill="#f8f9fa" rx="14"/>
+
+  <!-- Title -->
+  <text x="250" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a2e">The Bikini-Cut Incision</text>
+  <text x="250" y="56" text-anchor="middle" font-size="12" fill="#555">Cross-section of the abdomen — what the surgeon opens layer by layer</text>
+
+  <!-- ── Layers (horizontal bands, top = outside) ── -->
+  <!-- Skin -->
+  <rect x="60" y="80" width="380" height="38" rx="0" fill="#f5c5a3" stroke="#e0a882" stroke-width="1.5"/>
+  <!-- Fat / subcutaneous -->
+  <rect x="60" y="118" width="380" height="42" rx="0" fill="#fde8a0" stroke="#e8cc70" stroke-width="1.5"/>
+  <!-- Fascia -->
+  <rect x="60" y="160" width="380" height="22" rx="0" fill="#c8daf0" stroke="#8ab8e8" stroke-width="1.5"/>
+  <!-- Muscle -->
+  <rect x="60" y="182" width="380" height="40" rx="0" fill="#f0b0b0" stroke="#d88" stroke-width="1.5"/>
+  <!-- Peritoneum (thin) -->
+  <rect x="60" y="222" width="380" height="12" rx="0" fill="#cce8cc" stroke="#88c888" stroke-width="1.2"/>
+  <!-- Uterus wall -->
+  <rect x="60" y="234" width="380" height="50" rx="0" fill="#d4a0c8" stroke="#b878b0" stroke-width="1.8"/>
+  <!-- Uterine cavity / baby zone -->
+  <rect x="60" y="284" width="380" height="90" rx="0" fill="#fff0f8" stroke="#d4a0c8" stroke-width="1.5"/>
+
+  <!-- Baby silhouette (simple) inside uterine cavity -->
+  <!-- Head -->
+  <circle cx="250" cy="305" r="22" fill="#f5c5a3" stroke="#c8905a" stroke-width="1.5"/>
+  <!-- Body -->
+  <ellipse cx="250" cy="345" rx="18" ry="22" fill="#f5c5a3" stroke="#c8905a" stroke-width="1.5"/>
+  <text x="300" y="340" font-size="10" fill="#a06030">baby</text>
+
+  <!-- ── Bikini-cut incision line ── -->
+  <!-- On skin layer -->
+  <line x1="100" y1="99" x2="400" y2="99" stroke="#e83030" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="100,99 112,94 112,104" fill="#e83030"/>
+  <polygon points="400,99 388,94 388,104" fill="#e83030"/>
+  <!-- Uterine incision line -->
+  <line x1="130" y1="258" x2="370" y2="258" stroke="#e83030" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="8,4"/>
+
+  <!-- ── Layer labels (right side) ── -->
+  <line x1="442" y1="99"  x2="465" y2="99"  stroke="#bbb" stroke-width="1"/>
+  <text x="468" y="103" font-size="11" fill="#8a5030" font-weight="bold">Skin</text>
+
+  <line x1="442" y1="139" x2="465" y2="139" stroke="#bbb" stroke-width="1"/>
+  <text x="468" y="143" font-size="11" fill="#9a8020">Fat layer</text>
+
+  <line x1="442" y1="171" x2="465" y2="171" stroke="#bbb" stroke-width="1"/>
+  <text x="468" y="175" font-size="11" fill="#4a78c0">Fascia</text>
+
+  <line x1="442" y1="202" x2="465" y2="202" stroke="#bbb" stroke-width="1"/>
+  <text x="468" y="206" font-size="11" fill="#c03030">Muscle</text>
+
+  <line x1="442" y1="228" x2="465" y2="228" stroke="#bbb" stroke-width="1"/>
+  <text x="468" y="232" font-size="10" fill="#407840">Peritoneum</text>
+
+  <line x1="442" y1="259" x2="465" y2="259" stroke="#bbb" stroke-width="1"/>
+  <text x="468" y="263" font-size="11" fill="#9030a0" font-weight="bold">Uterus</text>
+
+  <!-- ── Incision labels (left side) ── -->
+  <text x="55" y="90" text-anchor="end" font-size="10" fill="#e83030" font-weight="bold">Bikini cut</text>
+  <text x="55" y="102" text-anchor="end" font-size="10" fill="#e83030">(~10–15 cm)</text>
+
+  <text x="55" y="255" text-anchor="end" font-size="10" fill="#e83030" font-weight="bold">Uterine</text>
+  <text x="55" y="267" text-anchor="end" font-size="10" fill="#e83030">incision</text>
+
+  <!-- ── Key box ── -->
+  <rect x="28" y="385" width="444" height="72" rx="10" fill="#fff3f3" stroke="#e83030" stroke-width="1.5"/>
+  <text x="250" y="407" text-anchor="middle" font-size="12" font-weight="bold" fill="#c03030">Two incisions, each stitched back up</text>
+  <text x="250" y="427" text-anchor="middle" font-size="11" fill="#333">The surgeon opens each layer carefully, delivers the baby through the</text>
+  <text x="250" y="444" text-anchor="middle" font-size="11" fill="#333">uterine opening, then closes everything layer by layer with sutures.</text>
+</svg>

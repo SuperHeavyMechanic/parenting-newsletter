@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 500" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="480" height="500" fill="#f8f9fa" rx="14"/>
+
+  <!-- Title -->
+  <text x="240" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a2e">Vernix Caseosa</text>
+  <text x="240" y="56" text-anchor="middle" font-size="12" fill="#555">The white coating you'll see on your baby at birth</text>
+
+  <!-- ── Baby outline (simplified front view) ── -->
+  <!-- Head -->
+  <ellipse cx="200" cy="120" rx="52" ry="58" fill="#f5c5a3" stroke="#c8905a" stroke-width="2"/>
+  <!-- Ears -->
+  <ellipse cx="148" cy="120" rx="10" ry="14" fill="#f5c5a3" stroke="#c8905a" stroke-width="1.5"/>
+  <ellipse cx="252" cy="120" rx="10" ry="14" fill="#f5c5a3" stroke="#c8905a" stroke-width="1.5"/>
+  <!-- Neck -->
+  <rect x="182" y="174" width="36" height="18" rx="4" fill="#f5c5a3" stroke="#c8905a" stroke-width="1.5"/>
+  <!-- Body -->
+  <ellipse cx="200" cy="250" rx="60" ry="70" fill="#f5c5a3" stroke="#c8905a" stroke-width="2"/>
+  <!-- Arms -->
+  <ellipse cx="130" cy="240" rx="16" ry="48" fill="#f5c5a3" stroke="#c8905a" stroke-width="1.5" transform="rotate(-10 130 240)"/>
+  <ellipse cx="270" cy="240" rx="16" ry="48" fill="#f5c5a3" stroke="#c8905a" stroke-width="1.5" transform="rotate(10 270 240)"/>
+  <!-- Legs -->
+  <ellipse cx="175" cy="360" rx="22" ry="46" fill="#f5c5a3" stroke="#c8905a" stroke-width="1.5" transform="rotate(-5 175 360)"/>
+  <ellipse cx="225" cy="360" rx="22" ry="46" fill="#f5c5a3" stroke="#c8905a" stroke-width="1.5" transform="rotate(5 225 360)"/>
+
+  <!-- ── Vernix patches (cream/white, in folds and creases) ── -->
+  <!-- Neck fold -->
+  <ellipse cx="200" cy="188" rx="20" ry="6" fill="rgba(255,250,220,0.9)" stroke="#d4b860" stroke-width="1.5"/>
+  <!-- Armpit left -->
+  <ellipse cx="152" cy="210" rx="14" ry="8" fill="rgba(255,250,220,0.9)" stroke="#d4b860" stroke-width="1.5" transform="rotate(30 152 210)"/>
+  <!-- Armpit right -->
+  <ellipse cx="248" cy="210" rx="14" ry="8" fill="rgba(255,250,220,0.9)" stroke="#d4b860" stroke-width="1.5" transform="rotate(-30 248 210)"/>
+  <!-- Groin left -->
+  <ellipse cx="168" cy="310" rx="14" ry="7" fill="rgba(255,250,220,0.9)" stroke="#d4b860" stroke-width="1.5" transform="rotate(20 168 310)"/>
+  <!-- Groin right -->
+  <ellipse cx="232" cy="310" rx="14" ry="7" fill="rgba(255,250,220,0.9)" stroke="#d4b860" stroke-width="1.5" transform="rotate(-20 232 310)"/>
+  <!-- Behind ear -->
+  <ellipse cx="146" cy="108" rx="10" ry="6" fill="rgba(255,250,220,0.9)" stroke="#d4b860" stroke-width="1.5"/>
+
+  <!-- ── Zoom inset: skin cross-section ── -->
+  <rect x="305" y="80" width="148" height="150" rx="10" fill="#fff" stroke="#bbb" stroke-width="1.5"/>
+  <text x="379" y="100" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">Skin close-up</text>
+  <!-- Skin layer -->
+  <rect x="315" y="108" width="128" height="28" rx="0" fill="#f5c5a3" stroke="#e0a882" stroke-width="1"/>
+  <text x="379" y="126" text-anchor="middle" font-size="10" fill="#8a5030">Baby's skin</text>
+  <!-- Vernix layer on top -->
+  <rect x="315" y="90" width="128" height="20" rx="4" fill="#fffadc" stroke="#d4b860" stroke-width="1.5"/>
+  <text x="379" y="104" text-anchor="middle" font-size="10" fill="#9a7020">Vernix</text>
+  <!-- Dermis -->
+  <rect x="315" y="136" width="128" height="28" rx="0" fill="#f0b090" stroke="#d4985a" stroke-width="1"/>
+  <text x="379" y="153" text-anchor="middle" font-size="10" fill="#7a4020">Dermis</text>
+  <!-- Arrow label -->
+  <line x1="290" y1="100" x2="315" y2="100" stroke="#d4b860" stroke-width="1.5"/>
+  <text x="288" y="103" text-anchor="end" font-size="10" fill="#9a7020" font-weight="bold">vernix</text>
+
+  <!-- ── Labels pointing to vernix patches ── -->
+  <line x1="248" y1="188" x2="304" y2="188" stroke="#d4b860" stroke-width="1.2" stroke-dasharray="4,3"/>
+  <text x="307" y="192" font-size="10" fill="#9a7020">Heaviest in skin</text>
+  <text x="307" y="205" font-size="10" fill="#9a7020">folds &amp; creases</text>
+
+  <!-- ── Key box ── -->
+  <rect x="28" y="415" width="424" height="62" rx="10" fill="#fffbea" stroke="#d4b860" stroke-width="1.5"/>
+  <text x="240" y="436" text-anchor="middle" font-size="12" font-weight="bold" fill="#8a6010">What to know at birth</text>
+  <text x="240" y="454" text-anchor="middle" font-size="11" fill="#333">Leave the vernix on for a few hours — it's a natural moisturiser.</text>
+  <text x="240" y="470" text-anchor="middle" font-size="11" fill="#333">Hospitals no longer wipe it all off immediately.</text>
+</svg>
