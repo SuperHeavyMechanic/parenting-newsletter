@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 280" width="480" height="280" font-family="Georgia, serif">
+  <!-- Background -->
+  <rect width="480" height="280" fill="#fef9f0" rx="12"/>
+
+  <!-- Title -->
+  <text x="240" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#2c2c2c">Moro (Startle) Reflex</text>
+  <text x="240" y="50" text-anchor="middle" font-size="11" fill="#666">"Arms fly out, then curl back in — automatic, not distress"</text>
+
+  <!-- ── BEFORE panel ── -->
+  <rect x="20" y="65" width="190" height="190" fill="#fff" rx="8" stroke="#d4c5a9" stroke-width="1.5"/>
+  <text x="115" y="85" text-anchor="middle" font-size="12" font-weight="bold" fill="#888">BEFORE — resting</text>
+
+  <!-- Baby body (before) -->
+  <ellipse cx="115" cy="155" rx="32" ry="42" fill="#f9d9c0" stroke="#c4a882" stroke-width="1.5"/>
+  <!-- Head -->
+  <circle cx="115" cy="105" r="22" fill="#f9d9c0" stroke="#c4a882" stroke-width="1.5"/>
+  <!-- Eyes closed / calm face -->
+  <line x1="107" y1="103" x2="112" y2="103" stroke="#5a3e2b" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="118" y1="103" x2="123" y2="103" stroke="#5a3e2b" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M110 111 Q115 114 120 111" stroke="#5a3e2b" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  <!-- Arms resting at sides -->
+  <path d="M84 145 Q72 158 78 170" stroke="#c4a882" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M146 145 Q158 158 152 170" stroke="#c4a882" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <!-- Legs -->
+  <path d="M100 192 Q95 215 98 228" stroke="#c4a882" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M130 192 Q135 215 132 228" stroke="#c4a882" stroke-width="7" fill="none" stroke-linecap="round"/>
+
+  <!-- ── ARROW ── -->
+  <text x="237" y="148" text-anchor="middle" font-size="22" fill="#e07b39">⚡</text>
+  <text x="237" y="166" text-anchor="middle" font-size="10" fill="#e07b39">sudden</text>
+  <text x="237" y="179" text-anchor="middle" font-size="10" fill="#e07b39">noise / movement</text>
+  <line x1="217" y1="155" x2="207" y2="155" stroke="#e07b39" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="257" y1="155" x2="267" y2="155" stroke="#e07b39" stroke-width="1.5"/>
+  <defs>
+    <marker id="arr" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#e07b39"/>
+    </marker>
+    <marker id="arr2" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#e07b39"/>
+    </marker>
+  </defs>
+
+  <!-- ── AFTER panel ── -->
+  <rect x="270" y="65" width="190" height="190" fill="#fff" rx="8" stroke="#d4c5a9" stroke-width="1.5"/>
+  <text x="365" y="85" text-anchor="middle" font-size="12" font-weight="bold" fill="#e07b39">AFTER — startle</text>
+
+  <!-- Baby body (after) -->
+  <ellipse cx="365" cy="155" rx="32" ry="42" fill="#f9d9c0" stroke="#c4a882" stroke-width="1.5"/>
+  <!-- Head -->
+  <circle cx="365" cy="105" r="22" fill="#f9d9c0" stroke="#c4a882" stroke-width="1.5"/>
+  <!-- Eyes wide open / startled face -->
+  <circle cx="357" cy="103" r="3.5" fill="white" stroke="#5a3e2b" stroke-width="1.2"/>
+  <circle cx="357" cy="103" r="1.8" fill="#5a3e2b"/>
+  <circle cx="373" cy="103" r="3.5" fill="white" stroke="#5a3e2b" stroke-width="1.2"/>
+  <circle cx="373" cy="103" r="1.8" fill="#5a3e2b"/>
+  <path d="M360 113 Q365 110 370 113" stroke="#5a3e2b" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  <!-- Arms flung wide — W shape -->
+  <path d="M334 140 Q305 118 295 128" stroke="#c4a882" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M396 140 Q425 118 435 128" stroke="#c4a882" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <!-- Hands (small circles at tips) -->
+  <circle cx="294" cy="130" r="6" fill="#f9d9c0" stroke="#c4a882" stroke-width="1.5"/>
+  <circle cx="436" cy="130" r="6" fill="#f9d9c0" stroke="#c4a882" stroke-width="1.5"/>
+  <!-- Legs -->
+  <path d="M350 192 Q340 218 342 230" stroke="#c4a882" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M380 192 Q390 218 388 230" stroke="#c4a882" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <!-- Motion lines from arms -->
+  <line x1="306" y1="112" x2="296" y2="105" stroke="#e07b39" stroke-width="1" stroke-dasharray="3,2" opacity="0.7"/>
+  <line x1="424" y1="112" x2="434" y2="105" stroke="#e07b39" stroke-width="1" stroke-dasharray="3,2" opacity="0.7"/>
+
+  <!-- W label -->
+  <text x="365" y="248" text-anchor="middle" font-size="11" fill="#e07b39" font-style="italic">arms form a "W" shape</text>
+
+  <!-- Bottom analogy -->
+  <text x="240" y="268" text-anchor="middle" font-size="10" fill="#888" font-style="italic">Like flinching at a loud bang — arms fly before the brain decides. Fades by 3–6 months.</text>
+</svg>

@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" width="480" height="300" font-family="Georgia, serif">
+  <!-- Background -->
+  <rect width="480" height="300" fill="#f0f7ff" rx="12"/>
+
+  <!-- Title -->
+  <text x="240" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#2c2c2c">Safe Sleep Setup</text>
+  <text x="240" y="46" text-anchor="middle" font-size="11" fill="#666">Back · Alone · Crib · Nothing extra</text>
+
+  <!-- Crib outer frame -->
+  <rect x="60" y="70" width="360" height="170" fill="#d4c5a9" rx="6" stroke="#a88c6e" stroke-width="2"/>
+  <!-- Crib inner mattress area -->
+  <rect x="75" y="82" width="330" height="145" fill="#eaf4ff" rx="4"/>
+  <!-- Mattress -->
+  <rect x="80" y="180" width="320" height="32" fill="#b8d4f0" rx="3" stroke="#7aadd4" stroke-width="1.5"/>
+  <text x="240" y="201" text-anchor="middle" font-size="10" fill="#1a5276">firm, flat mattress</text>
+  <!-- Fitted sheet -->
+  <rect x="80" y="172" width="320" height="12" fill="#dbeeff" rx="2"/>
+  <text x="240" y="170" text-anchor="middle" font-size="9" fill="#2471a3">fitted sheet only</text>
+
+  <!-- Baby on back -->
+  <!-- Body -->
+  <ellipse cx="240" cy="150" rx="36" ry="24" fill="#f9d9c0" stroke="#c4a882" stroke-width="1.5"/>
+  <!-- Head -->
+  <circle cx="240" cy="120" r="20" fill="#f9d9c0" stroke="#c4a882" stroke-width="1.5"/>
+  <!-- Face -->
+  <line x1="233" y1="118" x2="237" y2="118" stroke="#5a3e2b" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="243" y1="118" x2="247" y2="118" stroke="#5a3e2b" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M236 125 Q240 128 244 125" stroke="#5a3e2b" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  <!-- Arms tucked at sides -->
+  <path d="M204 148 Q195 158 200 166" stroke="#c4a882" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M276 148 Q285 158 280 166" stroke="#c4a882" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- Legs down -->
+  <path d="M228 172 Q224 185 226 192" stroke="#c4a882" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M252 172 Q256 185 254 192" stroke="#c4a882" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+  <!-- Green check arrow: BACK position -->
+  <circle cx="240" cy="96" r="10" fill="#27ae60"/>
+  <text x="240" y="100" text-anchor="middle" font-size="12" fill="white" font-weight="bold">✓</text>
+  <text x="240" y="86" text-anchor="middle" font-size="9" fill="#27ae60" font-weight="bold">ON BACK</text>
+
+  <!-- Crib slats -->
+  <line x1="120" y1="82" x2="120" y2="212" stroke="#a88c6e" stroke-width="2" opacity="0.4"/>
+  <line x1="160" y1="82" x2="160" y2="212" stroke="#a88c6e" stroke-width="2" opacity="0.4"/>
+  <line x1="200" y1="82" x2="200" y2="212" stroke="#a88c6e" stroke-width="2" opacity="0.4"/>
+  <line x1="280" y1="82" x2="280" y2="212" stroke="#a88c6e" stroke-width="2" opacity="0.4"/>
+  <line x1="320" y1="82" x2="320" y2="212" stroke="#a88c6e" stroke-width="2" opacity="0.4"/>
+  <line x1="360" y1="82" x2="360" y2="212" stroke="#a88c6e" stroke-width="2" opacity="0.4"/>
+
+  <!-- ✗ items OUTSIDE crib with red crosses -->
+  <!-- Pillow X -->
+  <rect x="18" y="100" width="28" height="20" fill="#f5b7b1" rx="4" stroke="#e74c3c" stroke-width="1.5"/>
+  <line x1="18" y1="100" x2="46" y2="120" stroke="#e74c3c" stroke-width="2"/>
+  <line x1="46" y1="100" x2="18" y2="120" stroke="#e74c3c" stroke-width="2"/>
+  <text x="32" y="133" text-anchor="middle" font-size="9" fill="#c0392b">no pillow</text>
+
+  <!-- Blanket X -->
+  <path d="M18 155 Q25 148 32 155 Q39 162 46 155" stroke="#e74c3c" stroke-width="3" fill="none"/>
+  <line x1="18" y1="148" x2="46" y2="168" stroke="#e74c3c" stroke-width="2"/>
+  <line x1="46" y1="148" x2="18" y2="168" stroke="#e74c3c" stroke-width="2"/>
+  <text x="32" y="180" text-anchor="middle" font-size="9" fill="#c0392b">no blanket</text>
+
+  <!-- Stuffed animal X -->
+  <circle cx="436" cy="112" r="12" fill="#fadbd8" stroke="#e74c3c" stroke-width="1.5"/>
+  <circle cx="428" cy="104" r="6" fill="#fadbd8" stroke="#e74c3c" stroke-width="1.5"/>
+  <circle cx="444" cy="104" r="6" fill="#fadbd8" stroke="#e74c3c" stroke-width="1.5"/>
+  <line x1="424" y1="100" x2="448" y2="124" stroke="#e74c3c" stroke-width="2"/>
+  <line x1="448" y1="100" x2="424" y2="124" stroke="#e74c3c" stroke-width="2"/>
+  <text x="436" y="133" text-anchor="middle" font-size="9" fill="#c0392b">no toys</text>
+
+  <!-- Bumper X -->
+  <rect x="420" y="148" width="36" height="18" fill="#f9e4b7" rx="3" stroke="#e74c3c" stroke-width="1.5"/>
+  <line x1="420" y1="148" x2="456" y2="166" stroke="#e74c3c" stroke-width="2"/>
+  <line x1="456" y1="148" x2="420" y2="166" stroke="#e74c3c" stroke-width="2"/>
+  <text x="438" y="178" text-anchor="middle" font-size="9" fill="#c0392b">no bumpers</text>
+
+  <!-- Bottom analogy -->
+  <text x="240" y="256" text-anchor="middle" font-size="10" fill="#555" font-style="italic">Like a camping mat on a hard floor — simple surface, face up, nothing extra.</text>
+  <text x="240" y="272" text-anchor="middle" font-size="10" fill="#27ae60" font-weight="bold">CDC: place baby on back for every sleep — naps and night.</text>
+  <text x="240" y="290" text-anchor="middle" font-size="9" fill="#888">cdc.gov/reproductive-health/features/babies-sleep.html</text>
+</svg>
