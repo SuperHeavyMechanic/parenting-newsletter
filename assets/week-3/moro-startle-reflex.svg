@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 380" font-family="Arial,sans-serif">
+  <defs>
+    <marker id="arr3" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#F5A623"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="580" height="380" fill="#FFFFFF" rx="12"/>
+
+  <!-- Title -->
+  <text x="290" y="34" text-anchor="middle" font-size="19" font-weight="bold" fill="#1A1A2E">The Moro (Startle) Reflex</text>
+  <text x="290" y="53" text-anchor="middle" font-size="12" fill="#666">Sudden noise or drop → arms fling wide → arms pull back in</text>
+
+  <!-- ===== LEFT: STARTLED (arms wide) ===== -->
+  <text x="140" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#D84315">① Startled</text>
+  <text x="140" y="97" text-anchor="middle" font-size="11" fill="#888">(loud noise / feeling of falling)</text>
+
+  <!-- Baby body (oval torso) -->
+  <ellipse cx="140" cy="205" rx="38" ry="50" fill="#FFD8B5" stroke="#DFA880" stroke-width="2"/>
+  <!-- Head -->
+  <circle cx="140" cy="148" r="35" fill="#FFD8B5" stroke="#DFA880" stroke-width="2"/>
+  <!-- Eyes (wide/surprised) -->
+  <ellipse cx="126" cy="143" rx="7" ry="9" fill="#FFFFFF" stroke="#888" stroke-width="1.5"/>
+  <circle cx="127" cy="144" r="4" fill="#3A2510"/>
+  <ellipse cx="154" cy="143" rx="7" ry="9" fill="#FFFFFF" stroke="#888" stroke-width="1.5"/>
+  <circle cx="155" cy="144" r="4" fill="#3A2510"/>
+  <!-- Open surprised mouth -->
+  <ellipse cx="140" cy="163" rx="9" ry="7" fill="#FFAAAA" stroke="#C08070" stroke-width="1.5"/>
+  <!-- Eyebrows raised (surprised) -->
+  <path d="M119,133 Q126,128 133,133" stroke="#8B6914" stroke-width="2" fill="none"/>
+  <path d="M147,133 Q154,128 161,133" stroke="#8B6914" stroke-width="2" fill="none"/>
+
+  <!-- LEFT ARM (flung out wide to the left) -->
+  <line x1="102" y1="188" x2="44" y2="158" stroke="#DFA880" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="44" cy="158" r="11" fill="#FFD8B5" stroke="#DFA880" stroke-width="2"/>
+  <!-- RIGHT ARM (flung out wide to the right) -->
+  <line x1="178" y1="188" x2="236" y2="158" stroke="#DFA880" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="236" cy="158" r="11" fill="#FFD8B5" stroke="#DFA880" stroke-width="2"/>
+
+  <!-- Legs (dangling) -->
+  <line x1="122" y1="250" x2="108" y2="300" stroke="#DFA880" stroke-width="11" stroke-linecap="round"/>
+  <line x1="158" y1="250" x2="172" y2="300" stroke="#DFA880" stroke-width="11" stroke-linecap="round"/>
+
+  <!-- Motion lines (startle burst) -->
+  <line x1="140" y1="148" x2="112" y2="115" stroke="#F5A623" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="140" y1="148" x2="168" y2="115" stroke="#F5A623" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="140" y1="148" x2="140" y2="108" stroke="#F5A623" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- Arrow pointing to arms -->
+  <text x="32" y="148" font-size="18" fill="#F5A623" font-weight="bold">←</text>
+  <text x="232" y="148" font-size="18" fill="#F5A623" font-weight="bold">→</text>
+  <text x="140" y="345" text-anchor="middle" font-size="11" fill="#D84315">Arms fling OUT</text>
+
+  <!-- ===== CENTER ARROW ===== -->
+  <line x1="265" y1="205" x2="315" y2="205" stroke="#F5A623" stroke-width="3.5" marker-end="url(#arr3)"/>
+  <text x="290" y="198" text-anchor="middle" font-size="11" fill="#C07A00" font-weight="bold">then</text>
+
+  <!-- ===== RIGHT: SETTLED (arms pulled in) ===== -->
+  <text x="440" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#2E7D32">② Settles</text>
+  <text x="440" y="97" text-anchor="middle" font-size="11" fill="#888">(arms pull back in)</text>
+
+  <!-- Baby body (oval torso) -->
+  <ellipse cx="440" cy="205" rx="38" ry="50" fill="#FFD8B5" stroke="#DFA880" stroke-width="2"/>
+  <!-- Head -->
+  <circle cx="440" cy="148" r="35" fill="#FFD8B5" stroke="#DFA880" stroke-width="2"/>
+  <!-- Eyes (calmer, relaxed) -->
+  <ellipse cx="427" cy="145" rx="6" ry="6" fill="#FFFFFF" stroke="#888" stroke-width="1.5"/>
+  <circle cx="428" cy="146" r="3.5" fill="#3A2510"/>
+  <ellipse cx="453" cy="145" rx="6" ry="6" fill="#FFFFFF" stroke="#888" stroke-width="1.5"/>
+  <circle cx="454" cy="146" r="3.5" fill="#3A2510"/>
+  <!-- Calmer mouth (small and closed) -->
+  <path d="M432,163 Q440,167 448,163" stroke="#C08070" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Eyebrows (neutral) -->
+  <path d="M420,136 Q427,133 434,136" stroke="#8B6914" stroke-width="1.5" fill="none"/>
+  <path d="M446,136 Q453,133 460,136" stroke="#8B6914" stroke-width="1.5" fill="none"/>
+
+  <!-- LEFT ARM (pulled in close to body) -->
+  <line x1="405" y1="188" x2="380" y2="200" stroke="#DFA880" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="380" cy="200" r="11" fill="#FFD8B5" stroke="#DFA880" stroke-width="2"/>
+  <!-- RIGHT ARM (pulled in close) -->
+  <line x1="475" y1="188" x2="500" y2="200" stroke="#DFA880" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="500" cy="200" r="11" fill="#FFD8B5" stroke="#DFA880" stroke-width="2"/>
+
+  <!-- Legs -->
+  <line x1="422" y1="250" x2="408" y2="300" stroke="#DFA880" stroke-width="11" stroke-linecap="round"/>
+  <line x1="458" y1="250" x2="472" y2="300" stroke="#DFA880" stroke-width="11" stroke-linecap="round"/>
+
+  <text x="440" y="345" text-anchor="middle" font-size="11" fill="#2E7D32">Arms pulled IN</text>
+
+  <!-- Divider -->
+  <line x1="290" y1="105" x2="290" y2="330" stroke="#E0E0E0" stroke-width="1.5" stroke-dasharray="6,4"/>
+
+  <!-- Info box -->
+  <rect x="20" y="320" width="540" height="30" rx="6" fill="#FFF8E1" stroke="#F5A623" stroke-width="1"/>
+  <text x="290" y="339" text-anchor="middle" font-size="11" fill="#5D4037">Swaddling mimics the snug feeling of the womb — it reduces the Moro reflex and helps babies sleep longer.</text>
+
+  <!-- Analogy -->
+  <rect x="20" y="352" width="540" height="22" rx="5" fill="#EEF4FB" stroke="#B8D4F0" stroke-width="1"/>
+  <text x="290" y="367" text-anchor="middle" font-size="11" fill="#333">💡 Like catching yourself when you trip — an automatic "I'm falling!" response. Normal in all newborns.</text>
+</svg>

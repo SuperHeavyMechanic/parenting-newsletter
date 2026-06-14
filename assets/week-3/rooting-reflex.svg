@@ -1,92 +1,79 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 280" width="440" height="280" font-family="Georgia, serif">
-  <!-- Background -->
-  <rect width="440" height="280" fill="#fef6ee" rx="12"/>
-
-  <!-- Title -->
-  <text x="220" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#2c2c2c">Rooting Reflex</text>
-  <text x="220" y="46" text-anchor="middle" font-size="11" fill="#666">Cheek touched → head turns → mouth opens → ready to feed</text>
-
-  <!-- Step 1: Touch -->
-  <rect x="15" y="60" width="118" height="175" fill="#fff" rx="8" stroke="#e0cbb5" stroke-width="1.5"/>
-  <text x="74" y="78" text-anchor="middle" font-size="11" font-weight="bold" fill="#888">Step 1</text>
-  <text x="74" y="92" text-anchor="middle" font-size="10" fill="#888">touch cheek</text>
-  <!-- Baby head front-on -->
-  <circle cx="74" cy="155" r="40" fill="#f9d9c0" stroke="#c4a882" stroke-width="2"/>
-  <!-- Eyes neutral -->
-  <circle cx="60" cy="148" r="5" fill="white" stroke="#5a3e2b" stroke-width="1.2"/>
-  <circle cx="60" cy="148" r="2.5" fill="#5a3e2b"/>
-  <circle cx="88" cy="148" r="5" fill="white" stroke="#5a3e2b" stroke-width="1.2"/>
-  <circle cx="88" cy="148" r="2.5" fill="#5a3e2b"/>
-  <!-- Nose -->
-  <ellipse cx="74" cy="158" rx="5" ry="3" fill="#e8b89a"/>
-  <!-- Mouth closed -->
-  <path d="M66 168 Q74 172 82 168" stroke="#5a3e2b" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-  <!-- Finger approaching cheek -->
-  <rect x="105" y="148" width="20" height="10" fill="#f0c8a0" rx="3" stroke="#c4a882" stroke-width="1.2"/>
-  <rect x="108" y="138" width="8" height="14" fill="#f0c8a0" rx="2" stroke="#c4a882" stroke-width="1"/>
-  <rect x="118" y="140" width="7" height="12" fill="#f0c8a0" rx="2" stroke="#c4a882" stroke-width="1"/>
-  <!-- Touch dot -->
-  <circle cx="105" cy="155" r="4" fill="#e07b39" opacity="0.7"/>
-  <text x="74" y="217" text-anchor="middle" font-size="9" fill="#aaa">finger touches</text>
-  <text x="74" y="228" text-anchor="middle" font-size="9" fill="#aaa">right cheek</text>
-
-  <!-- Arrow 1 -->
-  <text x="153" y="158" text-anchor="middle" font-size="20" fill="#e07b39">→</text>
-
-  <!-- Step 2: Turn -->
-  <rect x="162" y="60" width="118" height="175" fill="#fff" rx="8" stroke="#e0cbb5" stroke-width="1.5"/>
-  <text x="221" y="78" text-anchor="middle" font-size="11" font-weight="bold" fill="#e07b39">Step 2</text>
-  <text x="221" y="92" text-anchor="middle" font-size="10" fill="#888">head turns right</text>
-  <!-- Baby head turning right (slightly angled) -->
-  <ellipse cx="221" cy="155" rx="38" ry="40" fill="#f9d9c0" stroke="#c4a882" stroke-width="2"/>
-  <!-- Eyes turning -->
-  <circle cx="212" cy="148" r="5" fill="white" stroke="#5a3e2b" stroke-width="1.2"/>
-  <circle cx="213" cy="148" r="2.5" fill="#5a3e2b"/>
-  <circle cx="232" cy="148" r="5" fill="white" stroke="#5a3e2b" stroke-width="1.2"/>
-  <circle cx="234" cy="148" r="2.5" fill="#5a3e2b"/>
-  <!-- Nose shifted right -->
-  <ellipse cx="226" cy="158" rx="5" ry="3" fill="#e8b89a"/>
-  <!-- Mouth slightly open -->
-  <path d="M212 168 Q221 171 230 168" stroke="#5a3e2b" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-  <!-- Turn arrow -->
-  <path d="M200 135 Q220 125 240 135" stroke="#e07b39" stroke-width="2" fill="none" marker-end="url(#arrR)" stroke-dasharray="4,2"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 360" font-family="Arial,sans-serif">
   <defs>
-    <marker id="arrR" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
-      <path d="M0,0 L6,3 L0,6 Z" fill="#e07b39"/>
+    <marker id="arr2" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2D6A9F"/>
     </marker>
-    <marker id="arrR2" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
-      <path d="M0,0 L6,3 L0,6 Z" fill="#27ae60"/>
+    <marker id="arrO" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#F5A623"/>
     </marker>
   </defs>
-  <text x="221" y="217" text-anchor="middle" font-size="9" fill="#aaa">automatic turn —</text>
-  <text x="221" y="228" text-anchor="middle" font-size="9" fill="#aaa">no decision needed</text>
 
-  <!-- Arrow 2 -->
-  <text x="300" y="158" text-anchor="middle" font-size="20" fill="#27ae60">→</text>
+  <!-- Background -->
+  <rect width="560" height="360" fill="#FFFFFF" rx="12"/>
 
-  <!-- Step 3: Mouth open -->
-  <rect x="309" y="60" width="118" height="175" fill="#fff" rx="8" stroke="#b7ddb7" stroke-width="1.5"/>
-  <text x="368" y="78" text-anchor="middle" font-size="11" font-weight="bold" fill="#27ae60">Step 3</text>
-  <text x="368" y="92" text-anchor="middle" font-size="10" fill="#888">mouth opens wide</text>
-  <!-- Baby head front-on, mouth open wide -->
-  <circle cx="368" cy="155" r="40" fill="#f9d9c0" stroke="#c4a882" stroke-width="2"/>
-  <!-- Eyes bright/searching -->
-  <circle cx="354" cy="148" r="5" fill="white" stroke="#5a3e2b" stroke-width="1.2"/>
-  <circle cx="354" cy="150" r="2.5" fill="#5a3e2b"/>
-  <circle cx="382" cy="148" r="5" fill="white" stroke="#5a3e2b" stroke-width="1.2"/>
-  <circle cx="382" cy="150" r="2.5" fill="#5a3e2b"/>
+  <!-- Title -->
+  <text x="280" y="34" text-anchor="middle" font-size="19" font-weight="bold" fill="#1A1A2E">The Rooting Reflex</text>
+  <text x="280" y="53" text-anchor="middle" font-size="12" fill="#666">Touch baby's cheek → baby turns toward it + opens mouth</text>
+
+  <!-- ===== BEFORE (left panel) ===== -->
+  <text x="145" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#555">① Touch cheek</text>
+
+  <!-- Baby head (circle, facing right) -->
+  <circle cx="145" cy="170" r="65" fill="#FFD8B5" stroke="#DFA880" stroke-width="2"/>
+  <!-- Ear -->
+  <ellipse cx="82" cy="170" rx="10" ry="15" fill="#F0C8A0" stroke="#DFA880" stroke-width="1.5"/>
+  <!-- Eye -->
+  <ellipse cx="165" cy="152" rx="8" ry="6" fill="#FFFFFF" stroke="#888" stroke-width="1.5"/>
+  <circle cx="167" cy="153" r="4" fill="#4A3020"/>
   <!-- Nose -->
-  <ellipse cx="371" cy="158" rx="5" ry="3" fill="#e8b89a"/>
-  <!-- Mouth wide open -->
-  <path d="M356 166 Q368 178 380 166" stroke="#5a3e2b" stroke-width="2" fill="#e8b89a"/>
-  <text x="368" y="172" text-anchor="middle" font-size="9" fill="#5a3e2b">○</text>
-  <!-- Green check -->
-  <circle cx="390" cy="120" r="10" fill="#27ae60"/>
-  <text x="390" y="124" text-anchor="middle" font-size="12" fill="white" font-weight="bold">✓</text>
-  <text x="368" y="217" text-anchor="middle" font-size="9" fill="#aaa">ready to latch —</text>
-  <text x="368" y="228" text-anchor="middle" font-size="9" fill="#aaa">survival instinct</text>
+  <ellipse cx="180" cy="172" rx="5" ry="4" fill="#F0B090"/>
+  <!-- Closed mouth (relaxed) -->
+  <path d="M168,188 Q182,192 196,188" stroke="#C08070" stroke-width="2" fill="none" stroke-linecap="round"/>
 
-  <!-- Bottom note -->
-  <text x="220" y="256" text-anchor="middle" font-size="10" fill="#555" font-style="italic">Like a sunflower turning toward light — completely automatic. Fades by 4–6 months.</text>
-  <text x="220" y="272" text-anchor="middle" font-size="9" fill="#888">Cleveland Clinic: clevelandclinic.org/health/articles/23257-rooting-reflex</text>
+  <!-- Finger touching cheek (from right) -->
+  <rect x="210" y="160" width="50" height="18" rx="9" fill="#FFD0A0" stroke="#D4A060" stroke-width="1.5"/>
+  <!-- Fingernail hint -->
+  <ellipse cx="256" cy="169" rx="7" ry="5" fill="#F5EAD8" stroke="#D4A060" stroke-width="1"/>
+  <!-- Label: finger -->
+  <text x="268" y="165" font-size="12" fill="#2D6A9F">←  your</text>
+  <text x="268" y="179" font-size="12" fill="#2D6A9F">   finger</text>
+
+  <!-- Touch point star/dot -->
+  <circle cx="208" cy="169" r="6" fill="#F5A623" stroke="#C07A00" stroke-width="1.5"/>
+
+  <!-- ===== ARROW between panels ===== -->
+  <line x1="236" y1="200" x2="310" y2="200" stroke="#F5A623" stroke-width="3" marker-end="url(#arrO)"/>
+  <text x="272" y="195" text-anchor="middle" font-size="12" fill="#C07A00" font-weight="bold">reflex</text>
+
+  <!-- ===== AFTER (right panel) ===== -->
+  <text x="415" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#555">② Turns + opens mouth</text>
+
+  <!-- Baby head (turned toward touch — rotated slightly) -->
+  <circle cx="415" cy="170" r="65" fill="#FFD8B5" stroke="#DFA880" stroke-width="2"/>
+  <!-- Ear (now less visible, on far side) -->
+  <ellipse cx="353" cy="170" rx="8" ry="13" fill="#F0C8A0" stroke="#DFA880" stroke-width="1.5"/>
+  <!-- Eye (facing more forward now) -->
+  <ellipse cx="432" cy="152" rx="8" ry="6" fill="#FFFFFF" stroke="#888" stroke-width="1.5"/>
+  <circle cx="434" cy="153" r="4" fill="#4A3020"/>
+  <!-- Nose (moved toward touch side) -->
+  <ellipse cx="447" cy="172" rx="5" ry="4" fill="#F0B090"/>
+  <!-- Open mouth (rooting — searching for nipple) -->
+  <path d="M432,185 Q448,200 464,185" stroke="#C08070" stroke-width="2" fill="#FFCCC0" stroke-linecap="round"/>
+  <ellipse cx="448" cy="193" rx="12" ry="7" fill="#FFCCC0" stroke="#C08070" stroke-width="1"/>
+
+  <!-- Arrow showing head turning right (toward the touch) -->
+  <path d="M415,110 Q455,90 475,115" stroke="#2D6A9F" stroke-width="2.5" fill="none" marker-end="url(#arr2)" stroke-dasharray="5,3"/>
+  <text x="445" y="100" font-size="11" fill="#2D6A9F" font-weight="bold">turns!</text>
+
+  <!-- Divider line -->
+  <line x1="280" y1="70" x2="280" y2="290" stroke="#E0E0E0" stroke-width="1" stroke-dasharray="6,4"/>
+
+  <!-- What this means box -->
+  <rect x="20" y="270" width="520" height="44" rx="8" fill="#E8F4E8" stroke="#7BC67B" stroke-width="1.5"/>
+  <text x="280" y="287" text-anchor="middle" font-size="12" fill="#2E7D32" font-weight="bold">What this means for feeding:</text>
+  <text x="280" y="305" text-anchor="middle" font-size="11" fill="#333">Stroke the cheek nearest the breast or bottle — baby turns toward it and opens up. This is how</text>
+
+  <!-- Analogy strip -->
+  <rect x="20" y="322" width="520" height="26" rx="7" fill="#EEF4FB" stroke="#B8D4F0" stroke-width="1"/>
+  <text x="280" y="339" text-anchor="middle" font-size="11" fill="#333">💡 Like a compass needle pointing to a magnet — touch = magnet, baby's mouth = needle.</text>
 </svg>
