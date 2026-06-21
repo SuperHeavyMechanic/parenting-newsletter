@@ -26,6 +26,8 @@ Paste this into Claude Code to generate the current week's issue end-to-end:
 |---|---|
 | Week 1 — Preparing for a planned C-section | `3729aa0c-f135-81aa-bf3e-ea060800a340` |
 | Week 2 — The C-section birth & the first hour | `37c9aa0c-f135-8115-b71f-f7eac53ebbf4` |
+| Week 3 — Bringing baby home: the survival kit | `37f9aa0c-f135-819f-bbb5-eb671f108ebd` |
+| Week 4 — Postpartum recovery: supporting your wife | `3869aa0c-f135-81f5-ada9-cfe23352d3c0` |
 
 Always read the spec page at the start of every run — Shan may have changed depth dials or added notes.
 
@@ -45,7 +47,7 @@ If week N already exists in the issued pages table above, generate the next miss
 
 BabyCenter, ACOG (`acog.org/womens-health`), CDC (Learn the Signs / Milestone Tracker), Mayo Clinic, Cleveland Clinic. Every claim and reading item needs a working link. Never guess if a fact isn't in these sources.
 
-**Research tooling note:** Many medical sites (Mayo Clinic, ACOG) return 403/402 to WebFetch. Use `WebSearch` to find and confirm URLs, then `WebFetch` on Cleveland Clinic and BabyCenter which are generally accessible. If a WebFetch fails, fall back to the search result snippet for that source.
+**Research tooling note:** Medical sites (Mayo Clinic, ACOG, Cleveland Clinic, CDC) frequently return 403 to WebFetch, and babycenter.com is not crawlable by WebSearch at all (blocked domain). Use `WebSearch` scoped to `allowed_domains: ["mayoclinic.org", "acog.org", "my.clevelandclinic.org", "cdc.gov"]` to find URLs and get enough summary detail from the search snippet itself — don't rely on WebFetch succeeding on the actual page.
 
 ## Visual glossary diagrams
 
