@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 360" font-family="Arial,sans-serif">
+  <rect width="560" height="360" fill="#FFFFFF" rx="12"/>
+
+  <!-- Title -->
+  <text x="280" y="34" text-anchor="middle" font-size="19" font-weight="bold" fill="#1A1A2E">Lochia: The 3 Stages of Postpartum Bleeding</text>
+  <text x="280" y="53" text-anchor="middle" font-size="12" fill="#666">Normal discharge after birth — happens after a C-section too</text>
+
+  <!-- Timeline axis -->
+  <line x1="60" y1="190" x2="500" y2="190" stroke="#CCC" stroke-width="2"/>
+
+  <!-- Stage 1: Rubra -->
+  <rect x="60" y="100" width="140" height="70" rx="8" fill="#E2453C" opacity="0.85"/>
+  <text x="130" y="130" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Lochia Rubra</text>
+  <text x="130" y="148" text-anchor="middle" font-size="11" fill="#FFF">Bright/dark red</text>
+  <text x="130" y="163" text-anchor="middle" font-size="11" fill="#FFF">Day 1–4</text>
+  <circle cx="130" cy="190" r="6" fill="#E2453C"/>
+
+  <!-- Stage 2: Serosa -->
+  <rect x="210" y="100" width="140" height="70" rx="8" fill="#E0937E" opacity="0.9"/>
+  <text x="280" y="130" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">Lochia Serosa</text>
+  <text x="280" y="148" text-anchor="middle" font-size="11" fill="#FFF">Pink to brownish, watery</text>
+  <text x="280" y="163" text-anchor="middle" font-size="11" fill="#FFF">Day 4–10</text>
+  <circle cx="280" cy="190" r="6" fill="#E0937E"/>
+
+  <!-- Stage 3: Alba -->
+  <rect x="360" y="100" width="140" height="70" rx="8" fill="#E8D9A0"/>
+  <text x="430" y="130" text-anchor="middle" font-size="13" font-weight="bold" fill="#5A4B20">Lochia Alba</text>
+  <text x="430" y="148" text-anchor="middle" font-size="11" fill="#5A4B20">Yellowish-white</text>
+  <text x="430" y="163" text-anchor="middle" font-size="11" fill="#5A4B20">Day 10 – up to 6 wks</text>
+  <circle cx="430" cy="190" r="6" fill="#E8D9A0" stroke="#C2A85A"/>
+
+  <!-- Arrow along timeline -->
+  <text x="280" y="215" text-anchor="middle" font-size="11" fill="#888">Fades gradually over several weeks — C-sections often have less bleeding after the first 24h</text>
+
+  <!-- Warning box -->
+  <rect x="20" y="240" width="520" height="58" rx="8" fill="#FBEAEA" stroke="#E2453C" stroke-width="1.5"/>
+  <text x="280" y="258" text-anchor="middle" font-size="12" font-weight="bold" fill="#B0241C">Call the doctor if:</text>
+  <text x="280" y="276" text-anchor="middle" font-size="11" fill="#333">Bleeding turns bright red/heavy again after slowing, soaks a pad in under an hour,</text>
+  <text x="280" y="291" text-anchor="middle" font-size="11" fill="#333">smells bad, or you pass large clots.</text>
+
+  <!-- Analogy -->
+  <rect x="20" y="308" width="520" height="34" rx="7" fill="#EEF4FB" stroke="#B8D4F0" stroke-width="1"/>
+  <text x="280" y="329" text-anchor="middle" font-size="11" fill="#333">💡 Like a healing wound scabbing over — it changes color as it closes: red, then pink, then fading to nothing.</text>
+</svg>
