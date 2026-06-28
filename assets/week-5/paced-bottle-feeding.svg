@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 350" font-family="Arial,sans-serif">
+  <rect width="560" height="350" fill="#FFFFFF" rx="12"/>
+  <text x="280" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#1A1A2E">Paced Bottle Feeding</text>
+  <text x="280" y="50" text-anchor="middle" font-size="12" fill="#666">Slows the feed so baby eats at breast pace — prevents overfeeding</text>
+
+  <!-- Left panel: position -->
+  <rect x="15" y="65" width="245" height="210" rx="10" fill="#F3E5F5" stroke="#AB47BC" stroke-width="2"/>
+  <text x="137" y="88" text-anchor="middle" font-size="13" font-weight="bold" fill="#6A1B9A">Position</text>
+  <!-- Baby semi-upright body -->
+  <ellipse cx="120" cy="175" rx="44" ry="56" fill="#FDDBB4" stroke="#C4956A" stroke-width="1.5"/>
+  <!-- Baby head -->
+  <circle cx="120" cy="115" r="28" fill="#FDDBB4" stroke="#C4956A" stroke-width="1.5"/>
+  <!-- Bottle nearly horizontal -->
+  <rect x="128" y="108" width="72" height="12" rx="6" fill="#E1F5FE" stroke="#29B6F6" stroke-width="2"/>
+  <rect x="198" y="110" width="12" height="8" rx="4" fill="#81D4FA"/>
+  <ellipse cx="130" cy="114" rx="7" ry="4" fill="#FFB74D"/>
+  <!-- Angle label -->
+  <text x="165" y="100" text-anchor="middle" font-size="10" fill="#6A1B9A">nearly horizontal</text>
+  <line x1="165" y1="102" x2="165" y2="109" stroke="#6A1B9A" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="137" y="248" text-anchor="middle" font-size="11" fill="#333">Baby semi-upright ~45°</text>
+  <text x="137" y="263" text-anchor="middle" font-size="10" fill="#333">(not flat on back)</text>
+
+  <!-- Right panel: pause rule -->
+  <rect x="300" y="65" width="245" height="210" rx="10" fill="#E8F5E9" stroke="#66BB6A" stroke-width="2"/>
+  <text x="422" y="88" text-anchor="middle" font-size="13" font-weight="bold" fill="#2E7D32">The Pause Rule</text>
+
+  <rect x="315" y="100" width="215" height="32" rx="6" fill="#C8E6C9" stroke="#4CAF50" stroke-width="1.5"/>
+  <text x="422" y="120" text-anchor="middle" font-size="11" fill="#1B5E20">Offer bottle → baby sucks ~30 sec</text>
+  <line x1="422" y1="132" x2="422" y2="148" stroke="#888" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <rect x="315" y="148" width="215" height="40" rx="6" fill="#FFF9C4" stroke="#FBC02D" stroke-width="1.5"/>
+  <text x="422" y="165" text-anchor="middle" font-size="11" fill="#E65100">Tip bottle horizontal</text>
+  <text x="422" y="180" text-anchor="middle" font-size="10" fill="#E65100">(milk pauses — baby rests)</text>
+  <line x1="422" y1="188" x2="422" y2="204" stroke="#888" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <rect x="315" y="204" width="215" height="32" rx="6" fill="#C8E6C9" stroke="#4CAF50" stroke-width="1.5"/>
+  <text x="422" y="224" text-anchor="middle" font-size="11" fill="#1B5E20">Tilt up again → resume</text>
+  <text x="422" y="255" text-anchor="middle" font-size="10" fill="#333">Repeat. One feed = 15–20 min</text>
+  <text x="422" y="270" text-anchor="middle" font-size="10" fill="#555">Stop when baby shows fullness</text>
+
+  <!-- Why box -->
+  <rect x="15" y="285" width="530" height="50" rx="8" fill="#E3F2FD" stroke="#1E88E5" stroke-width="1.5"/>
+  <text x="280" y="303" text-anchor="middle" font-size="11" font-weight="bold" fill="#1565C0">Why does this matter?</text>
+  <text x="280" y="320" text-anchor="middle" font-size="11" fill="#333">Bottle flow is faster than breast — babies overeat before "full" signals arrive. Pacing mimics breast rhythm.</text>
+  <text x="280" y="337" text-anchor="middle" font-size="10" fill="#555">💡 Like eating slowly between bites — lets your brain catch up with your stomach.</text>
+</svg>
