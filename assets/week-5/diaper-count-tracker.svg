@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 300" width="580" height="300" font-family="Georgia, serif">
+  <!-- Background -->
+  <rect width="580" height="300" fill="#fafaf8" rx="12"/>
+
+  <!-- Title -->
+  <text x="290" y="32" text-anchor="middle" font-size="17" font-weight="bold" fill="#2d2d2d">Diaper Count = Your Feeding Report Card</text>
+  <text x="290" y="52" text-anchor="middle" font-size="12" fill="#666">Count diapers to know if baby is getting enough milk</text>
+
+  <!-- Table header -->
+  <rect x="30" y="68" width="520" height="36" rx="6" fill="#4a7fb0"/>
+  <text x="100" y="91" text-anchor="middle" font-size="13" font-weight="bold" fill="white">Day</text>
+  <text x="255" y="91" text-anchor="middle" font-size="13" font-weight="bold" fill="white">💧 Wet Diapers (min)</text>
+  <text x="450" y="91" text-anchor="middle" font-size="13" font-weight="bold" fill="white">💩 Dirty Diapers (min)</text>
+
+  <!-- Rows -->
+  <!-- Day 1 -->
+  <rect x="30" y="104" width="520" height="30" rx="0" fill="#eaf2fb"/>
+  <text x="100" y="124" text-anchor="middle" font-size="12" fill="#2d2d2d">Day 1</text>
+  <text x="255" y="124" text-anchor="middle" font-size="12" fill="#2d5f8a">1 wet</text>
+  <text x="450" y="124" text-anchor="middle" font-size="12" fill="#7a4f00">1 dirty (dark tarry)</text>
+
+  <!-- Day 2 -->
+  <rect x="30" y="134" width="520" height="30" fill="#f5f8fb"/>
+  <text x="100" y="154" text-anchor="middle" font-size="12" fill="#2d2d2d">Day 2</text>
+  <text x="255" y="154" text-anchor="middle" font-size="12" fill="#2d5f8a">2 wet</text>
+  <text x="450" y="154" text-anchor="middle" font-size="12" fill="#7a4f00">1–2 dirty</text>
+
+  <!-- Day 3-4 -->
+  <rect x="30" y="164" width="520" height="30" fill="#eaf2fb"/>
+  <text x="100" y="184" text-anchor="middle" font-size="12" fill="#2d2d2d">Days 3–4</text>
+  <text x="255" y="184" text-anchor="middle" font-size="12" fill="#2d5f8a">3–4 wet</text>
+  <text x="450" y="184" text-anchor="middle" font-size="12" fill="#7a4f00">3+ dirty (turning yellow)</text>
+
+  <!-- Day 5+ -->
+  <rect x="30" y="194" width="520" height="30" fill="#e0f0e0"/>
+  <text x="100" y="214" text-anchor="middle" font-size="12" fill="#2d2d2d">Day 5+</text>
+  <text x="255" y="214" text-anchor="middle" font-size="12" fill="#1a5f1a" font-weight="bold">6+ wet</text>
+  <text x="450" y="214" text-anchor="middle" font-size="12" fill="#1a5f1a" font-weight="bold">3+ dirty (bright yellow)</text>
+
+  <!-- Border for table -->
+  <rect x="30" y="104" width="520" height="120" fill="none" stroke="#b0c8e0" stroke-width="1" rx="0"/>
+  <line x1="30" y1="134" x2="550" y2="134" stroke="#b0c8e0" stroke-width="1"/>
+  <line x1="30" y1="164" x2="550" y2="164" stroke="#b0c8e0" stroke-width="1"/>
+  <line x1="30" y1="194" x2="550" y2="194" stroke="#b0c8e0" stroke-width="1"/>
+  <line x1="165" y1="104" x2="165" y2="224" stroke="#b0c8e0" stroke-width="1"/>
+  <line x1="355" y1="104" x2="355" y2="224" stroke="#b0c8e0" stroke-width="1"/>
+
+  <!-- Weight note -->
+  <rect x="30" y="232" width="520" height="34" rx="6" fill="#fff3cd" stroke="#f0c040" stroke-width="1"/>
+  <text x="290" y="247" text-anchor="middle" font-size="11" fill="#7a5800" font-weight="bold">⚖️ Weight: Normal to lose up to 7–10% of birth weight in first days.</text>
+  <text x="290" y="262" text-anchor="middle" font-size="11" fill="#7a5800">Should be back to birth weight by day 10–14.</text>
+
+  <!-- Analogy -->
+  <text x="290" y="290" text-anchor="middle" font-size="11" fill="#888" font-style="italic">Analogy: diapers are your fuel-gauge — if it's full, the tank was filled</text>
+</svg>

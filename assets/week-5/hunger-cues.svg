@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 300" width="580" height="300" font-family="Georgia, serif">
+  <!-- Background -->
+  <rect width="580" height="300" fill="#fafaf8" rx="12"/>
+
+  <!-- Title -->
+  <text x="290" y="34" text-anchor="middle" font-size="17" font-weight="bold" fill="#2d2d2d">Baby Hunger Cues — Act Early, Feed Early</text>
+
+  <!-- Stage columns -->
+  <!-- EARLY (green) -->
+  <rect x="30" y="52" width="160" height="200" rx="10" fill="#e8f8e8" stroke="#6db86d" stroke-width="2"/>
+  <rect x="30" y="52" width="160" height="38" rx="10" fill="#6db86d"/>
+  <rect x="30" y="80" width="160" height="10" fill="#6db86d"/>
+  <text x="110" y="77" text-anchor="middle" font-size="14" font-weight="bold" fill="white">EARLY</text>
+  <text x="110" y="108" text-anchor="middle" font-size="11" fill="#2d6b2d">Stirring / rooting</text>
+  <text x="110" y="128" text-anchor="middle" font-size="11" fill="#2d6b2d">Hand to mouth</text>
+  <text x="110" y="148" text-anchor="middle" font-size="11" fill="#2d6b2d">Lip smacking</text>
+  <text x="110" y="168" text-anchor="middle" font-size="11" fill="#2d6b2d">Sucking on fingers</text>
+  <text x="110" y="192" text-anchor="middle" font-size="10" fill="#3a8a3a" font-style="italic">→ Feed now</text>
+  <text x="110" y="210" text-anchor="middle" font-size="10" fill="#3a8a3a" font-style="italic">Easiest time to latch</text>
+  <!-- Smiley -->
+  <circle cx="110" cy="237" r="14" fill="none" stroke="#6db86d" stroke-width="2"/>
+  <circle cx="105" cy="233" r="2" fill="#6db86d"/>
+  <circle cx="115" cy="233" r="2" fill="#6db86d"/>
+  <path d="M104,240 Q110,246 116,240" fill="none" stroke="#6db86d" stroke-width="1.5"/>
+
+  <!-- MID (yellow) -->
+  <rect x="210" y="52" width="160" height="200" rx="10" fill="#fdf8e0" stroke="#d4a820" stroke-width="2"/>
+  <rect x="210" y="52" width="160" height="38" rx="10" fill="#d4a820"/>
+  <rect x="210" y="80" width="160" height="10" fill="#d4a820"/>
+  <text x="290" y="77" text-anchor="middle" font-size="14" font-weight="bold" fill="white">MID</text>
+  <text x="290" y="108" text-anchor="middle" font-size="11" fill="#7a5800">Squirming</text>
+  <text x="290" y="128" text-anchor="middle" font-size="11" fill="#7a5800">Fussing</text>
+  <text x="290" y="148" text-anchor="middle" font-size="11" fill="#7a5800">Rooting actively</text>
+  <text x="290" y="168" text-anchor="middle" font-size="11" fill="#7a5800">Clenched fists</text>
+  <text x="290" y="192" text-anchor="middle" font-size="10" fill="#8a6a00" font-style="italic">→ Feed soon</text>
+  <text x="290" y="210" text-anchor="middle" font-size="10" fill="#8a6a00" font-style="italic">Calm first if needed</text>
+  <!-- Neutral face -->
+  <circle cx="290" cy="237" r="14" fill="none" stroke="#d4a820" stroke-width="2"/>
+  <circle cx="285" cy="233" r="2" fill="#d4a820"/>
+  <circle cx="295" cy="233" r="2" fill="#d4a820"/>
+  <line x1="284" y1="242" x2="296" y2="242" stroke="#d4a820" stroke-width="1.5"/>
+
+  <!-- LATE (red) -->
+  <rect x="390" y="52" width="160" height="200" rx="10" fill="#fde8e8" stroke="#c05050" stroke-width="2"/>
+  <rect x="390" y="52" width="160" height="38" rx="10" fill="#c05050"/>
+  <rect x="390" y="80" width="160" height="10" fill="#c05050"/>
+  <text x="470" y="77" text-anchor="middle" font-size="14" font-weight="bold" fill="white">LATE</text>
+  <text x="470" y="108" text-anchor="middle" font-size="11" fill="#800000">Crying</text>
+  <text x="470" y="128" text-anchor="middle" font-size="11" fill="#800000">Red face</text>
+  <text x="470" y="148" text-anchor="middle" font-size="11" fill="#800000">Arching back</text>
+  <text x="470" y="168" text-anchor="middle" font-size="11" fill="#800000">Inconsolable</text>
+  <text x="470" y="192" text-anchor="middle" font-size="10" fill="#900000" font-style="italic">→ Calm first, then feed</text>
+  <text x="470" y="210" text-anchor="middle" font-size="10" fill="#900000" font-style="italic">Harder to latch</text>
+  <!-- Sad face -->
+  <circle cx="470" cy="237" r="14" fill="none" stroke="#c05050" stroke-width="2"/>
+  <circle cx="465" cy="233" r="2" fill="#c05050"/>
+  <circle cx="475" cy="233" r="2" fill="#c05050"/>
+  <path d="M464,244 Q470,238 476,244" fill="none" stroke="#c05050" stroke-width="1.5"/>
+
+  <!-- Analogy -->
+  <rect x="30" y="263" width="520" height="28" rx="4" fill="#f0ece4"/>
+  <text x="290" y="280" text-anchor="middle" font-size="11" fill="#555">Analogy: like a traffic light — catch the green (early) and you skip the red (screaming)</text>
+</svg>
