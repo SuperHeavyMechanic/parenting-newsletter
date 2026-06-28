@@ -28,6 +28,7 @@ Paste this into Claude Code to generate the current week's issue end-to-end:
 | Week 2 — The C-section birth & the first hour | `37c9aa0c-f135-8115-b71f-f7eac53ebbf4` |
 | Week 3 — Bringing baby home: the survival kit | `37f9aa0c-f135-819f-bbb5-eb671f108ebd` |
 | Week 4 — Postpartum recovery: supporting your wife | `3869aa0c-f135-81f5-ada9-cfe23352d3c0` |
+| Week 5 — Feeding deep-dive | `38d9aa0c-f135-81c2-b574-d94d5bbc6cd3` |
 
 Always read the spec page at the start of every run — Shan may have changed depth dials or added notes.
 
