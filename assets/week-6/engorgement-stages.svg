@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300">
+  <rect width="600" height="300" fill="#ffffff"/>
+
+  <defs>
+    <marker id="arrowStage" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L7,3 z" fill="#bbb"/>
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="300" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#222">Breast Engorgement Stages</text>
+  <text x="300" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">Analogy: overinflating a balloon — gets harder and more uncomfortable as it overfills.</text>
+
+  <!-- Stage 1: Soft -->
+  <circle cx="80" cy="148" r="32" fill="#e8f5e9" stroke="#4caf50" stroke-width="2.5"/>
+  <text x="80" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2e7d32">Soft</text>
+  <text x="80" y="161" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#555">empty</text>
+  <text x="80" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2e7d32">Just fed</text>
+  <text x="80" y="213" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2e7d32">or expressed</text>
+
+  <!-- Arrow 1→2 -->
+  <line x1="115" y1="148" x2="147" y2="148" stroke="#bbb" stroke-width="1.5" marker-end="url(#arrowStage)"/>
+
+  <!-- Stage 2: Filling -->
+  <circle cx="188" cy="148" r="38" fill="#fff9c4" stroke="#f9a825" stroke-width="2.5"/>
+  <text x="188" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#e65100">Filling</text>
+  <text x="188" y="161" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#555">comfortable</text>
+  <text x="188" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#e65100">Normal between</text>
+  <text x="188" y="218" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#e65100">feeds</text>
+
+  <!-- Arrow 2→3 -->
+  <line x1="228" y1="148" x2="258" y2="148" stroke="#bbb" stroke-width="1.5" marker-end="url(#arrowStage)"/>
+
+  <!-- Stage 3: Full/Firm -->
+  <circle cx="310" cy="148" r="48" fill="#fbe9e7" stroke="#ef5350" stroke-width="2.5"/>
+  <text x="310" y="143" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#c62828">Full / Firm</text>
+  <text x="310" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#555">heavy, taut</text>
+  <text x="310" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#c62828">Feed soon</text>
+
+  <!-- Arrow 3→4 -->
+  <line x1="360" y1="148" x2="390" y2="148" stroke="#bbb" stroke-width="1.5" marker-end="url(#arrowStage)"/>
+
+  <!-- Stage 4: Engorged -->
+  <circle cx="462" cy="148" r="62" fill="#fce4ec" stroke="#ad1457" stroke-width="3"/>
+  <text x="462" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#880e4f">Engorged</text>
+  <text x="462" y="158" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#555">painful · hard · warm</text>
+  <text x="462" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#880e4f" font-weight="bold">Feed or express NOW</text>
+  <text x="462" y="244" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#880e4f">warm compress first</text>
+  <text x="462" y="258" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#880e4f">to help let-down</text>
+
+  <!-- Goal note at bottom -->
+  <rect x="30" y="272" width="540" height="22" rx="5" fill="#f3e5f5"/>
+  <text x="300" y="287" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6a1b9a">Goal: frequent feeding keeps breast between stages 1–2. Engorgement = milk not removed fast enough.</text>
+</svg>
