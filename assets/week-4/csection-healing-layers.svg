@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="295" viewBox="0 0 620 295" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="620" height="295" fill="#ffffff" rx="12"/>
+
+  <text x="310" y="30" text-anchor="middle" font-size="16" font-weight="700" fill="#1a1a1a">C-section Incision — Healing Layers</text>
+
+  <!-- Cross-section layers (left column) -->
+  <rect x="35" y="50"  width="185" height="28" rx="4 4 0 0" fill="#fde68a" stroke="#d97706" stroke-width="1.5"/>
+  <text x="127" y="70" text-anchor="middle" font-size="12" font-weight="700" fill="#78350f">Skin</text>
+
+  <rect x="35" y="78"  width="185" height="28" rx="0" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="127" y="98" text-anchor="middle" font-size="12" font-weight="700" fill="#78350f">Fat &amp; Fascia</text>
+
+  <rect x="35" y="106" width="185" height="28" rx="0" fill="#fecaca" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="127" y="126" text-anchor="middle" font-size="12" font-weight="700" fill="#7f1d1d">Abdominal Muscle</text>
+
+  <rect x="35" y="134" width="185" height="32" rx="0 0 4 4" fill="#ddd6fe" stroke="#7c3aed" stroke-width="1.5"/>
+  <text x="127" y="156" text-anchor="middle" font-size="12" font-weight="700" fill="#4c1d95">Uterine Wall</text>
+
+  <!-- Connector lines -->
+  <line x1="220" y1="64"  x2="280" y2="78"  stroke="#d97706" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="220" y1="92"  x2="280" y2="112" stroke="#d97706" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="220" y1="120" x2="280" y2="146" stroke="#b91c1c" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="220" y1="150" x2="280" y2="182" stroke="#7c3aed" stroke-width="1.5" stroke-dasharray="5,3"/>
+
+  <!-- Timeline bullets (right column) -->
+  <text x="285" y="50" font-size="13" fill="#374151" font-weight="700">Healing timeline</text>
+
+  <circle cx="290" cy="82"  r="7" fill="#d97706"/>
+  <text x="305" y="87"  font-size="13" fill="#1a1a1a"><tspan font-weight="700">Skin:</tspan>  ~10 days</text>
+
+  <circle cx="290" cy="116" r="7" fill="#d97706"/>
+  <text x="305" y="121" font-size="13" fill="#1a1a1a"><tspan font-weight="700">Fat &amp; fascia:</tspan>  ~6 weeks</text>
+
+  <circle cx="290" cy="150" r="7" fill="#b91c1c"/>
+  <text x="305" y="155" font-size="13" fill="#1a1a1a"><tspan font-weight="700">Muscle:</tspan>  ~6 weeks</text>
+
+  <circle cx="290" cy="186" r="7" fill="#7c3aed"/>
+  <text x="305" y="191" font-size="13" fill="#1a1a1a"><tspan font-weight="700">Uterine wall:</tspan>  up to 12 weeks</text>
+
+  <!-- Key insight box -->
+  <rect x="35" y="210" width="550" height="46" rx="6" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="310" y="231" text-anchor="middle" font-size="12" fill="#1e40af" font-weight="700">The skin looks healed long before the inside is.</text>
+  <text x="310" y="248" text-anchor="middle" font-size="12" fill="#1e40af">No lifting &gt; 5 kg, no strenuous activity, until the doctor gives the all-clear.</text>
+
+  <!-- Analogy -->
+  <text x="310" y="282" text-anchor="middle" font-size="11" fill="#6b7280" font-style="italic">Like a thick mattress with a fresh cover — the fabric dries in days, the foam takes months.</text>
+</svg>
