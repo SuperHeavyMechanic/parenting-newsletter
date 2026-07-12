@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 340" width="700" height="340" font-family="Georgia, serif">
+  <!-- Background -->
+  <rect width="700" height="340" fill="#f4f9f4" rx="14"/>
+
+  <!-- Title -->
+  <text x="350" y="36" text-anchor="middle" font-size="18" font-weight="bold" fill="#2c2c2c">The Safe Sleep ABCs</text>
+  <text x="350" y="56" text-anchor="middle" font-size="12" fill="#666">Every sleep, every time — including naps</text>
+
+  <!-- ── A: ALONE ── -->
+  <rect x="20" y="72" width="200" height="235" rx="12" fill="#fff" stroke="#4caf50" stroke-width="2"/>
+  <!-- Big letter -->
+  <text x="120" y="110" text-anchor="middle" font-size="48" font-weight="bold" fill="#4caf50">A</text>
+  <text x="120" y="130" text-anchor="middle" font-size="13" font-weight="bold" fill="#2e7d32">ALONE</text>
+
+  <!-- Crib with only baby — no adult -->
+  <!-- Crib outline -->
+  <rect x="45" y="148" width="150" height="90" rx="6" fill="#f0fdf0" stroke="#4caf50" stroke-width="1.5"/>
+  <!-- Crib bars -->
+  <line x1="45" y1="148" x2="45" y2="238" stroke="#4caf50" stroke-width="2"/>
+  <line x1="195" y1="148" x2="195" y2="238" stroke="#4caf50" stroke-width="2"/>
+  <line x1="70" y1="148" x2="70" y2="238" stroke="#4caf50" stroke-width="1.2" opacity="0.5"/>
+  <line x1="95" y1="148" x2="95" y2="238" stroke="#4caf50" stroke-width="1.2" opacity="0.5"/>
+  <line x1="120" y1="148" x2="120" y2="238" stroke="#4caf50" stroke-width="1.2" opacity="0.5"/>
+  <line x1="145" y1="148" x2="145" y2="238" stroke="#4caf50" stroke-width="1.2" opacity="0.5"/>
+  <line x1="170" y1="148" x2="170" y2="238" stroke="#4caf50" stroke-width="1.2" opacity="0.5"/>
+  <!-- Mattress -->
+  <rect x="50" y="210" width="140" height="22" rx="3" fill="#c8e6c9"/>
+  <!-- Baby -->
+  <ellipse cx="120" cy="202" rx="20" ry="18" fill="#f9ddb6" stroke="#c8a070" stroke-width="1.2"/>
+  <text x="120" y="207" text-anchor="middle" font-size="14">😴</text>
+  <!-- No adult cross -->
+  <circle cx="165" cy="164" r="14" fill="#ffebee" stroke="#ef5350" stroke-width="1.5"/>
+  <line x1="156" y1="155" x2="174" y2="173" stroke="#ef5350" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="174" y1="155" x2="156" y2="173" stroke="#ef5350" stroke-width="2.5" stroke-linecap="round"/>
+
+  <text x="120" y="268" text-anchor="middle" font-size="10" fill="#555">Own crib / bassinet.</text>
+  <text x="120" y="282" text-anchor="middle" font-size="10" fill="#555">No bed-sharing.</text>
+  <text x="120" y="296" text-anchor="middle" font-size="10" fill="#388e3c">Room-sharing is fine ✓</text>
+
+  <!-- ── B: BACK ── -->
+  <rect x="250" y="72" width="200" height="235" rx="12" fill="#fff" stroke="#2196f3" stroke-width="2"/>
+  <text x="350" y="110" text-anchor="middle" font-size="48" font-weight="bold" fill="#2196f3">B</text>
+  <text x="350" y="130" text-anchor="middle" font-size="13" font-weight="bold" fill="#1565c0">BACK</text>
+
+  <!-- Baby lying on back, top-down view with arrow -->
+  <!-- Mattress top view -->
+  <rect x="275" y="148" width="150" height="100" rx="8" fill="#e3f2fd" stroke="#2196f3" stroke-width="1.2"/>
+  <!-- Baby body top-down -->
+  <ellipse cx="350" cy="195" rx="30" ry="40" fill="#f9ddb6" stroke="#c8a070" stroke-width="1.5"/>
+  <!-- Head -->
+  <ellipse cx="350" cy="158" rx="24" ry="22" fill="#f9ddb6" stroke="#c8a070" stroke-width="1.5"/>
+  <!-- Eyes looking up -->
+  <circle cx="343" cy="156" r="3" fill="#5a3e28"/>
+  <circle cx="357" cy="156" r="3" fill="#5a3e28"/>
+  <!-- Arms out to sides -->
+  <line x1="320" y1="182" x2="282" y2="175" stroke="#f9ddb6" stroke-width="10" stroke-linecap="round"/>
+  <line x1="380" y1="182" x2="418" y2="175" stroke="#f9ddb6" stroke-width="10" stroke-linecap="round"/>
+  <!-- Big downward arrow -->
+  <text x="350" y="275" text-anchor="middle" font-size="10" fill="#555">Always on their back —</text>
+  <text x="350" y="289" text-anchor="middle" font-size="10" fill="#555">even for naps.</text>
+  <text x="350" y="303" text-anchor="middle" font-size="10" fill="#1565c0">Reduces SIDS risk ↓</text>
+
+  <!-- ── C: CLEAR CRIB ── -->
+  <rect x="480" y="72" width="200" height="235" rx="12" fill="#fff" stroke="#ff7043" stroke-width="2"/>
+  <text x="580" y="110" text-anchor="middle" font-size="48" font-weight="bold" fill="#ff7043">C</text>
+  <text x="580" y="130" text-anchor="middle" font-size="13" font-weight="bold" fill="#bf360c">CLEAR CRIB</text>
+
+  <!-- Crib with nothing in it except firm mattress + baby -->
+  <rect x="505" y="148" width="150" height="95" rx="6" fill="#fff3e0" stroke="#ff7043" stroke-width="1.5"/>
+  <!-- Crib bars -->
+  <line x1="505" y1="148" x2="505" y2="243" stroke="#ff7043" stroke-width="2"/>
+  <line x1="655" y1="148" x2="655" y2="243" stroke="#ff7043" stroke-width="2"/>
+  <line x1="527" y1="148" x2="527" y2="243" stroke="#ff7043" stroke-width="1" opacity="0.4"/>
+  <line x1="549" y1="148" x2="549" y2="243" stroke="#ff7043" stroke-width="1" opacity="0.4"/>
+  <line x1="571" y1="148" x2="571" y2="243" stroke="#ff7043" stroke-width="1" opacity="0.4"/>
+  <line x1="593" y1="148" x2="593" y2="243" stroke="#ff7043" stroke-width="1" opacity="0.4"/>
+  <line x1="615" y1="148" x2="615" y2="243" stroke="#ff7043" stroke-width="1" opacity="0.4"/>
+  <line x1="637" y1="148" x2="637" y2="243" stroke="#ff7043" stroke-width="1" opacity="0.4"/>
+  <!-- Firm flat mattress only -->
+  <rect x="510" y="220" width="140" height="18" rx="3" fill="#ffccbc"/>
+  <!-- Baby -->
+  <ellipse cx="580" cy="207" rx="18" ry="16" fill="#f9ddb6" stroke="#c8a070" stroke-width="1.2"/>
+  <text x="580" y="212" text-anchor="middle" font-size="12">😴</text>
+  <!-- X marks for banned items -->
+  <!-- Pillow -->
+  <rect x="512" y="160" width="28" height="18" rx="3" fill="#ffccbc" opacity="0.5"/>
+  <line x1="512" y1="160" x2="540" y2="178" stroke="#ef5350" stroke-width="1.5"/>
+  <line x1="540" y1="160" x2="512" y2="178" stroke="#ef5350" stroke-width="1.5"/>
+  <!-- Stuffed toy -->
+  <circle cx="556" cy="168" r="11" fill="#ffccbc" opacity="0.5"/>
+  <line x1="545" y1="157" x2="567" y2="179" stroke="#ef5350" stroke-width="1.5"/>
+  <line x1="567" y1="157" x2="545" y2="179" stroke="#ef5350" stroke-width="1.5"/>
+  <!-- Blanket -->
+  <path d="M618,160 Q638,155 648,175 Q638,185 618,178 Z" fill="#ffccbc" opacity="0.5"/>
+  <line x1="618" y1="160" x2="648" y2="178" stroke="#ef5350" stroke-width="1.5"/>
+  <line x1="648" y1="160" x2="618" y2="178" stroke="#ef5350" stroke-width="1.5"/>
+
+  <text x="580" y="268" text-anchor="middle" font-size="10" fill="#555">Firm flat mattress only.</text>
+  <text x="580" y="282" text-anchor="middle" font-size="10" fill="#555">No pillows, blankets,</text>
+  <text x="580" y="296" text-anchor="middle" font-size="10" fill="#bf360c">bumpers, or stuffed toys.</text>
+
+  <!-- Source note -->
+  <text x="350" y="326" text-anchor="middle" font-size="10" fill="#999">Source: CDC — cdc.gov/sudden-infant-death/sleep-safely</text>
+</svg>

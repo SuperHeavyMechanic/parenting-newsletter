@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 380" width="700" height="380" font-family="Georgia, serif">
+  <!-- Background -->
+  <rect width="700" height="380" fill="#f8f4ef" rx="14"/>
+
+  <!-- Title -->
+  <text x="350" y="38" text-anchor="middle" font-size="18" font-weight="bold" fill="#2c2c2c">Newborn Sleep States</text>
+  <text x="350" y="58" text-anchor="middle" font-size="12" fill="#666">At 4 weeks, most sleep is Active (REM-like) — this is normal and healthy</text>
+
+  <!-- ── LEFT PANEL: ACTIVE SLEEP ── -->
+  <rect x="30" y="75" width="300" height="265" rx="12" fill="#fff7e6" stroke="#e8a83a" stroke-width="1.5"/>
+  <text x="180" y="102" text-anchor="middle" font-size="15" font-weight="bold" fill="#c47a00">Active Sleep</text>
+  <text x="180" y="118" text-anchor="middle" font-size="11" fill="#888">(like adult REM)</text>
+
+  <!-- Baby face — active sleep: eyelids fluttering shown as wavy lines over closed eyes -->
+  <!-- Head -->
+  <ellipse cx="180" cy="175" rx="52" ry="48" fill="#f9ddb6" stroke="#c8a070" stroke-width="1.5"/>
+  <!-- Ear -->
+  <ellipse cx="230" cy="178" rx="9" ry="12" fill="#f0c896" stroke="#c8a070" stroke-width="1"/>
+  <ellipse cx="130" cy="178" rx="9" ry="12" fill="#f0c896" stroke="#c8a070" stroke-width="1"/>
+  <!-- Closed eyes with flutter marks -->
+  <path d="M155 168 Q165 164 175 168" stroke="#5a3e28" stroke-width="2" fill="none"/>
+  <path d="M185 168 Q195 164 205 168" stroke="#5a3e28" stroke-width="2" fill="none"/>
+  <!-- Flutter lines above eyes -->
+  <path d="M153 160 Q158 155 163 160" stroke="#e8a83a" stroke-width="1.5" fill="none" stroke-dasharray="2,2"/>
+  <path d="M183 160 Q188 155 193 160" stroke="#e8a83a" stroke-width="1.5" fill="none" stroke-dasharray="2,2"/>
+  <!-- Mouth — slight open / moving -->
+  <path d="M168 192 Q180 198 192 192" stroke="#a06040" stroke-width="1.5" fill="#f8c8a0"/>
+  <!-- Body with twitching arm -->
+  <ellipse cx="180" cy="242" rx="38" ry="30" fill="#b0d4f1" stroke="#7ab0d8" stroke-width="1.5"/>
+  <!-- Twitching arm — angled upward -->
+  <line x1="218" y1="238" x2="248" y2="215" stroke="#f9ddb6" stroke-width="8" stroke-linecap="round"/>
+  <line x1="248" y1="215" x2="260" y2="205" stroke="#f9ddb6" stroke-width="6" stroke-linecap="round"/>
+  <!-- Motion lines -->
+  <line x1="252" y1="207" x2="265" y2="200" stroke="#e8a83a" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <line x1="256" y1="212" x2="268" y2="206" stroke="#e8a83a" stroke-width="1.2" stroke-dasharray="3,2"/>
+
+  <!-- Irregular breathing wave -->
+  <text x="180" y="298" text-anchor="middle" font-size="10" fill="#888">Breathing:</text>
+  <polyline points="90,315 110,310 118,325 128,305 140,320 150,308 165,322 180,312 195,325 210,308 225,318 240,305 255,318 268,312 280,325" fill="none" stroke="#e8a83a" stroke-width="2"/>
+  <text x="180" y="335" text-anchor="middle" font-size="10" fill="#c47a00">irregular — totally normal</text>
+
+  <!-- ── RIGHT PANEL: QUIET SLEEP ── -->
+  <rect x="370" y="75" width="300" height="265" rx="12" fill="#eaf4ff" stroke="#5b9bd5" stroke-width="1.5"/>
+  <text x="520" y="102" text-anchor="middle" font-size="15" font-weight="bold" fill="#2a6db0">Quiet Sleep</text>
+  <text x="520" y="118" text-anchor="middle" font-size="11" fill="#888">(like adult deep NREM)</text>
+
+  <!-- Baby face — quiet sleep: very still, peaceful -->
+  <ellipse cx="520" cy="175" rx="52" ry="48" fill="#f9ddb6" stroke="#c8a070" stroke-width="1.5"/>
+  <ellipse cx="570" cy="178" rx="9" ry="12" fill="#f0c896" stroke="#c8a070" stroke-width="1"/>
+  <ellipse cx="470" cy="178" rx="9" ry="12" fill="#f0c896" stroke="#c8a070" stroke-width="1"/>
+  <!-- Softly closed eyes — long smooth arcs -->
+  <path d="M495 170 Q507 163 519 170" stroke="#5a3e28" stroke-width="2" fill="none"/>
+  <path d="M521 170 Q533 163 545 170" stroke="#5a3e28" stroke-width="2" fill="none"/>
+  <!-- Serene mouth -->
+  <path d="M508 192 Q520 196 532 192" stroke="#a06040" stroke-width="1.5" fill="none"/>
+  <!-- Body — arms still and tucked -->
+  <ellipse cx="520" cy="242" rx="38" ry="30" fill="#b0d4f1" stroke="#7ab0d8" stroke-width="1.5"/>
+  <!-- Still arm — tucked down -->
+  <line x1="556" y1="240" x2="576" y2="255" stroke="#f9ddb6" stroke-width="8" stroke-linecap="round"/>
+  <!-- ZZZ -->
+  <text x="590" y="220" font-size="18" fill="#5b9bd5" opacity="0.8">z</text>
+  <text x="600" y="205" font-size="14" fill="#5b9bd5" opacity="0.6">z</text>
+  <text x="608" y="193" font-size="11" fill="#5b9bd5" opacity="0.4">z</text>
+
+  <!-- Regular breathing wave -->
+  <text x="520" y="298" text-anchor="middle" font-size="10" fill="#888">Breathing:</text>
+  <polyline points="430,315 447,305 464,325 481,305 498,325 515,305 532,325 549,305 566,325 583,305 600,325 614,315" fill="none" stroke="#5b9bd5" stroke-width="2"/>
+  <text x="520" y="335" text-anchor="middle" font-size="10" fill="#2a6db0">slow and regular</text>
+
+  <!-- ── BOTTOM: CYCLE NOTE ── -->
+  <rect x="200" y="350" width="300" height="22" rx="5" fill="#fff" stroke="#ccc" stroke-width="1"/>
+  <text x="350" y="365" text-anchor="middle" font-size="11" fill="#555">One full cycle ≈ 60 minutes at 4 weeks</text>
+</svg>
