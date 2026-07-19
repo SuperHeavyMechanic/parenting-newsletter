@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 360" width="560" height="360" font-family="Georgia, serif">
+  <!-- Background -->
+  <rect width="560" height="360" rx="12" fill="#f5f9fd"/>
+
+  <!-- Title -->
+  <text x="280" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a3a5c">The 5 S's — Soothing Toolkit</text>
+  <text x="280" y="56" text-anchor="middle" font-size="12" fill="#4a6880">Use in order — each step adds to the calming effect</text>
+
+  <!-- Step 1: Swaddle -->
+  <rect x="30" y="72" width="96" height="96" rx="10" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="78" y="108" text-anchor="middle" font-size="34">🌯</text>
+  <text x="78" y="130" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e3a8a">1. Swaddle</text>
+  <text x="78" y="146" text-anchor="middle" font-size="10" fill="#1e3a8a">Snug wrap,</text>
+  <text x="78" y="158" text-anchor="middle" font-size="10" fill="#1e3a8a">hips loose</text>
+
+  <!-- Arrow 1→2 -->
+  <text x="136" y="122" text-anchor="middle" font-size="18" fill="#3b82f6">→</text>
+
+  <!-- Step 2: Side/Stomach -->
+  <rect x="150" y="72" width="96" height="96" rx="10" fill="#d1fae5" stroke="#059669" stroke-width="1.5"/>
+  <text x="198" y="108" text-anchor="middle" font-size="34">↔️</text>
+  <text x="198" y="130" text-anchor="middle" font-size="13" font-weight="bold" fill="#064e3b">2. Side / Stomach</text>
+  <text x="198" y="146" text-anchor="middle" font-size="10" fill="#064e3b">Hold on side</text>
+  <text x="198" y="158" text-anchor="middle" font-size="10" fill="#064e3b">or tummy</text>
+
+  <!-- Arrow 2→3 -->
+  <text x="256" y="122" text-anchor="middle" font-size="18" fill="#059669">→</text>
+
+  <!-- Step 3: Shush -->
+  <rect x="270" y="72" width="96" height="96" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+  <text x="318" y="108" text-anchor="middle" font-size="34">🔊</text>
+  <text x="318" y="130" text-anchor="middle" font-size="13" font-weight="bold" fill="#78350f">3. Shush</text>
+  <text x="318" y="146" text-anchor="middle" font-size="10" fill="#78350f">White noise or</text>
+  <text x="318" y="158" text-anchor="middle" font-size="10" fill="#78350f">loud "shhh"</text>
+
+  <!-- Arrow 3→4 -->
+  <text x="376" y="122" text-anchor="middle" font-size="18" fill="#d97706">→</text>
+
+  <!-- Step 4: Swing -->
+  <rect x="390" y="72" width="96" height="96" rx="10" fill="#fce7f3" stroke="#db2777" stroke-width="1.5"/>
+  <text x="438" y="108" text-anchor="middle" font-size="34">〰️</text>
+  <text x="438" y="130" text-anchor="middle" font-size="13" font-weight="bold" fill="#831843">4. Swing</text>
+  <text x="438" y="146" text-anchor="middle" font-size="10" fill="#831843">Rhythmic jiggle</text>
+  <text x="438" y="158" text-anchor="middle" font-size="10" fill="#831843">or rocking</text>
+
+  <!-- Step 5 centered below -->
+  <rect x="230" y="192" width="96" height="96" rx="10" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+  <text x="278" y="228" text-anchor="middle" font-size="34">🍼</text>
+  <text x="278" y="250" text-anchor="middle" font-size="13" font-weight="bold" fill="#4c1d95">5. Suck</text>
+  <text x="278" y="266" text-anchor="middle" font-size="10" fill="#4c1d95">Pacifier or</text>
+  <text x="278" y="278" text-anchor="middle" font-size="10" fill="#4c1d95">finger to suck</text>
+
+  <!-- Arrows 4→5 and 3→5 -->
+  <path d="M438,170 Q438,185 278,190" fill="none" stroke="#db2777" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arr)"/>
+  <defs>
+    <marker id="arr" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#7c3aed"/>
+    </marker>
+  </defs>
+
+  <!-- Tip box -->
+  <rect x="30" y="196" width="188" height="84" rx="8" fill="#fff7ed" stroke="#fb923c" stroke-width="1"/>
+  <text x="124" y="214" text-anchor="middle" font-size="11" font-weight="bold" fill="#c2410c">Dad's tip</text>
+  <text x="38" y="230" font-size="10" fill="#3d2b1f">Start from S1 each time.</text>
+  <text x="38" y="244" font-size="10" fill="#3d2b1f">If S1+S2 don't work, add S3.</text>
+  <text x="38" y="258" font-size="10" fill="#3d2b1f">Stack all 5 for colic/peak crying.</text>
+  <text x="38" y="272" font-size="10" fill="#3d2b1f">Never shake — always gentle.</text>
+
+  <!-- Tip box right -->
+  <rect x="342" y="196" width="176" height="84" rx="8" fill="#fff7ed" stroke="#fb923c" stroke-width="1"/>
+  <text x="430" y="214" text-anchor="middle" font-size="11" font-weight="bold" fill="#c2410c">Back to sleep rule</text>
+  <text x="350" y="230" font-size="10" fill="#3d2b1f">Side/stomach hold is for</text>
+  <text x="350" y="244" font-size="10" fill="#3d2b1f">when you're awake &amp; holding.</text>
+  <text x="350" y="258" font-size="10" fill="#3d2b1f">Always place baby on their</text>
+  <text x="350" y="272" font-size="10" fill="#3d2b1f">back when putting to sleep.</text>
+
+  <!-- Analogy -->
+  <rect x="30" y="300" width="500" height="48" rx="8" fill="#e0f2fe"/>
+  <text x="280" y="320" text-anchor="middle" font-size="11" fill="#0c4a6e" font-weight="bold">💡 Analogy: The 5 S's recreate the womb — snug, tilted, loud, moving, and sucking.</text>
+  <text x="280" y="338" text-anchor="middle" font-size="10.5" fill="#0c4a6e">Baby spent 9 months in exactly those conditions. Each "S" is a reminder of home.</text>
+</svg>

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 340" width="560" height="340" font-family="Georgia, serif">
+  <!-- Background -->
+  <rect width="560" height="340" rx="12" fill="#fdf6f0"/>
+
+  <!-- Title -->
+  <text x="280" y="36" text-anchor="middle" font-size="17" font-weight="bold" fill="#3d2b1f">PURPLE Crying — The Normal Crying Arc</text>
+  <text x="280" y="56" text-anchor="middle" font-size="12" fill="#7a5c47">Crying peaks around 4–6 weeks, then gradually fades by 3–4 months</text>
+
+  <!-- Axes -->
+  <line x1="60" y1="260" x2="500" y2="260" stroke="#c8a88a" stroke-width="2"/>
+  <line x1="60" y1="80" x2="60" y2="260" stroke="#c8a88a" stroke-width="2"/>
+
+  <!-- Y axis label -->
+  <text transform="rotate(-90,22,170)" x="22" y="170" text-anchor="middle" font-size="11" fill="#7a5c47">Crying (hrs/day)</text>
+  <!-- Y ticks -->
+  <text x="52" y="264" text-anchor="end" font-size="10" fill="#7a5c47">0</text>
+  <text x="52" y="218" text-anchor="end" font-size="10" fill="#7a5c47">1</text>
+  <text x="52" y="172" text-anchor="end" font-size="10" fill="#7a5c47">2</text>
+  <text x="52" y="126" text-anchor="end" font-size="10" fill="#7a5c47">3</text>
+  <line x1="57" y1="216" x2="63" y2="216" stroke="#c8a88a" stroke-width="1"/>
+  <line x1="57" y1="170" x2="63" y2="170" stroke="#c8a88a" stroke-width="1"/>
+  <line x1="57" y1="124" x2="63" y2="124" stroke="#c8a88a" stroke-width="1"/>
+
+  <!-- X axis labels: weeks 0–16 -->
+  <text x="60"  y="278" text-anchor="middle" font-size="10" fill="#7a5c47">0</text>
+  <text x="115" y="278" text-anchor="middle" font-size="10" fill="#7a5c47">2</text>
+  <text x="170" y="278" text-anchor="middle" font-size="10" fill="#7a5c47">4</text>
+  <text x="225" y="278" text-anchor="middle" font-size="10" fill="#7a5c47">6</text>
+  <text x="280" y="278" text-anchor="middle" font-size="10" fill="#7a5c47">8</text>
+  <text x="335" y="278" text-anchor="middle" font-size="10" fill="#7a5c47">10</text>
+  <text x="390" y="278" text-anchor="middle" font-size="10" fill="#7a5c47">12</text>
+  <text x="445" y="278" text-anchor="middle" font-size="10" fill="#7a5c47">14</text>
+  <text x="500" y="278" text-anchor="middle" font-size="10" fill="#7a5c47">16</text>
+  <text x="280" y="298" text-anchor="middle" font-size="11" fill="#7a5c47">Baby's age (weeks)</text>
+
+  <!-- Shaded area under curve -->
+  <path d="M60,250 C88,248 115,230 170,148 C200,110 215,96 225,92 C237,87 250,87 260,90 C275,95 290,108 310,130 C340,165 370,200 420,228 C450,242 475,250 500,252 L500,260 L60,260 Z" fill="#f5c6a0" opacity="0.5"/>
+
+  <!-- Bell curve line -->
+  <path d="M60,250 C88,248 115,230 170,148 C200,110 215,96 225,92 C237,87 250,87 260,90 C275,95 290,108 310,130 C340,165 370,200 420,228 C450,242 475,250 500,252" fill="none" stroke="#d4622a" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Peak marker at ~week 5-6 (x≈237) -->
+  <line x1="237" y1="88" x2="237" y2="260" stroke="#d4622a" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <circle cx="237" cy="88" r="5" fill="#d4622a"/>
+  <rect x="178" y="64" width="120" height="20" rx="4" fill="#d4622a" opacity="0.15"/>
+  <text x="238" y="77" text-anchor="middle" font-size="11" font-weight="bold" fill="#d4622a">Peak: ~week 5–6</text>
+
+  <!-- "You are here" marker (week 5, x≈ 60 + 5*27.5 = 197.5) -->
+  <circle cx="198" cy="132" r="6" fill="#2a7fd4" stroke="white" stroke-width="2"/>
+  <text x="198" y="122" text-anchor="middle" font-size="11" font-weight="bold" fill="#2a7fd4">← You are here</text>
+
+  <!-- Zone labels -->
+  <text x="95" y="200" text-anchor="middle" font-size="10" fill="#c06030">Building</text>
+  <text x="237" y="108" text-anchor="middle" font-size="10" fill="#c06030" dy="14">Peak</text>
+  <text x="390" y="195" text-anchor="middle" font-size="10" fill="#c06030">Tapering</text>
+
+  <!-- "Ends ~3–4 months" callout -->
+  <text x="440" y="240" text-anchor="middle" font-size="10" fill="#7a5c47">Ends ~3–4 months</text>
+
+  <!-- PURPLE acronym box -->
+  <rect x="62" y="82" width="88" height="130" rx="6" fill="#fff8f3" stroke="#d4a87a" stroke-width="1"/>
+  <text x="106" y="97" text-anchor="middle" font-size="11" font-weight="bold" fill="#d4622a">PURPLE</text>
+  <text x="67" y="112" font-size="9.5" fill="#3d2b1f"><tspan font-weight="bold">P</tspan> = Peak pattern</text>
+  <text x="67" y="126" font-size="9.5" fill="#3d2b1f"><tspan font-weight="bold">U</tspan> = Unexpected</text>
+  <text x="67" y="140" font-size="9.5" fill="#3d2b1f"><tspan font-weight="bold">R</tspan> = Resists soothing</text>
+  <text x="67" y="154" font-size="9.5" fill="#3d2b1f"><tspan font-weight="bold">P</tspan> = Pain-like face</text>
+  <text x="67" y="168" font-size="9.5" fill="#3d2b1f"><tspan font-weight="bold">L</tspan> = Long-lasting</text>
+  <text x="67" y="182" font-size="9.5" fill="#3d2b1f"><tspan font-weight="bold">E</tspan> = Evening cluster</text>
+
+  <!-- Analogy -->
+  <rect x="60" y="308" width="440" height="24" rx="6" fill="#fde8d5"/>
+  <text x="280" y="324" text-anchor="middle" font-size="11" fill="#3d2b1f">💡 Analogy: Like rush-hour traffic — it peaks, it's frustrating, and it always clears eventually.</text>
+</svg>
