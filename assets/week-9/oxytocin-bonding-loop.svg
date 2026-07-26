@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" width="600" height="420" font-family="Georgia, serif">
+  <!-- Background -->
+  <rect width="600" height="420" fill="#fafafa" rx="12"/>
+  <text x="300" y="36" font-size="18" font-weight="bold" fill="#1a1a2e" text-anchor="middle">The Oxytocin Bonding Loop</text>
+  <text x="300" y="56" font-size="12" fill="#555" text-anchor="middle">Analogy: like a thermostat — each loop warms the room a little more</text>
+
+  <!-- Centre label -->
+  <circle cx="300" cy="220" r="52" fill="#fff3e0" stroke="#e07b39" stroke-width="2"/>
+  <text x="300" y="214" font-size="13" font-weight="bold" fill="#b35900" text-anchor="middle">Oxytocin</text>
+  <text x="300" y="232" font-size="11" fill="#b35900" text-anchor="middle">"love hormone"</text>
+
+  <!-- Node 1: Top — Skin-to-skin / touch -->
+  <rect x="195" y="72" width="210" height="52" rx="10" fill="#d0ebff" stroke="#1971c2" stroke-width="1.5"/>
+  <text x="300" y="93" font-size="13" font-weight="bold" fill="#003f88" text-anchor="middle">👶 Touch &amp; Skin-to-Skin</text>
+  <text x="300" y="112" font-size="11" fill="#003f88" text-anchor="middle">Holding, eye contact, feeding</text>
+
+  <!-- Node 2: Right — Release -->
+  <rect x="440" y="185" width="140" height="52" rx="10" fill="#d3f9d8" stroke="#2f9e44" stroke-width="1.5"/>
+  <text x="510" y="207" font-size="12" font-weight="bold" fill="#1a5e2a" text-anchor="middle">🧠 Brain releases</text>
+  <text x="510" y="224" font-size="11" fill="#1a5e2a" text-anchor="middle">oxytocin burst</text>
+
+  <!-- Node 3: Bottom — Feeling of calm/love -->
+  <rect x="195" y="330" width="210" height="52" rx="10" fill="#f8d7da" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="300" y="352" font-size="13" font-weight="bold" fill="#7b1212" text-anchor="middle">❤️ Feeling of Love &amp; Calm</text>
+  <text x="300" y="370" font-size="11" fill="#7b1212" text-anchor="middle">Mum feels connected · less stressed</text>
+
+  <!-- Node 4: Left — More touch -->
+  <rect x="20" y="185" width="140" height="52" rx="10" fill="#f3d9fa" stroke="#6741d9" stroke-width="1.5"/>
+  <text x="90" y="207" font-size="12" font-weight="bold" fill="#3b0764" text-anchor="middle">🔁 Craves more</text>
+  <text x="90" y="224" font-size="11" fill="#3b0764" text-anchor="middle">bonding moments</text>
+
+  <!-- Arrows (curved) — clockwise from top -->
+  <!-- Top → Right -->
+  <path d="M 405 98 Q 500 120 510 185" fill="none" stroke="#e07b39" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <!-- Right → Bottom -->
+  <path d="M 510 237 Q 510 320 405 348" fill="none" stroke="#e07b39" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <!-- Bottom → Left -->
+  <path d="M 195 358 Q 100 340 90 237" fill="none" stroke="#e07b39" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <!-- Left → Top -->
+  <path d="M 90 185 Q 120 100 195 98" fill="none" stroke="#e07b39" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e07b39"/>
+    </marker>
+  </defs>
+
+  <!-- Dad callout -->
+  <rect x="200" y="394" width="200" height="20" rx="6" fill="#fff9db" stroke="#f59f00" stroke-width="1"/>
+  <text x="300" y="408" font-size="10.5" fill="#7c5e00" text-anchor="middle">Dad triggers it too — cuddles, talking, play</text>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" width="680" height="320" font-family="Georgia, serif">
+  <!-- Background -->
+  <rect width="680" height="320" fill="#fafafa" rx="12"/>
+  <text x="340" y="36" font-size="18" font-weight="bold" fill="#1a1a2e" text-anchor="middle">Postpartum Mood: The Full Spectrum</text>
+  <text x="340" y="56" font-size="12" fill="#555" text-anchor="middle">Analogy: a weather scale — drizzle is normal; a storm needs shelter</text>
+
+  <!-- Spectrum bar -->
+  <defs>
+    <linearGradient id="moodGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#b3d9ff"/>
+      <stop offset="30%" stop-color="#ffe8a0"/>
+      <stop offset="65%" stop-color="#ffb366"/>
+      <stop offset="100%" stop-color="#e05a5a"/>
+    </linearGradient>
+  </defs>
+  <rect x="40" y="80" width="600" height="50" rx="10" fill="url(#moodGrad)"/>
+
+  <!-- Zone labels above bar -->
+  <text x="110" y="76" font-size="11" font-weight="bold" fill="#1a4a8a" text-anchor="middle">Normal</text>
+  <text x="240" y="76" font-size="11" font-weight="bold" fill="#7c5e00" text-anchor="middle">Baby Blues</text>
+  <text x="400" y="76" font-size="11" font-weight="bold" fill="#8a3a00" text-anchor="middle">PPD / PPA</text>
+  <text x="580" y="76" font-size="11" font-weight="bold" fill="#7b1212" text-anchor="middle">Postpartum Psychosis</text>
+
+  <!-- Zone dividers -->
+  <line x1="180" y1="75" x2="180" y2="130" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="320" y1="75" x2="320" y2="130" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="490" y1="75" x2="490" y2="130" stroke="#aaa" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- Condition boxes below bar -->
+  <!-- Normal -->
+  <rect x="40" y="145" width="130" height="80" rx="8" fill="#d0ebff" stroke="#1971c2" stroke-width="1"/>
+  <text x="105" y="163" font-size="11" font-weight="bold" fill="#003f88" text-anchor="middle">Normal adjusting</text>
+  <text x="105" y="178" font-size="10" fill="#003f88" text-anchor="middle">Tired but coping</text>
+  <text x="105" y="193" font-size="10" fill="#003f88" text-anchor="middle">Moments of joy</text>
+  <text x="105" y="208" font-size="10" fill="#003f88" text-anchor="middle">Responds to support</text>
+  <text x="105" y="223" font-size="10" fill="#003f88" text-anchor="middle">No action needed</text>
+
+  <!-- Baby blues -->
+  <rect x="182" y="145" width="130" height="80" rx="8" fill="#fff3bf" stroke="#f59f00" stroke-width="1"/>
+  <text x="247" y="163" font-size="11" font-weight="bold" fill="#7c5e00" text-anchor="middle">Baby Blues</text>
+  <text x="247" y="178" font-size="10" fill="#7c5e00" text-anchor="middle">Tearful, mood swings</text>
+  <text x="247" y="193" font-size="10" fill="#7c5e00" text-anchor="middle">Resolves by day 14</text>
+  <text x="247" y="208" font-size="10" fill="#7c5e00" text-anchor="middle">Affects ~80% of mums</text>
+  <text x="247" y="223" font-size="10" fill="#7c5e00" text-anchor="middle">Rest &amp; support help</text>
+
+  <!-- PPD/PPA -->
+  <rect x="324" y="145" width="158" height="80" rx="8" fill="#ffe8cc" stroke="#d9730d" stroke-width="1"/>
+  <text x="403" y="163" font-size="11" font-weight="bold" fill="#7c3810" text-anchor="middle">PPD / PPA</text>
+  <text x="403" y="178" font-size="10" fill="#7c3810" text-anchor="middle">Sadness, anxiety, anger</text>
+  <text x="403" y="193" font-size="10" fill="#7c3810" text-anchor="middle">Persists past 2 weeks</text>
+  <text x="403" y="208" font-size="10" fill="#7c3810" text-anchor="middle">Affects 1 in 5 mums</text>
+  <text x="403" y="223" font-size="10" fill="#7c3810" text-anchor="middle">Needs medical care</text>
+
+  <!-- Psychosis -->
+  <rect x="494" y="145" width="146" height="80" rx="8" fill="#ffd6cc" stroke="#9b2226" stroke-width="1"/>
+  <text x="567" y="163" font-size="11" font-weight="bold" fill="#7b1212" text-anchor="middle">PP Psychosis</text>
+  <text x="567" y="178" font-size="10" fill="#7b1212" text-anchor="middle">Rare — 1–2 in 1,000</text>
+  <text x="567" y="193" font-size="10" fill="#7b1212" text-anchor="middle">Hallucinations, mania</text>
+  <text x="567" y="208" font-size="10" fill="#7b1212" text-anchor="middle">Rapid onset (72 hr)</text>
+  <text x="567" y="223" font-size="10" fill="#7b1212" text-anchor="middle">Emergency — call now</text>
+
+  <!-- Bottom callout for dads -->
+  <rect x="40" y="240" width="600" height="62" rx="8" fill="#f0fff4" stroke="#2f9e44" stroke-width="1.5"/>
+  <text x="340" y="260" font-size="12" font-weight="bold" fill="#1a5e2a" text-anchor="middle">👨 Dads: trust your gut</text>
+  <text x="340" y="278" font-size="11" fill="#1a5e2a" text-anchor="middle">You're often the first to notice a change — 2 weeks of sadness that's getting worse, not better,</text>
+  <text x="340" y="294" font-size="11" fill="#1a5e2a" text-anchor="middle">or feeling unable to bond with baby, is enough reason to call your OB/midwife today.</text>
+</svg>
