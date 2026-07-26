@@ -30,6 +30,9 @@ Paste this into Claude Code to generate the current week's issue end-to-end:
 | Week 4 — Postpartum recovery: supporting your wife | `3949aa0c-f135-81be-9014-fba104e26662` |
 | Week 5 — Feeding deep-dive | `38d9aa0c-f135-81c2-b574-d94d5bbc6cd3` |
 | Week 6 — Breastfeeding support for dads | `38d9aa0c-f135-8161-8f52-fee3f84bae42` |
+| Week 7 — Sleep deep-dive | `39b9aa0c-f135-81b3-9586-d3ae4d82da66` |
+| Week 8 — Crying & soothing mastery | `3a29aa0c-f135-8192-8dca-f00e5c023f4a` |
+| Week 9 — Postpartum mental health | `3a99aa0c-f135-8169-a6a2-c1524df58d69` |
 
 Always read the spec page at the start of every run — Shan may have changed depth dials or added notes.
 
