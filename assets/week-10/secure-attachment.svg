@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" width="680" height="380" font-family="Arial, Helvetica, sans-serif">
+  <!-- Background -->
+  <rect width="680" height="380" fill="#FAFAF8" rx="12"/>
+
+  <!-- Title -->
+  <text x="340" y="36" text-anchor="middle" font-size="18" font-weight="bold" fill="#2D2D2D">Secure Attachment</text>
+  <text x="340" y="56" text-anchor="middle" font-size="12" fill="#888">You are the safe base your baby explores from</text>
+  <line x1="80" y1="68" x2="600" y2="68" stroke="#E0DDD8" stroke-width="1.5"/>
+
+  <!-- OUTER WORLD circle -->
+  <circle cx="340" cy="210" r="150" fill="none" stroke="#C8D8E8" stroke-width="1.5" stroke-dasharray="8,5"/>
+  <text x="340" y="90" text-anchor="middle" font-size="12" fill="#8090A0">The World (sights, sounds, new faces)</text>
+
+  <!-- SAFE BASE circle (center) -->
+  <circle cx="340" cy="210" r="60" fill="#E8F4EC" stroke="#5BA87A" stroke-width="2.5"/>
+  <text x="340" y="202" text-anchor="middle" font-size="13" font-weight="bold" fill="#2D6840">DAD &amp; MUM</text>
+  <text x="340" y="220" text-anchor="middle" font-size="12" fill="#3D7850">Safe Base</text>
+  <!-- Home icon -->
+  <polygon points="340,168 322,180 322,192 358,192 358,180" fill="#5BA87A" opacity="0.5"/>
+  <rect x="332" y="182" width="16" height="10" fill="#3D7850" opacity="0.7"/>
+
+  <!-- BABY figure: top-right (exploring outward) -->
+  <circle cx="450" cy="130" r="18" fill="#FFE8D0" stroke="#E09060" stroke-width="1.5"/>
+  <circle cx="450" cy="117" r="10" fill="#FFE8D0" stroke="#E09060" stroke-width="1.5"/>
+  <text x="450" y="121" text-anchor="middle" font-size="9" fill="#8A5030">baby</text>
+  <!-- Arrow from safe base to baby (explore) -->
+  <path d="M385 175 Q415 150 432 135" stroke="#5BA87A" stroke-width="2" fill="none" stroke-linecap="round" marker-end="url(#arrowGreen)"/>
+  <defs>
+    <marker id="arrowGreen" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#5BA87A"/>
+    </marker>
+    <marker id="arrowOrange" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#E08040"/>
+    </marker>
+  </defs>
+  <text x="438" y="148" font-size="11" fill="#3D7850" font-style="italic">explores</text>
+
+  <!-- Return arrow from baby back to base -->
+  <path d="M432 148 Q405 168 390 180" stroke="#E08040" stroke-width="2" fill="none" stroke-linecap="round" stroke-dasharray="5,3" marker-end="url(#arrowOrange)"/>
+  <text x="396" y="172" font-size="11" fill="#C06020" font-style="italic">returns</text>
+
+  <!-- BABY figure: bottom-left (needs comfort) -->
+  <circle cx="225" cy="280" r="18" fill="#FFE8D0" stroke="#E09060" stroke-width="1.5"/>
+  <circle cx="225" cy="267" r="10" fill="#FFE8D0" stroke="#E09060" stroke-width="1.5"/>
+  <!-- teardrop (upset) -->
+  <ellipse cx="225" cy="276" rx="3" ry="4" fill="#A0C8E8" opacity="0.8"/>
+
+  <!-- Return arrow: upset baby → safe base (comfort) -->
+  <path d="M243 272 Q278 258 292 238" stroke="#E08040" stroke-width="2" fill="none" stroke-linecap="round" marker-end="url(#arrowOrange)"/>
+  <text x="248" y="250" font-size="11" fill="#C06020" font-style="italic">comfort</text>
+
+  <!-- Cycle arrows indicating the loop -->
+  <text x="120" y="188" font-size="12" fill="#4A7A60" font-weight="bold">① Feels safe →</text>
+  <text x="110" y="205" font-size="12" fill="#4A7A60">     goes to explore</text>
+  <text x="110" y="238" font-size="12" fill="#C06020">② Gets scared /</text>
+  <text x="110" y="255" font-size="12" fill="#C06020">   tired → returns</text>
+  <text x="110" y="270" font-size="12" fill="#5BA87A">③ Gets comfort →</text>
+  <text x="110" y="287" font-size="12" fill="#5BA87A">   ready to explore again</text>
+
+  <!-- Key insight callout -->
+  <rect x="455" y="240" width="190" height="72" rx="8" fill="#EEF2FF" stroke="#8090C8" stroke-width="1.5"/>
+  <text x="550" y="258" text-anchor="middle" font-size="11" fill="#4050A0" font-weight="bold">The more secure</text>
+  <text x="550" y="272" text-anchor="middle" font-size="11" fill="#4050A0">the base, the bolder</text>
+  <text x="550" y="286" text-anchor="middle" font-size="11" fill="#4050A0">the explorer later.</text>
+  <text x="550" y="304" text-anchor="middle" font-size="10" fill="#8090C0">Your consistency now =</text>
+  <text x="550" y="316" text-anchor="middle" font-size="10" fill="#8090C0">their confidence later.</text>
+
+  <!-- Analogy box -->
+  <rect x="60" y="338" width="560" height="32" rx="8" fill="#E8F4EC" stroke="#5BA87A" stroke-width="1.5"/>
+  <text x="340" y="354" text-anchor="middle" font-size="12" fill="#2D6840" font-weight="bold">Everyday analogy: </text>
+  <text x="340" y="362" text-anchor="middle" font-size="11.5" fill="#2D6840">Home base in cricket — your baby can run out to bat because they know the crease is always there to come back to.</text>
+</svg>

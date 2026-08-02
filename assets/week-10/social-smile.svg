@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" width="680" height="320" font-family="Arial, Helvetica, sans-serif">
+  <!-- Background -->
+  <rect width="680" height="320" fill="#FAFAF8" rx="12"/>
+
+  <!-- Title -->
+  <text x="340" y="36" text-anchor="middle" font-size="18" font-weight="bold" fill="#2D2D2D">Social Smile vs. Reflex Smile</text>
+  <line x1="80" y1="50" x2="600" y2="50" stroke="#E0DDD8" stroke-width="1.5"/>
+
+  <!-- DIVIDER -->
+  <line x1="340" y1="60" x2="340" y2="290" stroke="#E0DDD8" stroke-width="1.5" stroke-dasharray="6,4"/>
+
+  <!-- === LEFT: REFLEX SMILE === -->
+  <text x="170" y="78" text-anchor="middle" font-size="13" font-weight="bold" fill="#888">REFLEX SMILE</text>
+
+  <!-- Face circle -->
+  <circle cx="170" cy="155" r="60" fill="#FFF5E4" stroke="#F0C080" stroke-width="2"/>
+  <!-- Eyes closed (curved lines) -->
+  <path d="M148 135 Q155 128 162 135" stroke="#5A4030" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M178 135 Q185 128 192 135" stroke="#5A4030" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Mouth: small reflex smile -->
+  <path d="M155 172 Q170 182 185 172" stroke="#C06040" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- ZZZ (sleeping) -->
+  <text x="215" y="105" font-size="13" fill="#AAAAAA" font-style="italic">z z z</text>
+
+  <!-- Label below -->
+  <text x="170" y="235" text-anchor="middle" font-size="12" fill="#666">Random. Often while sleeping.</text>
+  <text x="170" y="252" text-anchor="middle" font-size="12" fill="#666">Not a response to you.</text>
+
+  <!-- Analogy -->
+  <rect x="40" y="268" width="260" height="32" rx="6" fill="#FFF0DD"/>
+  <text x="170" y="287" text-anchor="middle" font-size="11" fill="#A06020">Like a sleep-laugh — nothing triggered it</text>
+
+  <!-- === RIGHT: SOCIAL SMILE === -->
+  <text x="510" y="78" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A7C59">SOCIAL SMILE</text>
+
+  <!-- Face circle -->
+  <circle cx="510" cy="155" r="60" fill="#EAF7ED" stroke="#6DC18A" stroke-width="2"/>
+  <!-- Eyes open and crinkled with happiness -->
+  <ellipse cx="493" cy="138" rx="8" ry="9" fill="#3A5A40" stroke="#3A5A40" stroke-width="1"/>
+  <ellipse cx="493" cy="138" rx="3" ry="3.5" fill="white"/>
+  <ellipse cx="527" cy="138" rx="8" ry="9" fill="#3A5A40" stroke="#3A5A40" stroke-width="1"/>
+  <ellipse cx="527" cy="138" rx="3" ry="3.5" fill="white"/>
+  <!-- Eye crinkle lines -->
+  <path d="M482 130 Q489 126 496 130" stroke="#3A5A40" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M524 130 Q531 126 538 130" stroke="#3A5A40" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- Big smile with cheeks -->
+  <path d="M492 170 Q510 188 528 170" stroke="#C05050" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Chubby cheeks (dots) -->
+  <circle cx="485" cy="162" r="9" fill="#FFB0A0" opacity="0.5"/>
+  <circle cx="535" cy="162" r="9" fill="#FFB0A0" opacity="0.5"/>
+  <!-- Stars/sparkles around face -->
+  <text x="565" y="110" font-size="14" fill="#F5C542">✦</text>
+  <text x="445" y="108" font-size="14" fill="#F5C542">✦</text>
+
+  <!-- Label below -->
+  <text x="510" y="235" text-anchor="middle" font-size="12" fill="#3A7A50">Eyes engaging. In response to YOUR smile.</text>
+  <text x="510" y="252" text-anchor="middle" font-size="12" fill="#3A7A50">Whole face lights up.</text>
+
+  <!-- Analogy -->
+  <rect x="380" y="268" width="260" height="32" rx="6" fill="#DFF2E7"/>
+  <text x="510" y="287" text-anchor="middle" font-size="11" fill="#2A6040">Like genuinely cracking up at a joke</text>
+</svg>

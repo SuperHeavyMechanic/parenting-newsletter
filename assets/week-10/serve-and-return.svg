@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" width="680" height="360" font-family="Arial, Helvetica, sans-serif">
+  <!-- Background -->
+  <rect width="680" height="360" fill="#FAFAF8" rx="12"/>
+
+  <!-- Title -->
+  <text x="340" y="36" text-anchor="middle" font-size="18" font-weight="bold" fill="#2D2D2D">Serve and Return</text>
+  <text x="340" y="56" text-anchor="middle" font-size="12" fill="#888">The back-and-forth that builds your baby's brain</text>
+  <line x1="80" y1="68" x2="600" y2="68" stroke="#E0DDD8" stroke-width="1.5"/>
+
+  <!-- BABY circle (left) -->
+  <circle cx="170" cy="195" r="68" fill="#FFF5E8" stroke="#F0B060" stroke-width="2.5"/>
+  <text x="170" y="182" text-anchor="middle" font-size="14" font-weight="bold" fill="#C07020">BABY</text>
+  <text x="170" y="200" text-anchor="middle" font-size="12" fill="#A06020">Coos, makes</text>
+  <text x="170" y="216" text-anchor="middle" font-size="12" fill="#A06020">a sound or</text>
+  <text x="170" y="232" text-anchor="middle" font-size="12" fill="#A06020">expression</text>
+
+  <!-- Baby face icon -->
+  <circle cx="170" cy="142" r="16" fill="#FFE0B0" stroke="#F0B060" stroke-width="1.5"/>
+  <circle cx="165" cy="139" r="2.5" fill="#8A6040"/>
+  <circle cx="175" cy="139" r="2.5" fill="#8A6040"/>
+  <path d="M163 146 Q170 152 177 146" stroke="#C08040" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- speech bubble -->
+  <ellipse cx="193" cy="125" rx="14" ry="9" fill="white" stroke="#F0B060" stroke-width="1.2"/>
+  <polygon points="185,131 181,138 191,131" fill="white" stroke="#F0B060" stroke-width="1.2"/>
+  <text x="193" y="128" text-anchor="middle" font-size="9" fill="#C07020">ooh~</text>
+
+  <!-- DAD circle (right) -->
+  <circle cx="510" cy="195" r="68" fill="#EAF5EE" stroke="#60B870" stroke-width="2.5"/>
+  <text x="510" y="182" text-anchor="middle" font-size="14" font-weight="bold" fill="#2A7840">DAD</text>
+  <text x="510" y="200" text-anchor="middle" font-size="12" fill="#2A7840">Smiles, talks</text>
+  <text x="510" y="216" text-anchor="middle" font-size="12" fill="#2A7840">back, mirrors</text>
+  <text x="510" y="232" text-anchor="middle" font-size="12" fill="#2A7840">the expression</text>
+
+  <!-- Dad face icon -->
+  <circle cx="510" cy="142" r="16" fill="#D8EFD8" stroke="#60B870" stroke-width="1.5"/>
+  <circle cx="505" cy="139" r="2.5" fill="#3A6040"/>
+  <circle cx="515" cy="139" r="2.5" fill="#3A6040"/>
+  <path d="M503 146 Q510 153 517 146" stroke="#3A8040" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- speech bubble -->
+  <ellipse cx="488" cy="125" rx="14" ry="9" fill="white" stroke="#60B870" stroke-width="1.2"/>
+  <polygon points="496,131 499,138 490,131" fill="white" stroke="#60B870" stroke-width="1.2"/>
+  <text x="488" y="128" text-anchor="middle" font-size="9" fill="#2A7840">yes!</text>
+
+  <!-- ARROWS: Baby → Dad (top arrow, going right) -->
+  <path d="M240 165 Q340 120 440 165" stroke="#F0A040" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <polygon points="440,165 427,157 432,172" fill="#F0A040"/>
+  <!-- Label -->
+  <text x="340" y="120" text-anchor="middle" font-size="12" fill="#C07020" font-weight="bold">① Baby "serves"</text>
+  <text x="340" y="136" text-anchor="middle" font-size="11" fill="#C07020">(sound, expression, gaze)</text>
+
+  <!-- ARROWS: Dad → Baby (bottom arrow, going left) -->
+  <path d="M442 228 Q340 275 238 228" stroke="#50A860" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <polygon points="238,228 251,220 246,235" fill="#50A860"/>
+  <!-- Label -->
+  <text x="340" y="265" text-anchor="middle" font-size="12" fill="#2A7840" font-weight="bold">② Dad "returns"</text>
+  <text x="340" y="281" text-anchor="middle" font-size="11" fill="#2A7840">(respond warmly → baby responds back → repeat)</text>
+
+  <!-- CENTER BRAIN icon -->
+  <circle cx="340" cy="195" r="28" fill="#F0EAF8" stroke="#9060C8" stroke-width="2"/>
+  <text x="340" y="191" text-anchor="middle" font-size="18">🧠</text>
+  <text x="340" y="208" text-anchor="middle" font-size="9" fill="#7040A0">building</text>
+  <text x="340" y="219" text-anchor="middle" font-size="9" fill="#7040A0">connections</text>
+
+  <!-- Analogy box -->
+  <rect x="60" y="308" width="560" height="38" rx="8" fill="#FFF0E0" stroke="#F0B060" stroke-width="1.5"/>
+  <text x="340" y="325" text-anchor="middle" font-size="12" fill="#A05010" font-weight="bold">Everyday analogy: </text>
+  <text x="340" y="340" text-anchor="middle" font-size="12" fill="#A05010">Like a tennis rally — each volley is a neural connection being formed. More rallies = more brain wiring.</text>
+</svg>
