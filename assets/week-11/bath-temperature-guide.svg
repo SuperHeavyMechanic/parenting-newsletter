@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" font-family="Georgia, serif">
+  <!-- Background -->
+  <rect width="600" height="380" fill="#E3F2FD" rx="16"/>
+
+  <!-- Title -->
+  <text x="300" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#0D2D5A">Baby Bath: Temperature Guide</text>
+  <text x="300" y="60" text-anchor="middle" font-size="13" fill="#37474F">Always test with your wrist or elbow — not your hand</text>
+
+  <!-- THERMOMETER -->
+  <!-- Thermometer body -->
+  <rect x="268" y="75" width="64" height="220" rx="32" fill="white" stroke="#90CAF9" stroke-width="3"/>
+  <!-- Bulb -->
+  <circle cx="300" cy="310" r="32" fill="#EF5350"/>
+  <!-- Mercury column -->
+  <rect x="283" y="155" width="34" height="155" rx="10" fill="#EF5350"/>
+
+  <!-- Temperature zones on thermometer -->
+  <!-- TOO HOT zone -->
+  <rect x="285" y="80" width="30" height="40" rx="5" fill="#FF8A65" opacity="0.7"/>
+  <text x="348" y="96" font-size="12" font-weight="bold" fill="#BF360C">TOO HOT</text>
+  <text x="348" y="110" font-size="11" fill="#BF360C">&gt; 38°C / 100°F</text>
+  <line x1="315" y1="100" x2="345" y2="100" stroke="#BF360C" stroke-width="1.5" stroke-dasharray="4,2"/>
+
+  <!-- SAFE ZONE -->
+  <rect x="285" y="120" width="30" height="38" rx="5" fill="#66BB6A" opacity="0.8"/>
+  <text x="348" y="133" font-size="13" font-weight="bold" fill="#1B5E20">✓ SAFE ZONE</text>
+  <text x="348" y="149" font-size="11" fill="#1B5E20">37–38°C / 98–100°F</text>
+  <line x1="315" y1="139" x2="345" y2="139" stroke="#1B5E20" stroke-width="1.5" stroke-dasharray="4,2"/>
+
+  <!-- TOO COLD zone -->
+  <rect x="285" y="158" width="30" height="35" rx="5" fill="#90CAF9" opacity="0.7"/>
+  <text x="348" y="172" font-size="12" font-weight="bold" fill="#01579B">TOO COLD</text>
+  <text x="348" y="186" font-size="11" fill="#01579B">&lt; 36°C / 97°F</text>
+  <line x1="315" y1="178" x2="345" y2="178" stroke="#01579B" stroke-width="1.5" stroke-dasharray="4,2"/>
+
+  <!-- Wrist test illustration on the left -->
+  <rect x="30" y="120" width="220" height="155" rx="12" fill="white" stroke="#90CAF9" stroke-width="2"/>
+  <text x="140" y="144" text-anchor="middle" font-size="13" font-weight="bold" fill="#0D47A1">The Wrist Test</text>
+
+  <!-- Arm/wrist drawing -->
+  <!-- Water ripples in bath -->
+  <ellipse cx="140" cy="230" rx="75" ry="20" fill="#B3E5FC" stroke="#29B6F6" stroke-width="1.5"/>
+  <path d="M90 230 Q110 224 130 230 Q150 236 170 230 Q190 224 210 230" stroke="#29B6F6" stroke-width="1.5" fill="none"/>
+
+  <!-- Wrist going into water -->
+  <path d="M105 200 Q95 210 100 230" stroke="#FDBCB4" stroke-width="18" stroke-linecap="round" fill="none"/>
+  <path d="M140 185 Q130 195 130 210 L130 230" stroke="#FDBCB4" stroke-width="22" stroke-linecap="round" fill="none"/>
+  <path d="M175 200 Q185 210 180 230" stroke="#FDBCB4" stroke-width="18" stroke-linecap="round" fill="none"/>
+
+  <!-- Inner wrist label -->
+  <path d="M140 185 L140 165" stroke="#E91E63" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <circle cx="140" cy="162" r="3" fill="#E91E63"/>
+  <text x="170" y="162" font-size="11" fill="#880E4F">inner wrist</text>
+  <text x="170" y="174" font-size="11" fill="#880E4F">(most sensitive)</text>
+
+  <text x="140" y="265" text-anchor="middle" font-size="11" fill="#555">Should feel pleasantly</text>
+  <text x="140" y="278" text-anchor="middle" font-size="11" fill="#555">warm — not hot, not cool</text>
+
+  <!-- Water depth reminder -->
+  <rect x="30" y="292" width="220" height="50" rx="8" fill="#FFF8E1" stroke="#FFB300" stroke-width="1.5"/>
+  <text x="140" y="313" text-anchor="middle" font-size="12" font-weight="bold" fill="#E65100">Water depth: ~5 cm (2 in)</text>
+  <text x="140" y="330" text-anchor="middle" font-size="11" fill="#E65100">Never leave baby alone in water</text>
+
+  <!-- Bottom analogy strip -->
+  <rect x="30" y="350" width="540" height="24" rx="8" fill="#FFF3E0"/>
+  <text x="300" y="366" text-anchor="middle" font-size="12" fill="#E65100" font-style="italic">💡 Think of it like testing a baby bottle — warmth on your wrist, not your fingers.</text>
+</svg>

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" font-family="Georgia, serif">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#F3F0FF" rx="16"/>
+
+  <!-- Title -->
+  <text x="300" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#2D2D2D">Safe Sleep: The ABCs</text>
+  <text x="300" y="60" text-anchor="middle" font-size="13" fill="#555">Every sleep, every nap — no exceptions</text>
+
+  <!-- Crib outline -->
+  <rect x="120" y="80" width="360" height="220" rx="8" fill="white" stroke="#9E9E9E" stroke-width="3"/>
+  <!-- Crib slats -->
+  <line x1="180" y1="80" x2="180" y2="300" stroke="#BDBDBD" stroke-width="2"/>
+  <line x1="240" y1="80" x2="240" y2="300" stroke="#BDBDBD" stroke-width="2"/>
+  <line x1="300" y1="80" x2="300" y2="300" stroke="#BDBDBD" stroke-width="2"/>
+  <line x1="360" y1="80" x2="360" y2="300" stroke="#BDBDBD" stroke-width="2"/>
+  <line x1="420" y1="80" x2="420" y2="300" stroke="#BDBDBD" stroke-width="2"/>
+  <!-- Crib header/footer -->
+  <rect x="120" y="80" width="360" height="20" rx="4" fill="#9E9E9E"/>
+  <rect x="120" y="286" width="360" height="14" rx="4" fill="#9E9E9E"/>
+
+  <!-- Mattress -->
+  <rect x="130" y="240" width="340" height="46" rx="6" fill="#E3F2FD" stroke="#90CAF9" stroke-width="1.5"/>
+  <text x="300" y="258" text-anchor="middle" font-size="10" fill="#1565C0">Firm, flat mattress</text>
+  <text x="300" y="273" text-anchor="middle" font-size="10" fill="#1565C0">Fitted sheet only</text>
+
+  <!-- Baby on back -->
+  <!-- Body -->
+  <ellipse cx="300" cy="225" rx="55" ry="18" fill="#FDBCB4"/>
+  <!-- Swaddle wrap suggestion -->
+  <path d="M250 215 Q300 200 350 215 Q350 240 300 248 Q250 240 250 215Z" fill="#E1BEE7" opacity="0.7"/>
+  <!-- Head -->
+  <circle cx="300" cy="200" r="20" fill="#FDBCB4"/>
+  <!-- Sleeping face -->
+  <path d="M292 203 Q296 206 300 203" stroke="#444" stroke-width="1.5" fill="none"/>
+  <path d="M293 198 Q295 196 297 198" stroke="#444" stroke-width="1.5" fill="none"/>
+  <path d="M303 198 Q305 196 307 198" stroke="#444" stroke-width="1.5" fill="none"/>
+  <!-- ZZZ -->
+  <text x="326" y="195" font-size="14" fill="#7E57C2" opacity="0.8">z z</text>
+
+  <!-- NO items (X'd out soft items) -->
+  <!-- No pillow X -->
+  <ellipse cx="165" cy="218" rx="28" ry="16" fill="#FFCDD2" opacity="0.6"/>
+  <line x1="145" y1="205" x2="185" y2="231" stroke="#C62828" stroke-width="3"/>
+  <line x1="185" y1="205" x2="145" y2="231" stroke="#C62828" stroke-width="3"/>
+  <text x="165" y="250" text-anchor="middle" font-size="10" fill="#C62828">No pillow</text>
+
+  <!-- No bumper X -->
+  <rect x="122" y="120" width="18" height="80" rx="4" fill="#FFCDD2" opacity="0.6"/>
+  <line x1="122" y1="120" x2="140" y2="200" stroke="#C62828" stroke-width="2"/>
+  <line x1="140" y1="120" x2="122" y2="200" stroke="#C62828" stroke-width="2"/>
+  <text x="131" y="215" text-anchor="middle" font-size="9" fill="#C62828">No</text>
+  <text x="131" y="226" text-anchor="middle" font-size="9" fill="#C62828">bumpers</text>
+
+  <!-- No toys X -->
+  <circle cx="435" cy="218" r="22" fill="#FFCDD2" opacity="0.6"/>
+  <line x1="418" y1="204" x2="452" y2="232" stroke="#C62828" stroke-width="3"/>
+  <line x1="452" y1="204" x2="418" y2="232" stroke="#C62828" stroke-width="3"/>
+  <text x="435" y="250" text-anchor="middle" font-size="10" fill="#C62828">No soft toys</text>
+
+  <!-- ABC Labels -->
+  <!-- A -->
+  <rect x="30" y="315" width="160" height="60" rx="8" fill="#EDE7F6" stroke="#9575CD" stroke-width="2"/>
+  <text x="110" y="337" text-anchor="middle" font-size="20" font-weight="bold" fill="#6A1B9A">A</text>
+  <text x="110" y="353" text-anchor="middle" font-size="12" fill="#4A148C">Alone</text>
+  <text x="110" y="367" text-anchor="middle" font-size="10" fill="#555">No co-sleeping in crib</text>
+
+  <!-- B -->
+  <rect x="220" y="315" width="160" height="60" rx="8" fill="#E8F5E9" stroke="#66BB6A" stroke-width="2"/>
+  <text x="300" y="337" text-anchor="middle" font-size="20" font-weight="bold" fill="#1B5E20">B</text>
+  <text x="300" y="353" text-anchor="middle" font-size="12" fill="#1B5E20">Back</text>
+  <text x="300" y="367" text-anchor="middle" font-size="10" fill="#555">Always on their back</text>
+
+  <!-- C -->
+  <rect x="410" y="315" width="160" height="60" rx="8" fill="#E3F2FD" stroke="#42A5F5" stroke-width="2"/>
+  <text x="490" y="337" text-anchor="middle" font-size="20" font-weight="bold" fill="#0D47A1">C</text>
+  <text x="490" y="353" text-anchor="middle" font-size="12" fill="#0D47A1">Crib</text>
+  <text x="490" y="367" text-anchor="middle" font-size="10" fill="#555">Own firm sleep space</text>
+
+  <!-- Analogy strip -->
+  <rect x="30" y="385" width="540" height="10" fill="#FFF3E0" rx="4"/>
+</svg>

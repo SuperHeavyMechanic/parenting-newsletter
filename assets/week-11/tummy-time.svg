@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" font-family="Georgia, serif">
+  <!-- Background -->
+  <rect width="600" height="380" fill="#FFF8F0" rx="16"/>
+
+  <!-- Title -->
+  <text x="300" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#2D2D2D">Tummy Time</text>
+  <text x="300" y="60" text-anchor="middle" font-size="13" fill="#666">Awake &amp; supervised only — never for sleep</text>
+
+  <!-- LEFT PANEL: On Back (sleep) -->
+  <rect x="30" y="80" width="245" height="260" rx="12" fill="#E8F4FD" stroke="#90CAF9" stroke-width="2"/>
+  <text x="152" y="108" text-anchor="middle" font-size="14" font-weight="bold" fill="#1565C0">😴 Back = Sleep time</text>
+
+  <!-- Floor line -->
+  <line x1="55" y1="240" x2="250" y2="240" stroke="#90CAF9" stroke-width="2"/>
+  <!-- Mattress -->
+  <rect x="55" y="238" width="195" height="14" rx="4" fill="#BBDEFB"/>
+
+  <!-- Baby lying on back (side view) -->
+  <!-- Body -->
+  <ellipse cx="152" cy="225" rx="62" ry="20" fill="#FDBCB4"/>
+  <!-- Head -->
+  <circle cx="215" cy="218" r="22" fill="#FDBCB4"/>
+  <!-- Face features -->
+  <circle cx="222" cy="214" r="2" fill="#444"/>
+  <path d="M218 222 Q222 225 226 222" stroke="#444" stroke-width="1.5" fill="none"/>
+  <!-- Arms -->
+  <path d="M170 215 Q158 205 148 215" stroke="#FDBCB4" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <!-- Legs -->
+  <path d="M100 232 Q88 248 92 258" stroke="#FDBCB4" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M125 235 Q116 252 120 262" stroke="#FDBCB4" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <!-- Diaper suggestion -->
+  <ellipse cx="130" cy="228" rx="18" ry="10" fill="white" opacity="0.6"/>
+
+  <!-- Arrow pointing down with label "flat/back" -->
+  <text x="152" y="285" text-anchor="middle" font-size="12" fill="#1565C0">Head rests flat</text>
+  <text x="152" y="300" text-anchor="middle" font-size="12" fill="#1565C0">Airway stays open</text>
+  <text x="152" y="318" text-anchor="middle" font-size="11" fill="#333" font-style="italic">Safe for every sleep</text>
+
+  <!-- RIGHT PANEL: On Tummy (play) -->
+  <rect x="325" y="80" width="245" height="260" rx="12" fill="#E8F5E9" stroke="#A5D6A7" stroke-width="2"/>
+  <text x="447" y="108" text-anchor="middle" font-size="14" font-weight="bold" fill="#2E7D32">🐣 Tummy = Play time</text>
+
+  <!-- Floor mat -->
+  <rect x="350" y="237" width="195" height="14" rx="4" fill="#C8E6C9"/>
+  <line x1="350" y1="237" x2="545" y2="237" stroke="#A5D6A7" stroke-width="2"/>
+
+  <!-- Baby on tummy, head lifted (side view) -->
+  <!-- Body flat on ground -->
+  <ellipse cx="447" cy="230" rx="62" ry="16" fill="#FDBCB4"/>
+  <!-- Head lifted up -->
+  <circle cx="508" cy="208" r="22" fill="#FDBCB4"/>
+  <!-- Neck connecting body to lifted head -->
+  <path d="M494 222 Q503 215 508 208" stroke="#FDBCB4" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <!-- Face features (looking up/forward) -->
+  <circle cx="514" cy="205" r="2.5" fill="#444"/>
+  <path d="M509 213 Q513 216 518 213" stroke="#444" stroke-width="1.5" fill="none"/>
+  <!-- Excited expression -->
+  <text x="510" y="198" text-anchor="middle" font-size="10">✨</text>
+  <!-- Arms propped -->
+  <path d="M468 225 Q460 212 455 222" stroke="#FDBCB4" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M490 222 Q483 210 478 220" stroke="#FDBCB4" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <!-- Legs -->
+  <path d="M392 235 Q382 248 386 256" stroke="#FDBCB4" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M415 237 Q406 250 410 258" stroke="#FDBCB4" stroke-width="10" fill="none" stroke-linecap="round"/>
+
+  <!-- Curved arrow showing neck lift -->
+  <path d="M490 200 Q500 185 510 190" stroke="#2E7D32" stroke-width="2" fill="none" marker-end="url(#arrowGreen)"/>
+  <defs>
+    <marker id="arrowGreen" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2E7D32"/>
+    </marker>
+  </defs>
+  <text x="487" y="192" text-anchor="middle" font-size="10" fill="#2E7D32">Builds neck &amp;</text>
+  <text x="487" y="203" text-anchor="middle" font-size="10" fill="#2E7D32">shoulder muscles</text>
+
+  <text x="447" y="285" text-anchor="middle" font-size="12" fill="#2E7D32">2–3 sessions/day</text>
+  <text x="447" y="300" text-anchor="middle" font-size="12" fill="#2E7D32">3–5 min each</text>
+  <text x="447" y="318" text-anchor="middle" font-size="11" fill="#333" font-style="italic">Always supervised</text>
+
+  <!-- Bottom analogy -->
+  <rect x="30" y="348" width="540" height="24" rx="6" fill="#FFF3E0"/>
+  <text x="300" y="364" text-anchor="middle" font-size="12" fill="#E65100" font-style="italic">💡 Think of it like a mini push-up for your baby — brief, regular reps build strength over time.</text>
+</svg>

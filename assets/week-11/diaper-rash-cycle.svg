@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" font-family="Georgia, serif">
+  <!-- Background -->
+  <rect width="600" height="380" fill="#FFF8F0" rx="16"/>
+
+  <!-- Title -->
+  <text x="300" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#2D2D2D">The Diaper Rash Cycle</text>
+  <text x="300" y="57" text-anchor="middle" font-size="13" fill="#666">How it starts — and how to break it</text>
+
+  <!-- CYCLE - circular layout with 4 stages -->
+  <!-- Center circle -->
+  <circle cx="300" cy="210" r="40" fill="#FFCCBC" stroke="#FF7043" stroke-width="2"/>
+  <text x="300" y="206" text-anchor="middle" font-size="12" font-weight="bold" fill="#BF360C">RASH</text>
+  <text x="300" y="220" text-anchor="middle" font-size="11" fill="#BF360C">😰</text>
+
+  <!-- Stage 1: Wet diaper (top) -->
+  <rect x="215" y="80" width="170" height="55" rx="10" fill="#E3F2FD" stroke="#42A5F5" stroke-width="2"/>
+  <text x="300" y="101" text-anchor="middle" font-size="13" font-weight="bold" fill="#0D47A1">1. Wet / Dirty Diaper</text>
+  <text x="300" y="118" text-anchor="middle" font-size="11" fill="#0D47A1">Moisture sits on skin</text>
+  <text x="300" y="131" text-anchor="middle" font-size="18">💧</text>
+
+  <!-- Arrow 1 → 2 (top to right) -->
+  <path d="M380 115 Q420 140 390 180" stroke="#FF7043" stroke-width="2.5" fill="none" marker-end="url(#arr)"/>
+
+  <!-- Stage 2: Skin barrier breaks (right) -->
+  <rect x="420" y="160" width="150" height="65" rx="10" fill="#FFF9C4" stroke="#F9A825" stroke-width="2"/>
+  <text x="495" y="182" text-anchor="middle" font-size="12" font-weight="bold" fill="#F57F17">2. Skin Softens</text>
+  <text x="495" y="196" text-anchor="middle" font-size="11" fill="#F57F17">&amp; Barrier Breaks</text>
+  <text x="495" y="210" text-anchor="middle" font-size="11" fill="#F57F17">Friction → micro-tears</text>
+  <text x="495" y="224" text-anchor="middle" font-size="18">⚠️</text>
+
+  <!-- Arrow 2 → 3 (right to bottom) -->
+  <path d="M430 240 Q400 280 360 260" stroke="#FF7043" stroke-width="2.5" fill="none" marker-end="url(#arr)"/>
+
+  <!-- Stage 3: Bacteria/yeast enter (bottom) -->
+  <rect x="215" y="295" width="170" height="60" rx="10" fill="#FCE4EC" stroke="#E91E63" stroke-width="2"/>
+  <text x="300" y="317" text-anchor="middle" font-size="12" font-weight="bold" fill="#880E4F">3. Irritation &amp; Redness</text>
+  <text x="300" y="332" text-anchor="middle" font-size="11" fill="#880E4F">Skin inflamed</text>
+  <text x="300" y="346" text-anchor="middle" font-size="18">🔴</text>
+
+  <!-- Arrow 3 → 4 (bottom to left) -->
+  <path d="M225 315 Q185 290 210 248" stroke="#FF7043" stroke-width="2.5" fill="none" marker-end="url(#arr)"/>
+
+  <!-- Stage 4: More rubbing (left) -->
+  <rect x="30" y="160" width="160" height="65" rx="10" fill="#E8F5E9" stroke="#43A047" stroke-width="2"/>
+  <text x="110" y="182" text-anchor="middle" font-size="12" font-weight="bold" fill="#1B5E20">4. Diaper Rubs</text>
+  <text x="110" y="196" text-anchor="middle" font-size="11" fill="#1B5E20">Worsens with each</text>
+  <text x="110" y="210" text-anchor="middle" font-size="11" fill="#1B5E20">diaper change</text>
+  <text x="110" y="224" text-anchor="middle" font-size="18">🔄</text>
+
+  <!-- Arrow 4 → 1 (left to top) -->
+  <path d="M175 178 Q200 140 225 130" stroke="#FF7043" stroke-width="2.5" fill="none" marker-end="url(#arr)"/>
+
+  <!-- Arrow definition -->
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#FF7043"/>
+    </marker>
+  </defs>
+
+  <!-- BREAK THE CYCLE box -->
+  <rect x="30" y="345" width="540" height="28" rx="8" fill="#E8F5E9" stroke="#43A047" stroke-width="1.5"/>
+  <text x="300" y="362" text-anchor="middle" font-size="12" fill="#1B5E20" font-weight="bold">Break the cycle: Change quickly · Air-dry skin · Apply zinc oxide barrier cream</text>
+</svg>
