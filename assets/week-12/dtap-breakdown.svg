@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 360" width="540" height="360" font-family="Georgia, serif">
+  <!-- Background -->
+  <rect width="540" height="360" fill="#FAFAF7" rx="12"/>
+
+  <!-- Title -->
+  <text x="270" y="32" text-anchor="middle" font-size="16" font-weight="bold" fill="#2C2C2C">DTaP — Three Diseases, One Shot</text>
+  <text x="270" y="52" text-anchor="middle" font-size="11" fill="#666">What each letter in the vaccine name stands for</text>
+
+  <!-- === D BOX === -->
+  <rect x="30" y="75" width="145" height="200" rx="10" fill="#FEF3CD" stroke="#F0B429" stroke-width="2"/>
+  <!-- Big letter -->
+  <text x="102" y="135" text-anchor="middle" font-size="60" font-weight="bold" fill="#D97706" opacity="0.25">D</text>
+  <text x="102" y="120" text-anchor="middle" font-size="48" font-weight="bold" fill="#D97706">D</text>
+  <text x="102" y="152" text-anchor="middle" font-size="13" font-weight="bold" fill="#92400E">Diphtheria</text>
+  <!-- Icon: throat -->
+  <ellipse cx="102" cy="185" rx="22" ry="12" fill="none" stroke="#92400E" stroke-width="2"/>
+  <line x1="80" y1="185" x2="124" y2="185" stroke="#92400E" stroke-width="1.5"/>
+  <text x="102" y="212" text-anchor="middle" font-size="9.5" fill="#78350F">Thick membrane</text>
+  <text x="102" y="225" text-anchor="middle" font-size="9.5" fill="#78350F">blocks the throat</text>
+  <text x="102" y="240" text-anchor="middle" font-size="9.5" fill="#78350F">→ breathing stops</text>
+  <text x="102" y="266" text-anchor="middle" font-size="9" fill="#92400E" font-weight="bold">Bacterial</text>
+
+  <!-- === T BOX === -->
+  <rect x="197" y="75" width="145" height="200" rx="10" fill="#DCF5E7" stroke="#34C77B" stroke-width="2"/>
+  <text x="270" y="120" text-anchor="middle" font-size="48" font-weight="bold" fill="#059669">T</text>
+  <text x="270" y="152" text-anchor="middle" font-size="13" font-weight="bold" fill="#065F46">Tetanus</text>
+  <!-- Icon: muscle clench -->
+  <rect x="248" y="168" width="44" height="16" rx="8" fill="none" stroke="#065F46" stroke-width="2"/>
+  <line x1="248" y1="176" x2="240" y2="176" stroke="#065F46" stroke-width="2"/>
+  <line x1="292" y1="176" x2="300" y2="176" stroke="#065F46" stroke-width="2"/>
+  <line x1="240" y1="176" x2="240" y2="190" stroke="#065F46" stroke-width="2" stroke-dasharray="3,2"/>
+  <line x1="300" y1="176" x2="300" y2="190" stroke="#065F46" stroke-width="2" stroke-dasharray="3,2"/>
+  <text x="270" y="212" text-anchor="middle" font-size="9.5" fill="#065F46">Toxin causes</text>
+  <text x="270" y="225" text-anchor="middle" font-size="9.5" fill="#065F46">muscle to lock</text>
+  <text x="270" y="238" text-anchor="middle" font-size="9.5" fill="#065F46">"lockjaw"</text>
+  <text x="270" y="266" text-anchor="middle" font-size="9" fill="#059669" font-weight="bold">Bacterial toxin</text>
+
+  <!-- === aP BOX === -->
+  <rect x="364" y="75" width="145" height="200" rx="10" fill="#EDE9FE" stroke="#8B5CF6" stroke-width="2"/>
+  <text x="437" y="120" text-anchor="middle" font-size="38" font-weight="bold" fill="#7C3AED">aP</text>
+  <text x="437" y="152" text-anchor="middle" font-size="13" font-weight="bold" fill="#4C1D95">Pertussis</text>
+  <text x="437" y="168" text-anchor="middle" font-size="10" fill="#5B21B6">(whooping cough)</text>
+  <!-- Icon: sound waves / cough -->
+  <path d="M420,190 Q437,182 454,190" fill="none" stroke="#5B21B6" stroke-width="2"/>
+  <path d="M414,200 Q437,186 460,200" fill="none" stroke="#5B21B6" stroke-width="1.5"/>
+  <path d="M410,212 Q437,192 464,212" fill="none" stroke="#5B21B6" stroke-width="1"/>
+  <text x="437" y="232" text-anchor="middle" font-size="9.5" fill="#4C1D95">Violent coughing</text>
+  <text x="437" y="245" text-anchor="middle" font-size="9.5" fill="#4C1D95">fits — can stop</text>
+  <text x="437" y="258" text-anchor="middle" font-size="9.5" fill="#4C1D95">baby breathing</text>
+  <text x="437" y="266" text-anchor="middle" font-size="9" fill="#7C3AED" font-weight="bold">Bacterial</text>
+
+  <!-- Bottom connector line -->
+  <line x1="102" y1="278" x2="102" y2="295" stroke="#CCC" stroke-width="1.5"/>
+  <line x1="102" y1="295" x2="437" y2="295" stroke="#CCC" stroke-width="1.5"/>
+  <line x1="437" y1="295" x2="437" y2="278" stroke="#CCC" stroke-width="1.5"/>
+  <line x1="270" y1="278" x2="270" y2="295" stroke="#CCC" stroke-width="1.5"/>
+  <line x1="270" y1="295" x2="270" y2="310" stroke="#666" stroke-width="1.5"/>
+  <!-- Syringe at bottom -->
+  <rect x="248" y="310" width="44" height="14" rx="4" fill="#DDD" stroke="#999" stroke-width="1.5"/>
+  <line x1="292" y1="317" x2="306" y2="317" stroke="#999" stroke-width="2"/>
+  <line x1="306" y1="317" x2="316" y2="317" stroke="#777" stroke-width="1.5"/>
+  <text x="270" y="344" text-anchor="middle" font-size="11" font-weight="bold" fill="#444">1 injection</text>
+
+  <!-- Analogy -->
+  <text x="270" y="356" text-anchor="middle" font-size="10" fill="#666" font-style="italic">Three shields in one combo shot — first dose at 2 months.</text>
+</svg>
