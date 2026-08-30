@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 220" width="520" height="220" font-family="Arial, sans-serif">
+  <!-- Background -->
+  <rect width="520" height="220" fill="#fdf8f0" rx="12"/>
+
+  <!-- Title -->
+  <text x="260" y="24" text-anchor="middle" font-size="14" font-weight="bold" fill="#4a3728">Serve &amp; Return: Baby's First Conversation</text>
+
+  <!-- Subtitle analogy -->
+  <text x="260" y="42" text-anchor="middle" font-size="10" fill="#777">Like a tennis rally — baby "serves," you "return," brain connections form</text>
+
+  <!-- Dad face -->
+  <circle cx="80" cy="120" r="36" fill="#ffcc80" stroke="#d4a87a" stroke-width="2"/>
+  <circle cx="68" cy="113" r="4" fill="#5d4037"/>
+  <circle cx="92" cy="113" r="4" fill="#5d4037"/>
+  <path d="M67 130 Q80 140 93 130" stroke="#5d4037" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <text x="80" y="170" text-anchor="middle" font-size="11" font-weight="bold" fill="#5d4037">Dad</text>
+
+  <!-- Baby face -->
+  <circle cx="440" cy="120" r="36" fill="#ffe0b2" stroke="#d4a87a" stroke-width="2"/>
+  <circle cx="428" cy="113" r="4" fill="#5d4037"/>
+  <circle cx="452" cy="113" r="4" fill="#5d4037"/>
+  <path d="M427 130 Q440 142 453 130" stroke="#5d4037" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <text x="440" y="170" text-anchor="middle" font-size="11" font-weight="bold" fill="#5d4037">Baby</text>
+
+  <!-- Arrow 1: Baby serves (coo) -->
+  <path d="M408 100 Q260 55 112 100" stroke="#e91e63" stroke-width="2" fill="none" marker-end="url(#arrowPink)" stroke-dasharray="6,3"/>
+  <rect x="195" y="52" width="130" height="24" rx="6" fill="#fce4ec"/>
+  <text x="260" y="68" text-anchor="middle" font-size="10" fill="#c2185b">① Baby coos / makes face</text>
+
+  <!-- Arrow 2: Dad returns -->
+  <path d="M112 140 Q260 185 408 140" stroke="#1976d2" stroke-width="2" fill="none" marker-end="url(#arrowBlue)"/>
+  <rect x="182" y="151" width="156" height="24" rx="6" fill="#e3f2fd"/>
+  <text x="260" y="167" text-anchor="middle" font-size="10" fill="#1565c0">② Dad talks, smiles, mirrors</text>
+
+  <!-- Arrow 3: Baby responds again -->
+  <path d="M408 105 Q260 70 112 105" stroke="#4caf50" stroke-width="1.8" fill="none" marker-end="url(#arrowGreen)" stroke-dasharray="4,4" opacity="0.7"/>
+  <text x="260" y="85" text-anchor="middle" font-size="9" fill="#2e7d32">③ Baby responds → connection!</text>
+
+  <!-- Brain icon -->
+  <text x="260" y="210" text-anchor="middle" font-size="10" fill="#555">Each exchange builds new neural pathways in baby's brain</text>
+
+  <defs>
+    <marker id="arrowPink" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#e91e63"/>
+    </marker>
+    <marker id="arrowBlue" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#1976d2"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#4caf50"/>
+    </marker>
+  </defs>
+</svg>

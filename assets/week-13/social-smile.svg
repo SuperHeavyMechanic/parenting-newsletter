@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 220" width="520" height="220" font-family="Arial, sans-serif">
+  <!-- Background -->
+  <rect width="520" height="220" fill="#fdf8f0" rx="12"/>
+
+  <!-- Title -->
+  <text x="260" y="24" text-anchor="middle" font-size="14" font-weight="bold" fill="#4a3728">Social Smile vs. Reflexive Smile</text>
+
+  <!-- LEFT: Reflexive (newborn) -->
+  <rect x="20" y="38" width="220" height="160" rx="8" fill="#f5e8d8" stroke="#d4a87a" stroke-width="1.5"/>
+  <text x="130" y="60" text-anchor="middle" font-size="12" font-weight="bold" fill="#8b5e3c">Reflexive Smile (newborn)</text>
+
+  <!-- Face -->
+  <circle cx="130" cy="110" r="38" fill="#ffe0b2" stroke="#d4a87a" stroke-width="1.5"/>
+  <!-- Eyes closed -->
+  <line x1="113" y1="102" x2="120" y2="102" stroke="#6d4c41" stroke-width="2" stroke-linecap="round"/>
+  <line x1="140" y1="102" x2="147" y2="102" stroke="#6d4c41" stroke-width="2" stroke-linecap="round"/>
+  <!-- Small smile -->
+  <path d="M118 122 Q130 128 142 122" stroke="#6d4c41" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- ZZZ for sleeping / random -->
+  <text x="155" y="90" font-size="11" fill="#b0bec5">zzz</text>
+
+  <text x="130" y="175" text-anchor="middle" font-size="10" fill="#795548">Happens during sleep,</text>
+  <text x="130" y="188" text-anchor="middle" font-size="10" fill="#795548">random, no eye contact</text>
+
+  <!-- RIGHT: Social smile -->
+  <rect x="280" y="38" width="220" height="160" rx="8" fill="#e8f5e9" stroke="#81c784" stroke-width="1.5"/>
+  <text x="390" y="60" text-anchor="middle" font-size="12" font-weight="bold" fill="#388e3c">Social Smile (~6–8 weeks)</text>
+
+  <!-- Adult face (dad) -->
+  <circle cx="350" cy="100" r="28" fill="#ffcc80" stroke="#d4a87a" stroke-width="1.5"/>
+  <circle cx="341" cy="96" r="3" fill="#5d4037"/>
+  <circle cx="359" cy="96" r="3" fill="#5d4037"/>
+  <path d="M340 110 Q350 118 360 110" stroke="#5d4037" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <text x="350" y="135" text-anchor="middle" font-size="10" fill="#555">Dad smiles</text>
+
+  <!-- Arrow -->
+  <line x1="385" y1="100" x2="405" y2="100" stroke="#388e3c" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Baby face -->
+  <circle cx="430" cy="100" r="28" fill="#ffe0b2" stroke="#d4a87a" stroke-width="1.5"/>
+  <circle cx="421" cy="96" r="3" fill="#5d4037"/>
+  <circle cx="439" cy="96" r="3" fill="#5d4037"/>
+  <!-- Big smile -->
+  <path d="M418 110 Q430 122 442 110" stroke="#5d4037" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <text x="430" y="135" text-anchor="middle" font-size="10" fill="#555">Baby smiles back!</text>
+
+  <!-- Arrow def -->
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#388e3c"/>
+    </marker>
+  </defs>
+
+  <text x="390" y="175" text-anchor="middle" font-size="10" fill="#2e7d32">Triggered by YOUR face &amp; voice,</text>
+  <text x="390" y="188" text-anchor="middle" font-size="10" fill="#2e7d32">eyes open, directed at you</text>
+</svg>
