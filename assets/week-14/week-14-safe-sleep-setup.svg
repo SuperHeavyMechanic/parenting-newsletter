@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 340" width="700" height="340" font-family="Arial, sans-serif">
+  <!-- Background -->
+  <rect width="700" height="340" fill="#f8f9fb" rx="12"/>
+  <text x="350" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a2340">Safe Sleep Environment</text>
+  <text x="350" y="48" text-anchor="middle" font-size="12" fill="#666">Think of the crib like a minimalist hotel room — clean, firm, nothing extra</text>
+
+  <!-- Crib outline -->
+  <rect x="140" y="65" width="420" height="190" rx="6" fill="#fff" stroke="#8b7355" stroke-width="3"/>
+  <!-- Crib slats -->
+  <line x1="193" y1="65" x2="193" y2="255" stroke="#c4a97a" stroke-width="2"/>
+  <line x1="246" y1="65" x2="246" y2="255" stroke="#c4a97a" stroke-width="2"/>
+  <line x1="299" y1="65" x2="299" y2="255" stroke="#c4a97a" stroke-width="2"/>
+  <line x1="352" y1="65" x2="352" y2="255" stroke="#c4a97a" stroke-width="2"/>
+  <line x1="405" y1="65" x2="405" y2="255" stroke="#c4a97a" stroke-width="2"/>
+  <line x1="458" y1="65" x2="458" y2="255" stroke="#c4a97a" stroke-width="2"/>
+  <line x1="511" y1="65" x2="511" y2="255" stroke="#c4a97a" stroke-width="2"/>
+
+  <!-- Firm mattress -->
+  <rect x="148" y="210" width="404" height="36" rx="4" fill="#d4e8d0" stroke="#5a8a50" stroke-width="1.5"/>
+  <text x="350" y="232" text-anchor="middle" font-size="12" fill="#2a5a22" font-weight="bold">FIRM, FLAT MATTRESS ✓</text>
+
+  <!-- Fitted sheet -->
+  <rect x="148" y="195" width="404" height="20" rx="3" fill="#a8d8a8" stroke="#5a8a50" stroke-width="1"/>
+  <text x="350" y="209" text-anchor="middle" font-size="10" fill="#2a5a22">Tight-fitting sheet ✓</text>
+
+  <!-- Baby on back -->
+  <!-- Baby body -->
+  <ellipse cx="350" cy="170" rx="55" ry="22" fill="#f5c8a0" stroke="#cc8855" stroke-width="1.5"/>
+  <!-- Baby head -->
+  <circle cx="350" cy="145" r="20" fill="#f5c8a0" stroke="#cc8855" stroke-width="1.5"/>
+  <!-- Eyes closed -->
+  <path d="M342,143 Q345,141 348,143" stroke="#555" stroke-width="1.5" fill="none"/>
+  <path d="M352,143 Q355,141 358,143" stroke="#555" stroke-width="1.5" fill="none"/>
+  <!-- Smile -->
+  <path d="M345,149 Q350,153 355,149" stroke="#cc6633" stroke-width="1.5" fill="none"/>
+  <!-- Back arrow label -->
+  <text x="350" y="100" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a7a30">BACK TO SLEEP ✓</text>
+  <line x1="350" y1="103" x2="350" y2="123" stroke="#1a7a30" stroke-width="1.5" marker-end="url(#arr2)"/>
+
+  <defs>
+    <marker id="arr2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#1a7a30"/>
+    </marker>
+    <marker id="arr3" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#cc3333"/>
+    </marker>
+  </defs>
+
+  <!-- X marks for no-nos on left side -->
+  <!-- No bumper label -->
+  <rect x="10" y="85" width="120" height="40" rx="6" fill="#ffe0e0" stroke="#cc3333" stroke-width="1.5"/>
+  <text x="70" y="102" text-anchor="middle" font-size="11" fill="#cc3333" font-weight="bold">✗ No bumper</text>
+  <text x="70" y="117" text-anchor="middle" font-size="10" fill="#aa2222">pads</text>
+  <line x1="130" y1="105" x2="140" y2="130" stroke="#cc3333" stroke-width="1.5" marker-end="url(#arr3)"/>
+
+  <!-- No blankets -->
+  <rect x="10" y="140" width="120" height="40" rx="6" fill="#ffe0e0" stroke="#cc3333" stroke-width="1.5"/>
+  <text x="70" y="157" text-anchor="middle" font-size="11" fill="#cc3333" font-weight="bold">✗ No loose</text>
+  <text x="70" y="172" text-anchor="middle" font-size="10" fill="#aa2222">blankets</text>
+  <line x1="130" y1="155" x2="140" y2="165" stroke="#cc3333" stroke-width="1.5" marker-end="url(#arr3)"/>
+
+  <!-- No pillows -->
+  <rect x="10" y="195" width="120" height="40" rx="6" fill="#ffe0e0" stroke="#cc3333" stroke-width="1.5"/>
+  <text x="70" y="212" text-anchor="middle" font-size="11" fill="#cc3333" font-weight="bold">✗ No pillows</text>
+  <text x="70" y="227" text-anchor="middle" font-size="10" fill="#aa2222">or soft toys</text>
+  <line x1="130" y1="210" x2="140" y2="200" stroke="#cc3333" stroke-width="1.5" marker-end="url(#arr3)"/>
+
+  <!-- Right side: Yes items -->
+  <!-- Wearable blanket -->
+  <rect x="570" y="85" width="120" height="40" rx="6" fill="#e0ffe0" stroke="#2a8a2a" stroke-width="1.5"/>
+  <text x="630" y="102" text-anchor="middle" font-size="11" fill="#2a6a2a" font-weight="bold">✓ Sleep sack</text>
+  <text x="630" y="117" text-anchor="middle" font-size="10" fill="#2a6a2a">wearable blanket</text>
+  <line x1="570" y1="105" x2="560" y2="130" stroke="#2a8a2a" stroke-width="1.5" marker-end="url(#arr2)"/>
+
+  <!-- Room sharing -->
+  <rect x="570" y="140" width="120" height="40" rx="6" fill="#e0ffe0" stroke="#2a8a2a" stroke-width="1.5"/>
+  <text x="630" y="157" text-anchor="middle" font-size="11" fill="#2a6a2a" font-weight="bold">✓ Room-share</text>
+  <text x="630" y="172" text-anchor="middle" font-size="10" fill="#2a6a2a">till 6 months</text>
+
+  <!-- Pacifier -->
+  <rect x="570" y="195" width="120" height="40" rx="6" fill="#e0ffe0" stroke="#2a8a2a" stroke-width="1.5"/>
+  <text x="630" y="212" text-anchor="middle" font-size="11" fill="#2a6a2a" font-weight="bold">✓ Pacifier</text>
+  <text x="630" y="227" text-anchor="middle" font-size="10" fill="#2a6a2a">ok after feeding</text>
+
+  <!-- Bottom note -->
+  <rect x="140" y="265" width="420" height="35" rx="6" fill="#fff8e6" stroke="#e8a020" stroke-width="1"/>
+  <text x="350" y="283" text-anchor="middle" font-size="11" fill="#7a4a00" font-weight="bold">Room temp: 68–72°F (20–22°C) — if you need a light blanket, baby is warm enough</text>
+  <text x="350" y="297" text-anchor="middle" font-size="10" fill="#888">Sources: CDC · Cleveland Clinic · Mayo Clinic</text>
+</svg>

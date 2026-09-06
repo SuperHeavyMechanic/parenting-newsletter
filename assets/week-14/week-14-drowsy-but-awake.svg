@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 280" width="700" height="280" font-family="Arial, sans-serif">
+  <!-- Background -->
+  <rect width="700" height="280" fill="#f8f9fb" rx="12"/>
+  <text x="350" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a2340">The "Drowsy But Awake" Spectrum</text>
+  <text x="350" y="48" text-anchor="middle" font-size="12" fill="#666">Like putting someone in bed when they're nodding off — not wide awake, not fully asleep</text>
+
+  <!-- Gradient bar -->
+  <defs>
+    <linearGradient id="alertToSleep" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffcc44;stop-opacity:1" />
+      <stop offset="40%" style="stop-color:#a0d080;stop-opacity:1" />
+      <stop offset="65%" style="stop-color:#4aaa66;stop-opacity:1" />
+      <stop offset="85%" style="stop-color:#2277cc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#334499;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect x="40" y="90" width="620" height="40" rx="20" fill="url(#alertToSleep)"/>
+
+  <!-- State labels on bar -->
+  <text x="85" y="115" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">ALERT</text>
+  <text x="215" y="115" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">Calm</text>
+  <text x="350" y="115" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">DROWSY ★</text>
+  <text x="487" y="115" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">Light sleep</text>
+  <text x="615" y="115" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">ASLEEP</text>
+
+  <!-- Target zone arrow -->
+  <rect x="270" y="60" width="160" height="24" rx="8" fill="#1a7a30"/>
+  <text x="350" y="77" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">↓ Put down HERE ↓</text>
+
+  <!-- Faces row -->
+  <!-- Alert face -->
+  <circle cx="85" cy="175" r="22" fill="#ffcc44" stroke="#cc8800" stroke-width="2"/>
+  <circle cx="78" cy="170" r="3" fill="#333"/>
+  <circle cx="92" cy="170" r="3" fill="#333"/>
+  <path d="M79,183 Q85,188 91,183" stroke="#333" stroke-width="2" fill="none"/>
+  <text x="85" y="212" text-anchor="middle" font-size="10" fill="#555">Eyes open,</text>
+  <text x="85" y="224" text-anchor="middle" font-size="10" fill="#555">active, alert</text>
+
+  <!-- Calm face -->
+  <circle cx="215" cy="175" r="22" fill="#a0d080" stroke="#5a8a30" stroke-width="2"/>
+  <circle cx="208" cy="170" r="3" fill="#333"/>
+  <circle cx="222" cy="170" r="3" fill="#333"/>
+  <path d="M209,182 Q215,185 221,182" stroke="#333" stroke-width="2" fill="none"/>
+  <text x="215" y="212" text-anchor="middle" font-size="10" fill="#555">Relaxed,</text>
+  <text x="215" y="224" text-anchor="middle" font-size="10" fill="#555">slowing down</text>
+
+  <!-- Drowsy face (target) -->
+  <circle cx="350" cy="175" r="26" fill="#4aaa66" stroke="#1a7a30" stroke-width="3"/>
+  <!-- Half-closed eyes -->
+  <path d="M341,169 Q344,166 347,169" stroke="#333" stroke-width="2" fill="none"/>
+  <path d="M353,169 Q356,166 359,169" stroke="#333" stroke-width="2" fill="none"/>
+  <!-- Heavy lids -->
+  <path d="M340,169 Q344,172 348,169" stroke="#333" stroke-width="1.5" fill="#4aaa66"/>
+  <path d="M352,169 Q356,172 360,169" stroke="#333" stroke-width="1.5" fill="#4aaa66"/>
+  <path d="M343,181 Q350,185 357,181" stroke="#333" stroke-width="2" fill="none"/>
+  <text x="350" y="217" text-anchor="middle" font-size="11" fill="#1a7a30" font-weight="bold">★ TARGET ZONE</text>
+  <text x="350" y="229" text-anchor="middle" font-size="10" fill="#555">Drooping lids,</text>
+  <text x="350" y="241" text-anchor="middle" font-size="10" fill="#555">yawning, limp</text>
+
+  <!-- Light sleep face -->
+  <circle cx="487" cy="175" r="22" fill="#4477bb" stroke="#2255aa" stroke-width="2"/>
+  <path d="M480,170 Q484,167 488,170" stroke="#333" stroke-width="2" fill="none"/>
+  <path d="M480,170 Q484,173 488,170" stroke="#333" stroke-width="1.5" fill="#4477bb"/>
+  <path d="M490,170 Q494,167 498,170" stroke="#333" stroke-width="2" fill="none"/>
+  <path d="M490,170 Q494,173 498,170" stroke="#333" stroke-width="1.5" fill="#4477bb"/>
+  <path d="M481,182 Q487,180 493,182" stroke="#333" stroke-width="1.5" fill="none"/>
+  <text x="487" y="212" text-anchor="middle" font-size="10" fill="#555">Eyes mostly</text>
+  <text x="487" y="224" text-anchor="middle" font-size="10" fill="#555">closed, nodding</text>
+
+  <!-- Asleep face -->
+  <circle cx="615" cy="175" r="22" fill="#334499" stroke="#112277" stroke-width="2"/>
+  <path d="M608,170 Q612,167 616,170" stroke="#ddd" stroke-width="2" fill="none"/>
+  <path d="M608,170 Q612,173 616,170" stroke="#ddd" stroke-width="1.5" fill="#334499"/>
+  <path d="M618,170 Q622,167 626,170" stroke="#ddd" stroke-width="2" fill="none"/>
+  <path d="M618,170 Q622,173 626,170" stroke="#ddd" stroke-width="1.5" fill="#334499"/>
+  <path d="M609,183 Q615,181 621,183" stroke="#ddd" stroke-width="1.5" fill="none"/>
+  <text x="615" y="212" text-anchor="middle" font-size="10" fill="#555">Fully asleep</text>
+  <text x="615" y="224" text-anchor="middle" font-size="10" fill="#555">(too late to put</text>
+  <text x="615" y="236" text-anchor="middle" font-size="10" fill="#555">down awake)</text>
+
+  <!-- Bottom note -->
+  <text x="350" y="265" text-anchor="middle" font-size="11" fill="#888">If already asleep when you go to put down — that's okay. The goal is practice, not perfection.</text>
+</svg>
