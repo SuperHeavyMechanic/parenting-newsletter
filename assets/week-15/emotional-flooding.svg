@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" width="480" height="360" font-family="system-ui, sans-serif">
+  <!-- Background -->
+  <rect width="480" height="360" rx="12" fill="#f8f8f8"/>
+
+  <!-- Title -->
+  <text x="240" y="32" text-anchor="middle" font-size="16" font-weight="700" fill="#1a1a2e">Emotional Flooding</text>
+  <text x="240" y="52" text-anchor="middle" font-size="11" fill="#555">Like a circuit breaker that trips — rational thinking goes offline</text>
+
+  <!-- Meter background (thermometer tube) -->
+  <rect x="190" y="70" width="100" height="230" rx="50" fill="#e0e0e0" stroke="#ccc" stroke-width="1"/>
+
+  <!-- Green zone -->
+  <rect x="190" y="218" width="100" height="82" rx="0" fill="#66bb6a"/>
+  <rect x="190" y="290" width="100" height="10" rx="50" fill="#66bb6a"/>
+
+  <!-- Yellow zone -->
+  <rect x="190" y="168" width="100" height="50" fill="#ffca28"/>
+
+  <!-- Red zone -->
+  <rect x="190" y="70" width="100" height="98" rx="0" fill="#ef5350"/>
+  <rect x="190" y="70" width="100" height="50" rx="50" fill="#ef5350"/>
+
+  <!-- Meter labels (right side) -->
+  <text x="302" y="116" font-size="12" font-weight="700" fill="#c62828">🔴 FLOODED</text>
+  <text x="302" y="130" font-size="10" fill="#c62828">Fight/flight mode</text>
+  <text x="302" y="142" font-size="10" fill="#c62828">Can't reason clearly</text>
+
+  <text x="302" y="200" font-size="12" font-weight="700" fill="#f57f17">🟡 STRESSED</text>
+  <text x="302" y="214" font-size="10" fill="#f57f17">Defensive, reactive</text>
+
+  <text x="302" y="265" font-size="12" font-weight="700" fill="#2e7d32">🟢 CALM</text>
+  <text x="302" y="279" font-size="10" fill="#2e7d32">Open, can problem-solve</text>
+  <text x="302" y="291" font-size="10" fill="#2e7d32">Good time to talk</text>
+
+  <!-- Divider lines on meter -->
+  <line x1="190" y1="218" x2="290" y2="218" stroke="white" stroke-width="2"/>
+  <line x1="190" y1="168" x2="290" y2="168" stroke="white" stroke-width="2"/>
+
+  <!-- Arrow showing escalation direction -->
+  <text x="168" y="100" text-anchor="middle" font-size="20" fill="#c62828">↑</text>
+  <text x="168" y="115" text-anchor="middle" font-size="9" fill="#888">Stress</text>
+  <text x="168" y="126" text-anchor="middle" font-size="9" fill="#888">rises</text>
+
+  <!-- Tip box -->
+  <rect x="20" y="308" width="440" height="42" rx="8" fill="#e3f2fd" stroke="#90caf9" stroke-width="1"/>
+  <text x="240" y="325" text-anchor="middle" font-size="11" fill="#1565c0" font-weight="600">Tip: When you feel flooded, call a 20-min timeout.</text>
+  <text x="240" y="341" text-anchor="middle" font-size="10" fill="#1565c0">Your heart rate needs time to drop before you can actually talk productively.</text>
+</svg>

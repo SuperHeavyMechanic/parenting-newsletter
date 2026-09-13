@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" width="480" height="360" font-family="system-ui, sans-serif">
+  <!-- Background -->
+  <rect width="480" height="360" rx="12" fill="#fafaf5"/>
+
+  <!-- Title -->
+  <text x="240" y="32" text-anchor="middle" font-size="16" font-weight="700" fill="#1a2a1a">Bids for Connection</text>
+  <text x="240" y="52" text-anchor="middle" font-size="11" fill="#555">Like a relationship bank account — small deposits add up fast</text>
+
+  <!-- Bank account graphic -->
+  <rect x="50" y="65" width="380" height="60" rx="8" fill="#2e7d32"/>
+  <text x="240" y="90" text-anchor="middle" font-size="13" font-weight="700" fill="white">💑 Relationship Account</text>
+  <text x="240" y="110" text-anchor="middle" font-size="12" fill="#a5d6a7">Balance: builds or drains daily</text>
+
+  <!-- Left column: Deposits -->
+  <rect x="50" y="145" width="175" height="160" rx="8" fill="#e8f5e9" stroke="#66bb6a" stroke-width="1.5"/>
+  <text x="137" y="168" text-anchor="middle" font-size="13" font-weight="700" fill="#2e7d32">✅ Deposits</text>
+  <text x="137" y="188" text-anchor="middle" font-size="11" fill="#2e7d32">Bid noticed &amp; met</text>
+  <line x1="70" y1="196" x2="210" y2="196" stroke="#a5d6a7" stroke-width="1"/>
+  <text x="137" y="214" text-anchor="middle" font-size="10" fill="#388e3c">"Look at the baby!" → "Oh wow!"</text>
+  <text x="137" y="232" text-anchor="middle" font-size="10" fill="#388e3c">Cup of tea, unprompted</text>
+  <text x="137" y="250" text-anchor="middle" font-size="10" fill="#388e3c">Genuine eye contact at dinner</text>
+  <text x="137" y="268" text-anchor="middle" font-size="10" fill="#388e3c">6-second hug before work</text>
+  <text x="137" y="286" text-anchor="middle" font-size="10" fill="#388e3c">"You look tired — sit, I'll do it"</text>
+
+  <!-- Right column: Withdrawals -->
+  <rect x="255" y="145" width="175" height="160" rx="8" fill="#ffebee" stroke="#ef5350" stroke-width="1.5"/>
+  <text x="342" y="168" text-anchor="middle" font-size="13" font-weight="700" fill="#c62828">❌ Withdrawals</text>
+  <text x="342" y="188" text-anchor="middle" font-size="11" fill="#c62828">Bid ignored or rejected</text>
+  <line x1="275" y1="196" x2="415" y2="196" stroke="#ef9a9a" stroke-width="1"/>
+  <text x="342" y="214" text-anchor="middle" font-size="10" fill="#c62828">"Look at the baby!" → phone down</text>
+  <text x="342" y="232" text-anchor="middle" font-size="10" fill="#c62828">Dismissing worries</text>
+  <text x="342" y="250" text-anchor="middle" font-size="10" fill="#c62828">Distracted during talking</text>
+  <text x="342" y="268" text-anchor="middle" font-size="10" fill="#c62828">Criticism instead of curiosity</text>
+  <text x="342" y="286" text-anchor="middle" font-size="10" fill="#c62828">One-word answers</text>
+
+  <!-- Bottom tip -->
+  <rect x="50" y="320" width="380" height="30" rx="6" fill="#fff9c4" stroke="#f9a825" stroke-width="1"/>
+  <text x="240" y="339" text-anchor="middle" font-size="11" fill="#f57f17" font-weight="600">Most bids are small. Most withdrawals are accidental. Noticing is everything.</text>
+</svg>

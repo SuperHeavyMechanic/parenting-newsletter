@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" width="480" height="340" font-family="system-ui, sans-serif">
+  <!-- Background -->
+  <rect width="480" height="340" rx="12" fill="#fdf6f0"/>
+
+  <!-- Title -->
+  <text x="240" y="32" text-anchor="middle" font-size="16" font-weight="700" fill="#2d1b0e">Oxytocin — The Bonding Loop</text>
+  <text x="240" y="52" text-anchor="middle" font-size="11" fill="#7a5c3e">Like a warm feedback loop: every kind moment makes the next one easier</text>
+
+  <!-- Central circle -->
+  <circle cx="240" cy="185" r="46" fill="#e8d5c4" stroke="#c4956a" stroke-width="2"/>
+  <text x="240" y="181" text-anchor="middle" font-size="13" font-weight="700" fill="#6b3a1f">Oxytocin</text>
+  <text x="240" y="197" text-anchor="middle" font-size="11" fill="#6b3a1f">"Love hormone"</text>
+
+  <!-- Node 1 — Eye contact / Touch (top) -->
+  <ellipse cx="240" cy="95" rx="68" ry="26" fill="#f9c784" stroke="#d4913a" stroke-width="1.5"/>
+  <text x="240" y="91" text-anchor="middle" font-size="11" font-weight="600" fill="#5a3a00">Eye contact</text>
+  <text x="240" y="106" text-anchor="middle" font-size="10" fill="#5a3a00">or gentle touch</text>
+
+  <!-- Node 2 — Calm & warmth (right) -->
+  <ellipse cx="372" cy="185" rx="62" ry="26" fill="#b8e0c8" stroke="#4a9e6b" stroke-width="1.5"/>
+  <text x="372" y="181" text-anchor="middle" font-size="11" font-weight="600" fill="#1a5c38">Calm &amp; warmth</text>
+  <text x="372" y="196" text-anchor="middle" font-size="10" fill="#1a5c38">released in body</text>
+
+  <!-- Node 3 — Bonding & trust (bottom) -->
+  <ellipse cx="240" cy="278" rx="68" ry="26" fill="#c5d8f5" stroke="#4a72b8" stroke-width="1.5"/>
+  <text x="240" y="274" text-anchor="middle" font-size="11" font-weight="600" fill="#1a3c6e">Bonding &amp; trust</text>
+  <text x="240" y="289" text-anchor="middle" font-size="10" fill="#1a3c6e">grows stronger</text>
+
+  <!-- Node 4 — Desire for more (left) -->
+  <ellipse cx="108" cy="185" rx="62" ry="26" fill="#e8c5e8" stroke="#9b4fb8" stroke-width="1.5"/>
+  <text x="108" y="181" text-anchor="middle" font-size="11" font-weight="600" fill="#5a1a6e">Seeks more</text>
+  <text x="108" y="196" text-anchor="middle" font-size="10" fill="#5a1a6e">connection</text>
+
+  <!-- Arrows — clockwise: top→right, right→bottom, bottom→left, left→top -->
+  <!-- Top to Right -->
+  <path d="M 304 104 Q 358 120 340 162" stroke="#c4956a" stroke-width="2" fill="none" marker-end="url(#arr)"/>
+  <!-- Right to Bottom -->
+  <path d="M 358 210 Q 348 252 304 268" stroke="#c4956a" stroke-width="2" fill="none" marker-end="url(#arr)"/>
+  <!-- Bottom to Left -->
+  <path d="M 176 268 Q 122 252 144 210" stroke="#c4956a" stroke-width="2" fill="none" marker-end="url(#arr)"/>
+  <!-- Left to Top -->
+  <path d="M 140 162 Q 120 118 176 104" stroke="#c4956a" stroke-width="2" fill="none" marker-end="url(#arr)"/>
+
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#c4956a"/>
+    </marker>
+  </defs>
+</svg>
