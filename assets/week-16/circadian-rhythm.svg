@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 310" width="640" height="310" font-family="Georgia, serif">
+  <!-- Background -->
+  <rect width="640" height="310" fill="#fdf8f2" rx="12"/>
+
+  <!-- Title -->
+  <text x="320" y="32" text-anchor="middle" font-size="17" font-weight="bold" fill="#3a2a1a">Circadian Rhythm: Baby's Internal Body Clock</text>
+  <text x="320" y="52" text-anchor="middle" font-size="11" fill="#7a6a5a">Like an alarm clock that needs calibrating — takes 3–6 months to sync with daylight</text>
+
+  <!-- NEWBORN panel (left) -->
+  <rect x="30" y="70" width="270" height="200" rx="10" fill="#eae8f8" stroke="#8878c8" stroke-width="1.5"/>
+  <text x="165" y="95" text-anchor="middle" font-size="13" font-weight="bold" fill="#5040a0">Newborn (0–2 months)</text>
+  <text x="165" y="112" text-anchor="middle" font-size="10" fill="#6050b0">Sleep &amp; wake randomly around the clock</text>
+
+  <!-- Newborn timeline: 24 hr strip with random sleep/wake blocks -->
+  <!-- Time labels -->
+  <text x="55" y="140" text-anchor="middle" font-size="9" fill="#5040a0">12am</text>
+  <text x="165" y="140" text-anchor="middle" font-size="9" fill="#5040a0">12pm</text>
+  <text x="275" y="140" text-anchor="middle" font-size="9" fill="#5040a0">12am</text>
+  <!-- Background strip -->
+  <rect x="55" y="145" width="220" height="28" fill="#c8c0e0" rx="4"/>
+  <!-- Random sleep blocks (dark = sleep, light = awake) -->
+  <rect x="55" y="145" width="30" height="28" fill="#4830a0" rx="2"/>
+  <rect x="93" y="145" width="15" height="28" fill="#4830a0" rx="2"/>
+  <rect x="117" y="145" width="25" height="28" fill="#4830a0" rx="2"/>
+  <rect x="152" y="145" width="20" height="28" fill="#4830a0" rx="2"/>
+  <rect x="183" y="145" width="10" height="28" fill="#4830a0" rx="2"/>
+  <rect x="203" y="145" width="28" height="28" fill="#4830a0" rx="2"/>
+  <rect x="245" y="145" width="12" height="28" fill="#4830a0" rx="2"/>
+  <!-- Legend -->
+  <rect x="90" y="183" width="12" height="10" fill="#4830a0" rx="2"/>
+  <text x="106" y="192" font-size="9" fill="#3a2a8a">Sleep</text>
+  <rect x="150" y="183" width="12" height="10" fill="#c8c0e0" rx="2"/>
+  <text x="166" y="192" font-size="9" fill="#3a2a8a">Awake</text>
+  <text x="165" y="215" text-anchor="middle" font-size="10" fill="#4a3a90">No pattern — day = night</text>
+  <text x="165" y="230" text-anchor="middle" font-size="10" fill="#4a3a90">to a newborn's brain</text>
+  <!-- Sun/Moon chaotic -->
+  <circle cx="90" cy="253" r="14" fill="#f0c040" stroke="#d09820" stroke-width="1.5"/>
+  <text x="90" y="258" text-anchor="middle" font-size="12">☀️</text>
+  <circle cx="240" cy="253" r="14" fill="#d8d0f8" stroke="#8878c8" stroke-width="1.5"/>
+  <text x="240" y="258" text-anchor="middle" font-size="12">🌙</text>
+  <text x="165" y="258" text-anchor="middle" font-size="20" fill="#9080c0">↔️</text>
+
+  <!-- Arrow between panels -->
+  <text x="320" y="175" text-anchor="middle" font-size="22" fill="#c08040">→</text>
+  <text x="320" y="193" text-anchor="middle" font-size="9" fill="#8a6a30">3–6</text>
+  <text x="320" y="205" text-anchor="middle" font-size="9" fill="#8a6a30">months</text>
+
+  <!-- 3-6 MONTHS panel (right) -->
+  <rect x="340" y="70" width="270" height="200" rx="10" fill="#e8f5e8" stroke="#50a050" stroke-width="1.5"/>
+  <text x="475" y="95" text-anchor="middle" font-size="13" font-weight="bold" fill="#207a20">3–6 Months</text>
+  <text x="475" y="112" text-anchor="middle" font-size="10" fill="#308030">Sleep patterns consolidating</text>
+
+  <!-- 3-6m timeline: more organized -->
+  <text x="365" y="140" text-anchor="middle" font-size="9" fill="#207a20">12am</text>
+  <text x="475" y="140" text-anchor="middle" font-size="9" fill="#207a20">12pm</text>
+  <text x="585" y="140" text-anchor="middle" font-size="9" fill="#207a20">12am</text>
+  <!-- Background strip -->
+  <rect x="365" y="145" width="220" height="28" fill="#a8d8a8" rx="4"/>
+  <!-- Big night sleep block -->
+  <rect x="365" y="145" width="80" height="28" fill="#207a20" rx="2"/>
+  <!-- Day: awake with nap -->
+  <rect x="455" y="145" width="28" height="28" fill="#207a20" rx="2"/>
+  <rect x="497" y="145" width="22" height="28" fill="#207a20" rx="2"/>
+  <!-- Evening/night -->
+  <rect x="545" y="145" width="40" height="28" fill="#207a20" rx="2"/>
+  <!-- Legend -->
+  <rect x="400" y="183" width="12" height="10" fill="#207a20" rx="2"/>
+  <text x="416" y="192" font-size="9" fill="#105010">Sleep</text>
+  <rect x="460" y="183" width="12" height="10" fill="#a8d8a8" rx="2"/>
+  <text x="476" y="192" font-size="9" fill="#105010">Awake</text>
+  <text x="475" y="215" text-anchor="middle" font-size="10" fill="#207a20">Longer night stretches</text>
+  <text x="475" y="230" text-anchor="middle" font-size="10" fill="#207a20">Naps becoming more regular</text>
+  <!-- Sun stays up, moon stays at night -->
+  <circle cx="475" cy="253" r="14" fill="#f0c040" stroke="#d09820" stroke-width="1.5"/>
+  <text x="415" y="258" text-anchor="middle" font-size="10" fill="#207a20">Day = awake</text>
+  <text x="535" y="258" text-anchor="middle" font-size="10" fill="#207a20">Night = sleep</text>
+</svg>
