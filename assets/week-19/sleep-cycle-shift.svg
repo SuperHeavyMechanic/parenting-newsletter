@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" width="760" height="380" font-family="system-ui, -apple-system, sans-serif">
+  <!-- Background -->
+  <rect width="760" height="380" fill="#f8f9fc" rx="12"/>
+
+  <!-- Title -->
+  <text x="380" y="34" text-anchor="middle" font-size="17" font-weight="700" fill="#1a1a2e">The 4-Month Sleep Cycle Shift</text>
+  <text x="380" y="54" text-anchor="middle" font-size="12" fill="#555">Why Josh is suddenly waking more at night</text>
+
+  <!-- NEWBORN TRACK -->
+  <text x="30" y="90" font-size="13" font-weight="600" fill="#1a1a2e">Newborn (Weeks 1–12)</text>
+  <text x="30" y="106" font-size="11" fill="#666">Mostly deep sleep — simple on/off cycles, ~3–4 hours each</text>
+
+  <!-- Newborn cycle bar: mostly deep (dark blue), brief REM (light) -->
+  <rect x="30" y="115" width="700" height="40" fill="#e8edf5" rx="6"/>
+  <!-- Deep sleep blocks - large -->
+  <rect x="32" y="117" width="180" height="36" fill="#3a6bc9" rx="4" opacity="0.9"/>
+  <rect x="218" y="117" width="175" height="36" fill="#3a6bc9" rx="4" opacity="0.9"/>
+  <rect x="399" y="117" width="172" height="36" fill="#3a6bc9" rx="4" opacity="0.9"/>
+  <rect x="577" y="117" width="150" height="36" fill="#3a6bc9" rx="4" opacity="0.9"/>
+  <!-- Tiny REM slivers between -->
+  <rect x="212" y="117" width="6" height="36" fill="#a0bfe8" rx="2"/>
+  <rect x="393" y="117" width="6" height="36" fill="#a0bfe8" rx="2"/>
+  <rect x="571" y="117" width="6" height="36" fill="#a0bfe8" rx="2"/>
+
+  <text x="122" y="140" text-anchor="middle" font-size="11" fill="white" font-weight="600">Deep</text>
+  <text x="305" y="140" text-anchor="middle" font-size="11" fill="white" font-weight="600">Deep</text>
+  <text x="485" y="140" text-anchor="middle" font-size="11" fill="white" font-weight="600">Deep</text>
+  <text x="651" y="140" text-anchor="middle" font-size="11" fill="white" font-weight="600">Deep</text>
+
+  <!-- Brief wake label -->
+  <text x="375" y="168" text-anchor="middle" font-size="11" fill="#888">Brief transitions — baby resettles without help</text>
+
+  <!-- Divider -->
+  <line x1="30" y1="185" x2="730" y2="185" stroke="#dde" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- 4-MONTH TRACK -->
+  <text x="30" y="208" font-size="13" font-weight="600" fill="#1a1a2e">4 Months (Josh now)</text>
+  <text x="30" y="224" font-size="11" fill="#666">Adult-like cycles: Light → Deep → REM → brief wake → repeat every ~45 min</text>
+
+  <!-- 4-month cycle bar: alternating light/deep/REM -->
+  <rect x="30" y="233" width="700" height="40" fill="#e8edf5" rx="6"/>
+
+  <!-- Cycle 1 -->
+  <rect x="32" y="235" width="40" height="36" fill="#a0bfe8" rx="3" opacity="0.9"/>
+  <rect x="72" y="235" width="55" height="36" fill="#3a6bc9" rx="3" opacity="0.9"/>
+  <rect x="127" y="235" width="38" height="36" fill="#7eb5a6" rx="3" opacity="0.9"/>
+  <!-- Wake marker -->
+  <rect x="165" y="235" width="6" height="36" fill="#f4b942" rx="2"/>
+
+  <!-- Cycle 2 -->
+  <rect x="171" y="235" width="38" height="36" fill="#a0bfe8" rx="3" opacity="0.9"/>
+  <rect x="209" y="235" width="55" height="36" fill="#3a6bc9" rx="3" opacity="0.9"/>
+  <rect x="264" y="235" width="38" height="36" fill="#7eb5a6" rx="3" opacity="0.9"/>
+  <!-- Wake marker -->
+  <rect x="302" y="235" width="6" height="36" fill="#f4b942" rx="2"/>
+
+  <!-- Cycle 3 -->
+  <rect x="308" y="235" width="38" height="36" fill="#a0bfe8" rx="3" opacity="0.9"/>
+  <rect x="346" y="235" width="55" height="36" fill="#3a6bc9" rx="3" opacity="0.9"/>
+  <rect x="401" y="235" width="38" height="36" fill="#7eb5a6" rx="3" opacity="0.9"/>
+  <!-- Wake marker -->
+  <rect x="439" y="235" width="6" height="36" fill="#f4b942" rx="2"/>
+
+  <!-- Cycle 4 -->
+  <rect x="445" y="235" width="38" height="36" fill="#a0bfe8" rx="3" opacity="0.9"/>
+  <rect x="483" y="235" width="55" height="36" fill="#3a6bc9" rx="3" opacity="0.9"/>
+  <rect x="538" y="235" width="38" height="36" fill="#7eb5a6" rx="3" opacity="0.9"/>
+  <!-- Wake marker -->
+  <rect x="576" y="235" width="6" height="36" fill="#f4b942" rx="2"/>
+
+  <!-- Cycle 5 -->
+  <rect x="582" y="235" width="38" height="36" fill="#a0bfe8" rx="3" opacity="0.9"/>
+  <rect x="620" y="235" width="55" height="36" fill="#3a6bc9" rx="3" opacity="0.9"/>
+  <rect x="675" y="235" width="52" height="36" fill="#7eb5a6" rx="3" opacity="0.9"/>
+
+  <!-- Cycle labels -->
+  <text x="93" y="257" text-anchor="middle" font-size="9" fill="white">Deep</text>
+  <text x="146" y="257" text-anchor="middle" font-size="9" fill="white">REM</text>
+  <text x="230" y="257" text-anchor="middle" font-size="9" fill="white">Deep</text>
+  <text x="283" y="257" text-anchor="middle" font-size="9" fill="white">REM</text>
+  <text x="367" y="257" text-anchor="middle" font-size="9" fill="white">Deep</text>
+  <text x="420" y="257" text-anchor="middle" font-size="9" fill="white">REM</text>
+  <text x="504" y="257" text-anchor="middle" font-size="9" fill="white">Deep</text>
+  <text x="557" y="257" text-anchor="middle" font-size="9" fill="white">REM</text>
+  <text x="641" y="257" text-anchor="middle" font-size="9" fill="white">Deep</text>
+  <text x="701" y="257" text-anchor="middle" font-size="9" fill="white">REM</text>
+
+  <!-- Wake callout -->
+  <text x="168" y="288" text-anchor="middle" font-size="10" fill="#c07a10">↑ Brief wake</text>
+  <text x="305" y="288" text-anchor="middle" font-size="10" fill="#c07a10">↑ Brief wake</text>
+  <text x="442" y="288" text-anchor="middle" font-size="10" fill="#c07a10">↑ Brief wake</text>
+  <text x="579" y="288" text-anchor="middle" font-size="10" fill="#c07a10">↑ Brief wake</text>
+
+  <!-- Legend -->
+  <rect x="30" y="316" width="14" height="14" fill="#a0bfe8" rx="3"/>
+  <text x="50" y="327" font-size="11" fill="#444">Light sleep</text>
+  <rect x="140" y="316" width="14" height="14" fill="#3a6bc9" rx="3"/>
+  <text x="160" y="327" font-size="11" fill="#444">Deep sleep</text>
+  <rect x="255" y="316" width="14" height="14" fill="#7eb5a6" rx="3"/>
+  <text x="275" y="327" font-size="11" fill="#444">REM</text>
+  <rect x="325" y="316" width="14" height="14" fill="#f4b942" rx="3"/>
+  <text x="345" y="327" font-size="11" fill="#444">Brief wake point</text>
+
+  <!-- Analogy -->
+  <rect x="30" y="344" width="700" height="26" fill="#fffbe8" rx="6" stroke="#f4b942" stroke-width="1"/>
+  <text x="380" y="361" text-anchor="middle" font-size="11" fill="#7a5c00">Analogy: like upgrading from 2-speed to 5-speed — the gears work better long-term, but there's a rough patch during the change.</text>
+</svg>

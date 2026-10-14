@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" width="760" height="380" font-family="system-ui, -apple-system, sans-serif">
+  <!-- Background -->
+  <rect width="760" height="380" fill="#f8f9fc" rx="12"/>
+
+  <!-- Title -->
+  <text x="380" y="34" text-anchor="middle" font-size="17" font-weight="700" fill="#1a1a2e">Social Smile → Chuckle: What Changes in the Brain</text>
+  <text x="380" y="54" text-anchor="middle" font-size="12" fill="#555">The chuckle is not just louder — it's a new neural circuit</text>
+
+  <!-- Divider line -->
+  <line x1="380" y1="66" x2="380" y2="350" stroke="#dde" stroke-width="1.5" stroke-dasharray="5 4"/>
+
+  <!-- LEFT: Social Smile -->
+  <text x="190" y="82" text-anchor="middle" font-size="14" font-weight="700" fill="#3a6bc9">Social Smile</text>
+  <text x="190" y="97" text-anchor="middle" font-size="11" fill="#555">Weeks 6–12 onwards</text>
+
+  <!-- Brain box - left -->
+  <rect x="60" y="110" width="260" height="120" fill="#dce8f9" rx="10" stroke="#3a6bc9" stroke-width="1.5"/>
+  <text x="190" y="132" text-anchor="middle" font-size="11" font-weight="600" fill="#3a6bc9">Brain pathway</text>
+
+  <!-- Pathway nodes -->
+  <circle cx="100" cy="160" r="22" fill="#3a6bc9" opacity="0.85"/>
+  <text x="100" cy="160" text-anchor="middle" dy="4" font-size="9" fill="white">Visual</text>
+  <text x="100" cy="160" text-anchor="middle" dy="15" font-size="9" fill="white">cortex</text>
+  <text x="100" y="175" text-anchor="middle" font-size="9" fill="white">cortex</text>
+
+  <path d="M123 160 L148 160" stroke="#3a6bc9" stroke-width="2" marker-end="url(#arr1)"/>
+
+  <circle cx="172" cy="160" r="22" fill="#3a6bc9" opacity="0.85"/>
+  <text x="172" y="156" text-anchor="middle" font-size="9" fill="white">Emotion</text>
+  <text x="172" y="168" text-anchor="middle" font-size="9" fill="white">centre</text>
+
+  <path d="M195 160 L220 160" stroke="#3a6bc9" stroke-width="2" marker-end="url(#arr1)"/>
+
+  <circle cx="244" cy="160" r="22" fill="#3a6bc9" opacity="0.85"/>
+  <text x="244" y="156" text-anchor="middle" font-size="9" fill="white">Facial</text>
+  <text x="244" y="168" text-anchor="middle" font-size="9" fill="white">muscles</text>
+
+  <!-- Result -->
+  <text x="190" y="212" text-anchor="middle" font-size="11" fill="#444">Sees your face → feels happy → mouth curves up</text>
+
+  <!-- Baby face smiling -->
+  <circle cx="190" cy="265" r="38" fill="#fff3e0" stroke="#f4b942" stroke-width="2"/>
+  <circle cx="178" cy="258" r="4" fill="#555"/>
+  <circle cx="202" cy="258" r="4" fill="#555"/>
+  <path d="M175 275 Q190 288 205 275" stroke="#555" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- No sound wave -->
+  <text x="190" y="322" text-anchor="middle" font-size="11" fill="#888">Silent or very quiet</text>
+
+  <!-- RIGHT: Chuckle -->
+  <text x="570" y="82" text-anchor="middle" font-size="14" font-weight="700" fill="#2a9d5c">Chuckle</text>
+  <text x="570" y="97" text-anchor="middle" font-size="11" fill="#555">~4 months (Josh now!)</text>
+
+  <!-- Brain box - right -->
+  <rect x="440" y="110" width="280" height="120" fill="#d7f0e5" rx="10" stroke="#2a9d5c" stroke-width="1.5"/>
+  <text x="580" y="132" text-anchor="middle" font-size="11" font-weight="600" fill="#2a9d5c">Brain pathway — adds one step</text>
+
+  <!-- Pathway nodes - same + breath -->
+  <circle cx="472" cy="160" r="20" fill="#2a9d5c" opacity="0.85"/>
+  <text x="472" y="156" text-anchor="middle" font-size="9" fill="white">Visual</text>
+  <text x="472" y="168" text-anchor="middle" font-size="9" fill="white">cortex</text>
+
+  <path d="M493 160 L510 160" stroke="#2a9d5c" stroke-width="2" marker-end="url(#arr2)"/>
+
+  <circle cx="532" cy="160" r="20" fill="#2a9d5c" opacity="0.85"/>
+  <text x="532" y="156" text-anchor="middle" font-size="9" fill="white">Emotion</text>
+  <text x="532" y="168" text-anchor="middle" font-size="9" fill="white">centre</text>
+
+  <path d="M553 160 L570 160" stroke="#2a9d5c" stroke-width="2" marker-end="url(#arr2)"/>
+
+  <circle cx="592" cy="160" r="20" fill="#2a9d5c" opacity="0.85"/>
+  <text x="592" y="156" text-anchor="middle" font-size="9" fill="white">Facial</text>
+  <text x="592" y="168" text-anchor="middle" font-size="9" fill="white">muscles</text>
+
+  <path d="M613 160 L630 160" stroke="#f4b942" stroke-width="2.5" stroke-dasharray="none" marker-end="url(#arr3)"/>
+
+  <!-- NEW node: breath control -->
+  <circle cx="652" cy="160" r="26" fill="#f4b942" stroke="#c07a10" stroke-width="1.5"/>
+  <text x="652" y="154" text-anchor="middle" font-size="8.5" fill="white" font-weight="700">Breath</text>
+  <text x="652" y="164" text-anchor="middle" font-size="8.5" fill="white" font-weight="700">control</text>
+  <text x="652" y="174" text-anchor="middle" font-size="8.5" fill="white">(NEW!)</text>
+
+  <text x="570" y="212" text-anchor="middle" font-size="11" fill="#444">Smile + burst of exhaled air = ha-ha-ha!</text>
+
+  <!-- Baby face laughing -->
+  <circle cx="570" cy="265" r="38" fill="#fff3e0" stroke="#f4b942" stroke-width="2"/>
+  <circle cx="558" cy="258" r="4" fill="#555"/>
+  <circle cx="582" cy="258" r="4" fill="#555"/>
+  <!-- Open mouth laugh -->
+  <path d="M555 272 Q570 292 585 272" stroke="#555" stroke-width="2.5" fill="#ffccaa" stroke-linecap="round"/>
+  <!-- Sound waves -->
+  <path d="M610 260 Q618 253 610 246" stroke="#2a9d5c" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M616 264 Q627 253 616 242" stroke="#2a9d5c" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <text x="570" y="322" text-anchor="middle" font-size="11" fill="#2a9d5c" font-weight="600">Ha-ha sound!</text>
+
+  <!-- Arrows defs -->
+  <defs>
+    <marker id="arr1" markerWidth="8" markerHeight="8" refX="4" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#3a6bc9"/>
+    </marker>
+    <marker id="arr2" markerWidth="8" markerHeight="8" refX="4" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#2a9d5c"/>
+    </marker>
+    <marker id="arr3" markerWidth="8" markerHeight="8" refX="4" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#f4b942"/>
+    </marker>
+  </defs>
+
+  <!-- Analogy -->
+  <rect x="20" y="344" width="720" height="26" fill="#fffbe8" rx="6" stroke="#f4b942" stroke-width="1"/>
+  <text x="380" y="361" text-anchor="middle" font-size="11" fill="#7a5c00">Analogy: social smile = texting a thumbs-up. Chuckle = actually calling you back — it takes more of the brain and is worth celebrating.</text>
+</svg>
