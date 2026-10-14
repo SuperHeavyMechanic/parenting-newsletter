@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light only"><title>Josh weekly newsletter · Week {{WEEK}}</title></head>
+<body style="margin:0;padding:0;background-color:#F3F0E9;">
+<!--
+  JOSH WEEKLY NEWSLETTER — HTML EMAIL TEMPLATE (Linen v2)
+  Palette: sage #566E58 / #7F9C81 / tint #EEF2EA, caramel #C79A6B / text #8E6A43 / tint #F7EEE3, ink #2F332E, body #555A52, muted #8E8A80.
+  One font only: 'Helvetica Neue', Helvetica, Arial, sans-serif. Keep every style inline; tables only; no style tag, SVG, JS or web fonts.
+  Replace every {{TOKEN}}. Each block wrapped in REPEAT:name / /REPEAT:name comment markers is copied once per item.
+  Remove all HTML comments before sending.
+-->
+<div style="display:none;max-height:0;overflow:hidden;opacity:0;font-size:1px;line-height:1px;color:#F3F0E9;">{{PREHEADER}}&#8199;&#65279;&#847;&#8199;&#65279;&#847;&#8199;&#65279;&#847;</div>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#F3F0E9;"><tr><td align="center" style="padding:28px 12px;">
+<table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;">
+
+<!-- Masthead -->
+<tr><td style="padding:0 8px 16px 8px;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+    <td style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:11px;letter-spacing:3px;text-transform:uppercase;color:#566E58;font-weight:bold;">Josh Weekly</td>
+    <td align="right" style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#8E6A43;">Issue {{WEEK}} · {{SATURDAY_DATE}}</td>
+  </tr></table>
+</td></tr>
+
+<!-- Header photo (Unsplash), fixed 5:2 crop so every issue has the same header height (600 x 240 shown, 1200 x 480 source).
+     HERO_IMAGE_URL = the photo's urls.raw + "&w=1200&h=480&fit=crop&crop=faces,entropy&q=80&fm=jpg" -->
+<tr><td bgcolor="#E9E4DA" style="background-color:#E9E4DA;border-radius:10px 10px 0 0;font-size:0;line-height:0;height:240px;">
+  <img src="{{HERO_IMAGE_URL}}" width="600" height="240" alt="{{HERO_ALT}}" style="display:block;width:100%;max-width:600px;height:auto;max-height:240px;object-fit:cover;border:0;border-radius:10px 10px 0 0;">
+</td></tr>
+<tr><td align="right" style="background-color:#FFFDF9;padding:8px 14px 0 14px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:10px;color:#ABA79D;">
+  Photo by <a href="{{PHOTO_CREDIT_URL}}" style="color:#ABA79D;text-decoration:underline;">{{PHOTO_CREDIT_NAME}}</a> on <a href="https://unsplash.com/?utm_source=josh_weekly&amp;utm_medium=referral" style="color:#ABA79D;text-decoration:underline;">Unsplash</a>
+</td></tr>
+
+<!-- Hero text -->
+<tr><td style="background-color:#FFFDF9;padding:18px 36px 8px 36px;">
+  <div style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:13px;color:#8E6A43;letter-spacing:1px;">This week, Josh is</div>
+  <div style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:38px;line-height:44px;font-weight:300;color:#2F332E;margin-top:4px;">{{AGE_WEEKS}} weeks, {{AGE_DAYS}} days</div>
+  <div style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:14px;color:#8E8A80;margin-top:6px;">About {{AGE_MONTHS}} months &nbsp;·&nbsp; Day {{DAY_OF_LIFE}}</div>
+  <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin-top:22px;"><tr><td style="background-color:#F7EEE3;border-radius:14px;padding:5px 12px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#8E6A43;">Week {{WEEK}} theme</td></tr></table>
+  <div style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:22px;line-height:30px;color:#2F332E;margin-top:10px;">{{THEME}}</div>
+  <p style="margin:12px 0 0 0;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;line-height:25px;color:#555A52;">Hi Shan, {{INTRO}}</p>
+</td></tr>
+
+<!-- Sections wrapper -->
+<tr><td style="background-color:#FFFDF9;padding:24px 24px 8px 24px;">
+
+  <!-- 1. At a glance (sage tint) -->
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#EEF2EA;border-radius:10px;margin-bottom:14px;"><tr><td style="padding:22px 24px 10px 24px;">
+    <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr>
+      <td width="32" valign="middle"><img src="https://raw.githubusercontent.com/SuperHeavyMechanic/parenting-newsletter/main/templates/icons/glance.png" width="22" height="22" alt="" style="display:block;border:0;"></td>
+      <td valign="middle" style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase;color:#566E58;font-weight:bold;">At a glance</td></tr></table>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top:6px;">
+    <!-- REPEAT:glance (exactly 3; GLANCE_NUM = 01, 02, 03) -->
+      <tr><td width="36" valign="top" style="padding:12px 0;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:13px;color:#C79A6B;font-weight:bold;">{{GLANCE_NUM}}</td>
+      <td valign="top" style="padding:12px 0;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;"><div style="font-size:15px;color:#2F332E;line-height:22px;">{{GLANCE_TITLE}}</div><div style="font-size:14px;color:#555A52;line-height:22px;margin-top:2px;">{{GLANCE_TEXT}}</div></td></tr>
+    <!-- /REPEAT:glance -->
+    </table>
+  </td></tr></table>
+
+  <!-- 2. Milestone watch (caramel tint) -->
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#F7EEE3;border-radius:10px;margin-bottom:14px;"><tr><td style="padding:22px 24px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+      <td width="32" valign="middle"><img src="https://raw.githubusercontent.com/SuperHeavyMechanic/parenting-newsletter/main/templates/icons/milestone.png" width="22" height="22" alt="" style="display:block;border:0;"></td>
+      <td valign="middle" style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase;color:#8E6A43;font-weight:bold;">Milestone watch</td>
+      <td align="right" valign="middle" style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:13px;color:#8E6A43;">{{MILESTONE_COUNTDOWN}}</td></tr></table>
+    <div style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:18px;color:#2F332E;margin:12px 0 14px 0;">{{MILESTONE_NAME}}</div>
+    <!-- MILESTONE_PCT = whole number, % of the way from the previous checkpoint to the next -->
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#EADBC8;border-radius:3px;"><tr>
+      <td width="{{MILESTONE_PCT}}%" style="background-color:#C79A6B;border-radius:3px;height:5px;font-size:0;line-height:0;">&nbsp;</td><td style="font-size:0;line-height:0;">&nbsp;</td></tr></table>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top:6px;"><tr>
+      <td style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:11px;color:#8E8A80;">{{MILESTONE_PREV_LABEL}}</td><td align="right" style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:11px;color:#8E8A80;">{{MILESTONE_NEXT_LABEL}}</td></tr></table>
+    <div style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:13px;color:#8E6A43;margin:16px 0 4px 0;">Watch for</div>
+    <div style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:14px;line-height:24px;color:#555A52;">
+    <!-- REPEAT:watch (3–5 items) -->
+      <div>— {{WATCH_ITEM}}</div>
+    <!-- /REPEAT:watch -->
+    </div>
+  </td></tr></table>
+
+  <!-- 3. This week's plan (sage tint) -->
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#EEF2EA;border-radius:10px;margin-bottom:14px;"><tr><td style="padding:22px 24px 10px 24px;">
+    <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr>
+      <td width="32" valign="middle"><img src="https://raw.githubusercontent.com/SuperHeavyMechanic/parenting-newsletter/main/templates/icons/plan.png" width="22" height="22" alt="" style="display:block;border:0;"></td>
+      <td valign="middle" style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase;color:#566E58;font-weight:bold;">This week's plan</td></tr></table>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top:6px;">
+    <!-- REPEAT:todo (3–5 items; TODO_TAG is one short word) -->
+      <tr><td width="28" valign="top" style="padding:14px 0;"><div style="width:14px;height:14px;border:1.5px solid #7F9C81;border-radius:8px;background-color:#FFFDF9;font-size:0;line-height:0;">&nbsp;</div></td>
+      <td valign="top" style="padding:12px 0;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;line-height:23px;color:#555A52;"><span style="color:#2F332E;">{{TODO_TITLE}}</span> — {{TODO_TEXT}}</td>
+      <td width="64" valign="top" align="right" style="padding:14px 0;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#8E6A43;">{{TODO_TAG}}</td></tr>
+    <!-- /REPEAT:todo -->
+    </table>
+  </td></tr></table>
+
+  <!-- 4. A small thing (caramel tint) -->
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#F7EEE3;border-radius:10px;margin-bottom:14px;"><tr><td style="padding:22px 24px;">
+    <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr>
+      <td width="32" valign="middle"><img src="https://raw.githubusercontent.com/SuperHeavyMechanic/parenting-newsletter/main/templates/icons/smallthing.png" width="22" height="22" alt="" style="display:block;border:0;"></td>
+      <td valign="middle" style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase;color:#8E6A43;font-weight:bold;">A small thing</td></tr></table>
+    <div style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;line-height:26px;color:#2F332E;margin-top:12px;">{{FUN_FACT}}</div>
+  </td></tr></table>
+
+  <!-- 5. Coming up (sage tint) -->
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#EEF2EA;border-radius:10px;"><tr><td style="padding:22px 24px;">
+    <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr>
+      <td width="32" valign="middle"><img src="https://raw.githubusercontent.com/SuperHeavyMechanic/parenting-newsletter/main/templates/icons/comingup.png" width="22" height="22" alt="" style="display:block;border:0;"></td>
+      <td valign="middle" style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase;color:#566E58;font-weight:bold;">Coming up</td></tr></table>
+    <div style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;line-height:24px;color:#555A52;margin-top:12px;">{{COMING_UP}}</div>
+  </td></tr></table>
+
+</td></tr>
+
+<!-- CTA -->
+<tr><td align="center" style="background-color:#FFFDF9;border-radius:0 0 10px 10px;padding:26px 36px 36px 36px;">
+  <a href="{{NOTION_URL}}" style="display:inline-block;background-color:#566E58;color:#FFFFFF;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:14px;letter-spacing:1px;text-decoration:none;border-radius:24px;padding:14px 30px;">Read the full Week {{WEEK}} issue &rarr;</a>
+</td></tr>
+
+<!-- Sources & footer -->
+<tr><td style="padding:22px 8px 0 8px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:12px;line-height:20px;color:#8E8A80;">Sources &nbsp;
+  <!-- REPEAT:source (separate items with " · ") -->
+  <a href="{{SOURCE_URL}}" style="color:#8E8A80;text-decoration:underline;">{{SOURCE_NAME}}</a>
+  <!-- /REPEAT:source -->
+</td></tr>
+<tr><td style="padding:18px 8px 0 8px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:11px;line-height:17px;color:#ABA79D;">Josh Weekly · Issue {{WEEK}}<br>General information from approved health sources, not medical advice. Check with Josh's paediatrician about anything that worries you.</td></tr>
+
+</table></td></tr></table></body></html>
