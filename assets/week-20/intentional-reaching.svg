@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
+  <!-- Background -->
+  <rect width="700" height="400" rx="14" fill="#FFFDF9"/>
+  <!-- Title -->
+  <text x="350" y="36" text-anchor="middle" font-size="16" font-weight="bold" fill="#2F332E">From Batting to Grasping: The Reaching Journey</text>
+  <text x="350" y="56" text-anchor="middle" font-size="12" fill="#8E8A80">How intentional hand control develops in months 4–6</text>
+
+  <!-- Timeline line -->
+  <line x1="60" y1="160" x2="640" y2="160" stroke="#D4D0C8" stroke-width="2"/>
+
+  <!-- Stage 1: Accidental swipe (now, just before 4 months) -->
+  <circle cx="120" cy="160" r="14" fill="#C79A6B"/>
+  <text x="120" y="165" text-anchor="middle" font-size="11" fill="#fff" font-weight="bold">1</text>
+  <text x="120" y="112" text-anchor="middle" font-size="18">👊</text>
+  <text x="120" y="132" text-anchor="middle" font-size="11" font-weight="bold" fill="#2F332E">Accidental Swipe</text>
+  <text x="120" y="145" text-anchor="middle" font-size="10" fill="#8E8A80">Wk 12–16</text>
+  <!-- Label below -->
+  <text x="120" y="186" text-anchor="middle" font-size="10" fill="#555A52">Arms swing, toy gets</text>
+  <text x="120" y="198" text-anchor="middle" font-size="10" fill="#555A52">hit by accident</text>
+
+  <!-- Stage 2: Aimed bat -->
+  <circle cx="270" cy="160" r="14" fill="#C79A6B"/>
+  <text x="270" y="165" text-anchor="middle" font-size="11" fill="#fff" font-weight="bold">2</text>
+  <text x="270" y="112" text-anchor="middle" font-size="18">🎯</text>
+  <text x="270" y="132" text-anchor="middle" font-size="11" font-weight="bold" fill="#2F332E">Aimed Bat</text>
+  <text x="270" y="145" text-anchor="middle" font-size="10" fill="#8E8A80">Wk 16–18 ← now</text>
+  <!-- Highlight box -->
+  <rect x="218" y="100" width="104" height="54" rx="6" fill="none" stroke="#C79A6B" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <!-- Label below -->
+  <text x="270" y="186" text-anchor="middle" font-size="10" fill="#555A52">Eye tracks target, arm</text>
+  <text x="270" y="198" text-anchor="middle" font-size="10" fill="#555A52">follows intentionally</text>
+
+  <!-- Stage 3: Two-hand grab -->
+  <circle cx="420" cy="160" r="14" fill="#566E58"/>
+  <text x="420" y="165" text-anchor="middle" font-size="11" fill="#fff" font-weight="bold">3</text>
+  <text x="420" y="112" text-anchor="middle" font-size="18">🤲</text>
+  <text x="420" y="132" text-anchor="middle" font-size="11" font-weight="bold" fill="#2F332E">Two-Hand Grab</text>
+  <text x="420" y="145" text-anchor="middle" font-size="10" fill="#8E8A80">~Wk 20–22</text>
+  <!-- Label below -->
+  <text x="420" y="186" text-anchor="middle" font-size="10" fill="#555A52">Both hands reach &amp;</text>
+  <text x="420" y="198" text-anchor="middle" font-size="10" fill="#555A52">close around toy</text>
+
+  <!-- Stage 4: Pincer grip -->
+  <circle cx="570" cy="160" r="14" fill="#566E58"/>
+  <text x="570" y="165" text-anchor="middle" font-size="11" fill="#fff" font-weight="bold">4</text>
+  <text x="570" y="112" text-anchor="middle" font-size="18">🤏</text>
+  <text x="570" y="132" text-anchor="middle" font-size="11" font-weight="bold" fill="#2F332E">Pincer Grip</text>
+  <text x="570" y="145" text-anchor="middle" font-size="10" fill="#8E8A80">~8–10 months</text>
+  <!-- Label below -->
+  <text x="570" y="186" text-anchor="middle" font-size="10" fill="#555A52">Thumb + forefinger</text>
+  <text x="570" y="198" text-anchor="middle" font-size="10" fill="#555A52">pick up small objects</text>
+
+  <!-- What's needed banner -->
+  <rect x="30" y="220" width="640" height="76" rx="10" fill="#EEF2EA"/>
+  <text x="350" y="243" text-anchor="middle" font-size="12" font-weight="bold" fill="#566E58">What makes the aimed bat possible (Stage 2)?</text>
+  <!-- Three pillars -->
+  <text x="175" y="265" text-anchor="middle" font-size="13">👁️</text>
+  <text x="175" y="279" text-anchor="middle" font-size="11" fill="#2F332E" font-weight="bold">Vision sharpens</text>
+  <text x="175" y="291" text-anchor="middle" font-size="10" fill="#555A52">Sees the toy clearly</text>
+
+  <text x="350" y="265" text-anchor="middle" font-size="13">🧠</text>
+  <text x="350" y="279" text-anchor="middle" font-size="11" fill="#2F332E" font-weight="bold">Eye-hand loop forms</text>
+  <text x="350" y="291" text-anchor="middle" font-size="10" fill="#555A52">Brain links eye signal → arm move</text>
+
+  <text x="525" y="265" text-anchor="middle" font-size="13">💪</text>
+  <text x="525" y="279" text-anchor="middle" font-size="11" fill="#2F332E" font-weight="bold">Shoulder control</text>
+  <text x="525" y="291" text-anchor="middle" font-size="10" fill="#555A52">Built by tummy time</text>
+
+  <!-- Analogy -->
+  <rect x="30" y="314" width="640" height="58" rx="10" fill="#F7EEE3"/>
+  <text x="350" y="335" text-anchor="middle" font-size="11" fill="#8E6A43" font-weight="bold">Analogy: like learning to play darts.</text>
+  <text x="350" y="351" text-anchor="middle" font-size="11" fill="#555A52">First you throw randomly (Stage 1). Then your eye locks on the target and your arm follows (Stage 2).</text>
+  <text x="350" y="367" text-anchor="middle" font-size="11" fill="#555A52">Eventually your fingers close precisely at the right moment — that's the pincer grip (Stage 4), months away.</text>
+</svg>
