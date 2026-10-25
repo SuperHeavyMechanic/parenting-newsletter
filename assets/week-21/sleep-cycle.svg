@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 260" width="560" height="260" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif">
+  <!-- Background -->
+  <rect width="560" height="260" rx="10" fill="#FFFDF9"/>
+
+  <!-- Title -->
+  <text x="280" y="28" text-anchor="middle" font-size="13" font-weight="bold" fill="#2F332E" letter-spacing="1">Baby vs Adult Sleep Cycles</text>
+
+  <!-- ── JOSH ROW ── -->
+  <text x="16" y="72" font-size="11" fill="#566E58" font-weight="bold">Josh (18 wk)</text>
+  <text x="16" y="86" font-size="10" fill="#8E8A80">~45 min per cycle</text>
+
+  <!-- 5 Josh cycles, each 82px wide starting at x=110 -->
+  <!-- Cycle 1 -->
+  <rect x="110" y="58" width="82" height="36" rx="4" fill="#EEF2EA" stroke="#7F9C81" stroke-width="1.2"/>
+  <path d="M118 76 Q127 60 136 76 Q145 92 154 76 Q163 60 172 76 Q181 92 183 76" fill="none" stroke="#566E58" stroke-width="2" stroke-linecap="round"/>
+  <!-- Cycle 2 -->
+  <rect x="196" y="58" width="82" height="36" rx="4" fill="#EEF2EA" stroke="#7F9C81" stroke-width="1.2"/>
+  <path d="M204 76 Q213 60 222 76 Q231 92 240 76 Q249 60 258 76 Q267 92 269 76" fill="none" stroke="#566E58" stroke-width="2" stroke-linecap="round"/>
+  <!-- Cycle 3 -->
+  <rect x="282" y="58" width="82" height="36" rx="4" fill="#EEF2EA" stroke="#7F9C81" stroke-width="1.2"/>
+  <path d="M290 76 Q299 60 308 76 Q317 92 326 76 Q335 60 344 76 Q353 92 355 76" fill="none" stroke="#566E58" stroke-width="2" stroke-linecap="round"/>
+  <!-- Cycle 4 -->
+  <rect x="368" y="58" width="82" height="36" rx="4" fill="#EEF2EA" stroke="#7F9C81" stroke-width="1.2"/>
+  <path d="M376 76 Q385 60 394 76 Q403 92 412 76 Q421 60 430 76 Q439 92 441 76" fill="none" stroke="#566E58" stroke-width="2" stroke-linecap="round"/>
+  <!-- Cycle 5 -->
+  <rect x="454" y="58" width="82" height="36" rx="4" fill="#EEF2EA" stroke="#7F9C81" stroke-width="1.2"/>
+  <path d="M462 76 Q471 60 480 76 Q489 92 498 76 Q507 60 516 76 Q525 92 527 76" fill="none" stroke="#566E58" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Wake-up potential dots -->
+  <circle cx="193" cy="76" r="4" fill="#C79A6B"/>
+  <circle cx="279" cy="76" r="4" fill="#C79A6B"/>
+  <circle cx="365" cy="76" r="4" fill="#C79A6B"/>
+  <circle cx="451" cy="76" r="4" fill="#C79A6B"/>
+
+  <!-- Wake label -->
+  <text x="193" y="107" text-anchor="middle" font-size="9" fill="#8E6A43">wake</text>
+  <text x="193" y="117" text-anchor="middle" font-size="9" fill="#8E6A43">potential</text>
+
+  <!-- Time labels -->
+  <text x="110" y="106" font-size="9" fill="#8E8A80">0h</text>
+  <text x="192" y="106" font-size="9" fill="#8E8A80">45m</text>
+  <text x="276" y="106" font-size="9" fill="#8E8A80">1h30</text>
+  <text x="360" y="106" font-size="9" fill="#8E8A80">2h15</text>
+  <text x="450" y="106" font-size="9" fill="#8E8A80">3h</text>
+
+  <!-- ── ADULT ROW ── -->
+  <text x="16" y="152" text-anchor="start" font-size="11" fill="#8E6A43" font-weight="bold">Adult</text>
+  <text x="16" y="166" font-size="10" fill="#8E8A80">~90 min per cycle</text>
+
+  <!-- Adult cycle 1 (164px wide) -->
+  <rect x="110" y="138" width="164" height="36" rx="4" fill="#F7EEE3" stroke="#C79A6B" stroke-width="1.2"/>
+  <path d="M118 156 Q131 136 152 156 Q173 176 194 156 Q215 136 236 156 Q257 176 265 156" fill="none" stroke="#C79A6B" stroke-width="2" stroke-linecap="round"/>
+  <!-- Adult cycle 2 -->
+  <rect x="278" y="138" width="164" height="36" rx="4" fill="#F7EEE3" stroke="#C79A6B" stroke-width="1.2"/>
+  <path d="M286 156 Q299 136 320 156 Q341 176 362 156 Q383 136 404 156 Q425 176 433 156" fill="none" stroke="#C79A6B" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Adult wake dots -->
+  <circle cx="275" cy="156" r="4" fill="#C79A6B"/>
+  <circle cx="444" cy="156" r="4" fill="#C79A6B"/>
+
+  <!-- Time labels adult -->
+  <text x="110" y="186" font-size="9" fill="#8E8A80">0h</text>
+  <text x="272" y="186" font-size="9" fill="#8E8A80">1h30</text>
+  <text x="440" y="186" font-size="9" fill="#8E8A80">3h</text>
+
+  <!-- Key insight box -->
+  <rect x="16" y="208" width="528" height="38" rx="6" fill="#F7EEE3"/>
+  <text x="280" y="224" text-anchor="middle" font-size="11" fill="#8E6A43" font-weight="bold">Why Josh wakes more:</text>
+  <text x="280" y="240" text-anchor="middle" font-size="11" fill="#555A52">He hits a light-sleep gap twice as often. If he needs help to fall asleep, he needs it again at every gap.</text>
+</svg>

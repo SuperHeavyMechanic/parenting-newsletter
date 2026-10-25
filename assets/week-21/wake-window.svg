@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 220" width="560" height="220" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif">
+  <!-- Background -->
+  <rect width="560" height="220" rx="10" fill="#FFFDF9"/>
+
+  <!-- Title -->
+  <text x="280" y="28" text-anchor="middle" font-size="13" font-weight="bold" fill="#2F332E" letter-spacing="1">Wake Windows at 18 weeks</text>
+  <text x="280" y="44" text-anchor="middle" font-size="11" fill="#8E8A80">How long should Josh be awake between naps?</text>
+
+  <!-- ── Main bar ── -->
+  <!-- Too short zone (0–60 min) -->
+  <rect x="40" y="68" width="100" height="42" rx="4" fill="#FDECEA"/>
+  <text x="90" y="86" text-anchor="middle" font-size="10" fill="#C0392B" font-weight="bold">Too short</text>
+  <text x="90" y="100" text-anchor="middle" font-size="10" fill="#C0392B">under 1 h</text>
+
+  <!-- Sweet spot (60–120 min) -->
+  <rect x="142" y="58" width="180" height="62" rx="6" fill="#EEF2EA" stroke="#566E58" stroke-width="2"/>
+  <text x="232" y="80" text-anchor="middle" font-size="12" fill="#566E58" font-weight="bold">Sweet spot</text>
+  <text x="232" y="97" text-anchor="middle" font-size="14" fill="#2F332E" font-weight="bold">1.5 – 2 h</text>
+  <text x="232" y="112" text-anchor="middle" font-size="10" fill="#566E58">Ready to nap ✓</text>
+
+  <!-- Overtired zone (120+ min) -->
+  <rect x="324" y="68" width="196" height="42" rx="4" fill="#FEF3E2"/>
+  <text x="422" y="86" text-anchor="middle" font-size="10" fill="#D35400" font-weight="bold">Overtired</text>
+  <text x="422" y="100" text-anchor="middle" font-size="10" fill="#D35400">over 2 h — harder to settle</text>
+
+  <!-- Time axis -->
+  <line x1="40" y1="136" x2="520" y2="136" stroke="#8E8A80" stroke-width="1"/>
+  <text x="40" y="150" text-anchor="middle" font-size="10" fill="#8E8A80">0</text>
+  <text x="142" y="150" text-anchor="middle" font-size="10" fill="#8E8A80">1 h</text>
+  <text x="232" y="150" text-anchor="middle" font-size="10" fill="#566E58" font-weight="bold">1h 30</text>
+  <text x="322" y="150" text-anchor="middle" font-size="10" fill="#566E58" font-weight="bold">2 h</text>
+  <text x="422" y="150" text-anchor="middle" font-size="10" fill="#8E8A80">3 h</text>
+
+  <!-- Arrow pointing to sweet spot -->
+  <line x1="232" y1="155" x2="232" y2="168" stroke="#566E58" stroke-width="1.5" stroke-dasharray="3,2"/>
+
+  <!-- Tired signs box -->
+  <rect x="40" y="170" width="480" height="36" rx="6" fill="#EEF2EA"/>
+  <text x="280" y="184" text-anchor="middle" font-size="11" fill="#566E58" font-weight="bold">Tired signs to watch for: </text>
+  <text x="280" y="198" text-anchor="middle" font-size="11" fill="#555A52">eye rubbing · staring into space · yawning · slowing down · fussiness</text>
+</svg>

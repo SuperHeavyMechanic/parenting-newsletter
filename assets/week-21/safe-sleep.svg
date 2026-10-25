@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 260" width="560" height="260" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif">
+  <!-- Background -->
+  <rect width="560" height="260" rx="10" fill="#FFFDF9"/>
+
+  <!-- Title -->
+  <text x="280" y="28" text-anchor="middle" font-size="13" font-weight="bold" fill="#2F332E" letter-spacing="1">Safe Sleep Setup</text>
+
+  <!-- Crib frame (side view) -->
+  <!-- Mattress base -->
+  <rect x="60" y="120" width="280" height="12" rx="3" fill="#C79A6B" opacity="0.7"/>
+  <!-- Crib sides -->
+  <rect x="58" y="75" width="6" height="57" rx="2" fill="#8E6A43"/>
+  <rect x="336" y="75" width="6" height="57" rx="2" fill="#8E6A43"/>
+  <!-- Crib slats -->
+  <line x1="90" y1="78" x2="90" y2="118" stroke="#8E6A43" stroke-width="3" stroke-linecap="round"/>
+  <line x1="120" y1="78" x2="120" y2="118" stroke="#8E6A43" stroke-width="3" stroke-linecap="round"/>
+  <line x1="150" y1="78" x2="150" y2="118" stroke="#8E6A43" stroke-width="3" stroke-linecap="round"/>
+  <line x1="180" y1="78" x2="180" y2="118" stroke="#8E6A43" stroke-width="3" stroke-linecap="round"/>
+  <line x1="210" y1="78" x2="210" y2="118" stroke="#8E6A43" stroke-width="3" stroke-linecap="round"/>
+  <line x1="240" y1="78" x2="240" y2="118" stroke="#8E6A43" stroke-width="3" stroke-linecap="round"/>
+  <line x1="270" y1="78" x2="270" y2="118" stroke="#8E6A43" stroke-width="3" stroke-linecap="round"/>
+  <line x1="300" y1="78" x2="300" y2="118" stroke="#8E6A43" stroke-width="3" stroke-linecap="round"/>
+  <line x1="330" y1="78" x2="330" y2="118" stroke="#8E6A43" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Baby figure (on back) -->
+  <!-- Head -->
+  <circle cx="108" cy="110" r="14" fill="#F7EEE3" stroke="#C79A6B" stroke-width="1.5"/>
+  <!-- Body -->
+  <ellipse cx="170" cy="113" rx="55" ry="10" fill="#EEF2EA" stroke="#7F9C81" stroke-width="1.5"/>
+  <!-- Arms up (happy) -->
+  <path d="M130 107 Q120 95 115 90" stroke="#C79A6B" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M210 107 Q220 95 225 90" stroke="#C79A6B" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Legs -->
+  <path d="M200 120 Q210 132 215 135" stroke="#7F9C81" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M220 120 Q230 132 235 135" stroke="#7F9C81" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Mattress label -->
+  <text x="200" y="148" text-anchor="middle" font-size="10" fill="#8E6A43">Firm, flat mattress — no soft bedding</text>
+
+  <!-- ✓ Callout labels (right side) -->
+  <!-- Back to sleep -->
+  <line x1="122" y1="100" x2="370" y2="60" stroke="#566E58" stroke-width="1" stroke-dasharray="3,2"/>
+  <rect x="370" y="46" width="164" height="28" rx="5" fill="#EEF2EA"/>
+  <text x="452" y="58" text-anchor="middle" font-size="11" fill="#566E58" font-weight="bold">✓ Back to sleep</text>
+  <text x="452" y="70" text-anchor="middle" font-size="10" fill="#555A52">always place on back</text>
+
+  <!-- Empty crib -->
+  <line x1="300" y1="95" x2="370" y2="105" stroke="#566E58" stroke-width="1" stroke-dasharray="3,2"/>
+  <rect x="370" y="90" width="164" height="28" rx="5" fill="#EEF2EA"/>
+  <text x="452" y="102" text-anchor="middle" font-size="11" fill="#566E58" font-weight="bold">✓ Nothing else</text>
+  <text x="452" y="114" text-anchor="middle" font-size="10" fill="#555A52">no pillows, bumpers, toys</text>
+
+  <!-- Room temp -->
+  <rect x="370" y="134" width="164" height="28" rx="5" fill="#EEF2EA"/>
+  <text x="452" y="146" text-anchor="middle" font-size="11" fill="#566E58" font-weight="bold">✓ Room temp</text>
+  <text x="452" y="158" text-anchor="middle" font-size="10" fill="#555A52">keep Jakarta room cool (~24–26 °C)</text>
+
+  <!-- Bottom note -->
+  <rect x="40" y="200" width="480" height="46" rx="6" fill="#F7EEE3"/>
+  <text x="280" y="217" text-anchor="middle" font-size="11" fill="#8E6A43" font-weight="bold">ABC of safe sleep (WHO / AAP guidance):</text>
+  <text x="280" y="232" text-anchor="middle" font-size="11" fill="#555A52">Alone · Back · Cot (firm, flat, clear)</text>
+  <text x="280" y="246" text-anchor="middle" font-size="10" fill="#8E8A80">Stop swaddling when Josh shows signs of rolling — usually around now at 4 months</text>
+</svg>
