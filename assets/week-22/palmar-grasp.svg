@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 320" width="700" height="320" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
+  <!-- Background -->
+  <rect width="700" height="320" fill="#FAFAF7" rx="12"/>
+
+  <!-- Title -->
+  <text x="350" y="34" text-anchor="middle" font-size="15" font-weight="bold" fill="#2F332E">Palmar Grasp Reflex → Intentional Grasp</text>
+  <text x="350" y="54" text-anchor="middle" font-size="11" fill="#8E8A80">The shift from automatic to deliberate (begins ~3–5 months)</text>
+
+  <!-- Divider line -->
+  <line x1="350" y1="68" x2="350" y2="300" stroke="#D5D0C8" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- LEFT SIDE: Reflex -->
+  <text x="175" y="90" text-anchor="middle" font-size="12" font-weight="bold" fill="#566E58" letter-spacing="1">REFLEX (newborn)</text>
+
+  <!-- Hand (simplified) -->
+  <ellipse cx="175" cy="175" rx="38" ry="48" fill="#F5DEB3" stroke="#C8A87A" stroke-width="1.5"/>
+  <!-- Fingers curled closed -->
+  <path d="M148 145 Q142 130 150 120 Q158 110 165 120 Q168 128 165 140" fill="#F5DEB3" stroke="#C8A87A" stroke-width="1.2"/>
+  <path d="M160 140 Q155 125 162 115 Q170 106 177 117 Q179 126 175 140" fill="#F5DEB3" stroke="#C8A87A" stroke-width="1.2"/>
+  <path d="M173 140 Q170 126 177 116 Q185 108 191 119 Q193 128 188 140" fill="#F5DEB3" stroke="#C8A87A" stroke-width="1.2"/>
+  <path d="M184 143 Q183 130 189 120 Q197 112 202 122 Q202 132 198 143" fill="#F5DEB3" stroke="#C8A87A" stroke-width="1.2"/>
+  <!-- Thumb -->
+  <path d="M145 155 Q132 148 130 158 Q129 168 140 172" fill="#F5DEB3" stroke="#C8A87A" stroke-width="1.2"/>
+
+  <!-- Trigger dot: touch on palm -->
+  <circle cx="175" cy="178" r="7" fill="#C79A6B" opacity="0.85"/>
+  <text x="175" y="182" text-anchor="middle" font-size="8" fill="white" font-weight="bold">→</text>
+
+  <!-- Arrow showing automatic response -->
+  <path d="M205 155 Q225 145 240 155" stroke="#C79A6B" stroke-width="2" fill="none" marker-end="url(#arrowC)"/>
+  <text x="222" y="142" text-anchor="middle" font-size="9" fill="#C79A6B">auto</text>
+
+  <!-- Label -->
+  <rect x="95" y="238" width="160" height="36" rx="6" fill="#F7EEE3"/>
+  <text x="175" y="253" text-anchor="middle" font-size="10" fill="#8E6A43">Touch palm → fingers close</text>
+  <text x="175" y="267" text-anchor="middle" font-size="10" fill="#8E6A43">No thought required</text>
+
+  <!-- RIGHT SIDE: Intentional -->
+  <text x="525" y="90" text-anchor="middle" font-size="12" font-weight="bold" fill="#566E58" letter-spacing="1">INTENTIONAL (~4–5 mo)</text>
+
+  <!-- Eye (baby looking) -->
+  <ellipse cx="440" cy="140" rx="14" ry="10" fill="white" stroke="#555A52" stroke-width="1.2"/>
+  <circle cx="440" cy="140" r="5" fill="#555A52"/>
+  <circle cx="442" cy="138" r="1.5" fill="white"/>
+
+  <!-- Gaze arrow from eye to toy -->
+  <path d="M455 135 Q490 120 520 118" stroke="#566E58" stroke-width="1.5" fill="none" stroke-dasharray="3,2" marker-end="url(#arrowG)"/>
+
+  <!-- Toy (rattle) -->
+  <circle cx="548" cy="115" r="16" fill="#EEF2EA" stroke="#566E58" stroke-width="1.5"/>
+  <text x="548" y="120" text-anchor="middle" font-size="14">🎀</text>
+  <rect x="544" y="130" width="8" height="20" rx="3" fill="#7F9C81"/>
+
+  <!-- Hand reaching -->
+  <ellipse cx="490" cy="210" rx="36" ry="44" fill="#F5DEB3" stroke="#C8A87A" stroke-width="1.5"/>
+  <!-- Fingers extending toward toy -->
+  <path d="M466 178 Q462 162 470 153 Q478 145 484 155 Q486 163 483 178" fill="#F5DEB3" stroke="#C8A87A" stroke-width="1.2"/>
+  <path d="M478 175 Q475 158 482 149 Q490 142 495 153 Q496 161 492 175" fill="#F5DEB3" stroke="#C8A87A" stroke-width="1.2"/>
+  <path d="M491 176 Q490 160 496 151 Q504 144 508 154 Q509 163 505 176" fill="#F5DEB3" stroke="#C8A87A" stroke-width="1.2"/>
+  <path d="M502 179 Q503 164 508 156 Q515 149 519 160 Q519 169 515 179" fill="#F5DEB3" stroke="#C8A87A" stroke-width="1.2"/>
+  <!-- Thumb -->
+  <path d="M464 192 Q451 184 448 194 Q447 204 458 209" fill="#F5DEB3" stroke="#C8A87A" stroke-width="1.2"/>
+
+  <!-- Reach arrow from hand toward toy -->
+  <path d="M518 170 Q535 148 542 133" stroke="#C79A6B" stroke-width="2" fill="none" marker-end="url(#arrowC)" stroke-dasharray="4,2"/>
+
+  <!-- Brain signal path: eye → brain → hand -->
+  <path d="M455 145 Q470 160 465 185" stroke="#566E58" stroke-width="1" fill="none" stroke-dasharray="2,2" opacity="0.6"/>
+  <text x="470" y="168" font-size="8" fill="#566E58" opacity="0.8">brain</text>
+  <text x="470" y="178" font-size="8" fill="#566E58" opacity="0.8">plans</text>
+
+  <!-- Label -->
+  <rect x="410" y="238" width="230" height="36" rx="6" fill="#EEF2EA"/>
+  <text x="525" y="253" text-anchor="middle" font-size="10" fill="#566E58">See toy → brain plans reach</text>
+  <text x="525" y="267" text-anchor="middle" font-size="10" fill="#566E58">→ hand moves deliberately</text>
+
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrowC" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#C79A6B"/>
+    </marker>
+    <marker id="arrowG" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#566E58"/>
+    </marker>
+  </defs>
+
+  <!-- Bottom note -->
+  <text x="350" y="308" text-anchor="middle" font-size="10" fill="#ABA79D" font-style="italic">Like an automatic door (reflex) vs choosing to open a door (intentional). Both are normal at their stage.</text>
+</svg>
