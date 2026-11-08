@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 280" width="540" height="280" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <rect width="540" height="280" rx="12" fill="#FFFDF9"/>
+  <text x="270" y="30" text-anchor="middle" font-size="15" font-weight="bold" fill="#2F332E">Teething vs. Fever: What's Normal?</text>
+  <text x="270" y="48" text-anchor="middle" font-size="11" fill="#8E8A80">Teething raises temperature slightly — real fever needs a doctor call</text>
+
+  <!-- Thermometer body -->
+  <rect x="248" y="60" width="44" height="160" rx="22" fill="#F3F0E9" stroke="#ABA79D" stroke-width="2"/>
+  <!-- Thermometer bulb -->
+  <circle cx="270" cy="228" r="20" fill="#C79A6B" stroke="#8E6A43" stroke-width="2"/>
+  <!-- Mercury column zones -->
+  <!-- Normal zone 36.1–37.2°C -->
+  <rect x="258" y="130" width="24" height="90" rx="4" fill="#7F9C81" opacity="0.7"/>
+  <!-- Teething zone 37.2–38°C -->
+  <rect x="258" y="98" width="24" height="32" rx="4" fill="#C79A6B" opacity="0.8"/>
+  <!-- Fever zone 38°C+ -->
+  <rect x="258" y="68" width="24" height="30" rx="4" fill="#d94f4f" opacity="0.75"/>
+
+  <!-- Temperature labels (right side) -->
+  <text x="306" y="81" font-size="11" font-weight="bold" fill="#d94f4f">38°C+ FEVER</text>
+  <text x="306" y="93" font-size="10" fill="#8E8A80">Call your doctor</text>
+
+  <text x="306" y="115" font-size="11" font-weight="bold" fill="#8E6A43">37.2–38°C</text>
+  <text x="306" y="127" font-size="10" fill="#8E8A80">Teething warmth — normal</text>
+
+  <text x="306" y="160" font-size="11" font-weight="bold" fill="#566E58">36.1–37.2°C</text>
+  <text x="306" y="172" font-size="10" fill="#8E8A80">Normal body temperature</text>
+
+  <!-- Guide lines -->
+  <line x1="282" y1="98" x2="300" y2="109" stroke="#ABA79D" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="282" y1="130" x2="300" y2="154" stroke="#ABA79D" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="282" y1="68" x2="300" y2="75" stroke="#ABA79D" stroke-width="1" stroke-dasharray="3,2"/>
+
+  <!-- Left side: teething signs that DON'T cause fever -->
+  <rect x="20" y="68" width="200" height="142" rx="10" fill="#EEF2EA"/>
+  <text x="120" y="87" text-anchor="middle" font-size="12" font-weight="bold" fill="#566E58">Teething CAN cause</text>
+  <text x="38" y="107" font-size="11" fill="#2F332E">✓  Extra drooling</text>
+  <text x="38" y="124" font-size="11" fill="#2F332E">✓  Fussiness &amp; irritability</text>
+  <text x="38" y="141" font-size="11" fill="#2F332E">✓  Chewing on everything</text>
+  <text x="38" y="158" font-size="11" fill="#2F332E">✓  Swollen gum bumps</text>
+  <text x="38" y="175" font-size="11" fill="#2F332E">✓  Slight temperature rise</text>
+  <text x="38" y="192" font-size="11" fill="#2F332E">✓  Disrupted sleep</text>
+
+  <!-- Bottom analogy -->
+  <rect x="60" y="246" width="420" height="24" rx="8" fill="#F7EEE3"/>
+  <text x="270" y="262" text-anchor="middle" font-size="11" fill="#8E6A43">Think of it like a mild headache — uncomfortable, but not a medical emergency</text>
+</svg>
